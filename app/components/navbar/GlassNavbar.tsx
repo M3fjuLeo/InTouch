@@ -52,7 +52,10 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
             className="flex items-center gap-3 group cursor-pointer focus:outline-none"
           >
             <div className="flex items-center justify-center transition-transform group-hover:scale-105">
-              <LogoIcon className="w-12 h-12 md:w-12 md:h-12 drop-shadow-md brightness-110 contrast-125" />
+              <LogoIcon
+                className="w-12 h-12 md:w-12 md:h-12 drop-shadow-md brightness-110 contrast-125"
+                variant="light"
+              />
             </div>
             <span className="font-serif-custom text-2xl md:text-3xl font-medium tracking-tight text-white group-hover:text-brand-light transition-colors">
               InTouch

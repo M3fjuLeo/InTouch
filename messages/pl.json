@@ -109,5 +109,28 @@
         "author": "Marta"
       }
     ]
+  },"Vouchers": {
+    "badge": "Karty Podarunkowe",
+    "title": "Podaruj Ulgę",
+    "description": "Dostępne cyfrowe i fizyczne karty podarunkowe na dowolny zabieg lub wybraną kwotę.",
+    "button": "Kup Voucher",
+    "mockupBadge": "Voucher Prezentowy",
+    "mockupTitle": "Chwila Czystego Spokoju",
+    "mockupDesc": "Ważny na wszystkie zabiegi w InTouch Studio"
+  },"Footer": {
+    "description": "Holistyczne studio masażu i terapii w sercu Oslo. Zadbaj o równowagę ciała i umysłu.",
+    "bookBtn": "Zarezerwuj wizytę",
+    "navTitle": "Nawigacja",
+    "navHome": "Strona Główna",
+    "navAbout": "O Mnie",
+    "navOffer": "Oferta & Zabiegi",
+    "navVouchers": "Vouchery & Karty",
+    "contactTitle": "Kontakt & Social",
+    "legalTitle": "Aspekty Prawne",
+    "privacy": "Privacy Policy (Personvern)",
+    "terms": "Terms of Service (Vilkår)",
+    "rights": "All rights reserved.",
+    "location": "Oslo, Norway • CVR/Org: 987 654 321",
+    "closeModal": "Zamknij"
   }
 }

@@ -109,5 +109,13 @@
         "author": "Marta"
       }
     ]
+  },"Vouchers": {
+    "badge": "Gift Cards",
+    "title": "Gift Relief",
+    "description": "Digital and physical gift cards available for any treatment or a chosen amount.",
+    "button": "Buy Voucher",
+    "mockupBadge": "Gift Voucher",
+    "mockupTitle": "A Moment of Pure Peace",
+    "mockupDesc": "Valid for all treatments at InTouch Studio"
   }
 }

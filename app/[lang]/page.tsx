@@ -1,7 +1,9 @@
 import { AboutSection } from "../components/about/AboutSection";
+import { FooterSection } from "../components/footer/FooterSection";
 import { HeroSection } from "../components/hero/HeroSection";
 import { FeaturedServicesSection } from "../components/services/FeaturedServicesSection";
 import { SocialProofSection } from "../components/social-proof/SocialProofSection";
+import { VouchersSection } from "../components/vouchers/VouchersSection";
 
 export default function HomePage() {
   return (
@@ -14,6 +16,8 @@ export default function HomePage() {
         <AboutSection />
         <FeaturedServicesSection />
         <SocialProofSection />
+        <VouchersSection />
+        <FooterSection />
       </div>
     </main>
   );

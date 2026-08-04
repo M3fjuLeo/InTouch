@@ -110,5 +110,13 @@
         "author": "Marta"
       }
     ]
+  },"Vouchers": {
+    "badge": "Gavekort",
+    "title": "Gi Gaveen av Lindring",
+    "description": "Digitalde og fysiske gavekort tilgjengelig for valgfri behandling eller beløp.",
+    "button": "Kjøp Gavekort",
+    "mockupBadge": "Gavekort",
+    "mockupTitle": "Et Øyeblikk av Ren Ro",
+    "mockupDesc": "Gyldig for alle behandlinger hos InTouch Studio"
   }
 }
