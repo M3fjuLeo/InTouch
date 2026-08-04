@@ -4,7 +4,6 @@ import { getTranslations } from "next-intl/server";
 import { HeroVideo } from "./HeroVideo";
 import { Badge } from "../ui/Badge";
 import { Button } from "../ui/Button";
-import { LogoIcon } from "../ui/LogoIcon";
 
 export async function HeroSection() {
   const t = await getTranslations("Hero");

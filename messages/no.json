@@ -110,7 +110,8 @@
         "author": "Marta"
       }
     ]
-  },"Vouchers": {
+  },
+  "Vouchers": {
     "badge": "Gavekort",
     "title": "Gi Gaveen av Lindring",
     "description": "Digitalde og fysiske gavekort tilgjengelig for valgfri behandling eller beløp.",
@@ -118,5 +119,21 @@
     "mockupBadge": "Gavekort",
     "mockupTitle": "Et Øyeblikk av Ren Ro",
     "mockupDesc": "Gyldig for alle behandlinger hos InTouch Studio"
+  },
+  "Footer": {
+    "description": "Holistisk massasje- og terapistudio i hjertet av Oslo. Ta vare på balansen mellom kropp og sinn.",
+    "bookBtn": "Bestill time",
+    "navTitle": "Navigasjon",
+    "navHome": "Hjem",
+    "navAbout": "Om Meg",
+    "navOffer": "Behandlinger & Tilbud",
+    "navVouchers": "Gavekort & Kort",
+    "contactTitle": "Kontakt & Sosiale medier",
+    "legalTitle": "Juridisk",
+    "privacy": "Personvernerklæring",
+    "terms": "Vilkår for bruk",
+    "rights": "Alle rettigheter reservert.",
+    "location": "Oslo, Norge • Org.nr.: 987 654 321",
+    "closeModal": "Lukk"
   }
 }

@@ -117,5 +117,20 @@
     "mockupBadge": "Gift Voucher",
     "mockupTitle": "A Moment of Pure Peace",
     "mockupDesc": "Valid for all treatments at InTouch Studio"
+  },"Footer": {
+    "description": "Holistic massage and therapy studio in the heart of Oslo. Take care of your body and mind balance.",
+    "bookBtn": "Book an appointment",
+    "navTitle": "Navigation",
+    "navHome": "Home",
+    "navAbout": "About Me",
+    "navOffer": "Services & Treatments",
+    "navVouchers": "Vouchers & Cards",
+    "contactTitle": "Contact & Social",
+    "legalTitle": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved.",
+    "location": "Oslo, Norway • Org. no.: 987 654 321",
+    "closeModal": "Close"
   }
 }

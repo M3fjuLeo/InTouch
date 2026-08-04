@@ -90,7 +90,8 @@
         "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
       }
     ]
-  },"Testimonials": {
+  },
+  "Testimonials": {
     "list": [
       {
         "text": "Masaż przyniósł mi natychmiastową ulgę w bólu pleców. Nareszcie poczułam głęboki spokój i pełen relaks po stresującym tygodniu.",
@@ -109,7 +110,8 @@
         "author": "Marta"
       }
     ]
-  },"Vouchers": {
+  },
+  "Vouchers": {
     "badge": "Karty Podarunkowe",
     "title": "Podaruj Ulgę",
     "description": "Dostępne cyfrowe i fizyczne karty podarunkowe na dowolny zabieg lub wybraną kwotę.",
@@ -117,7 +119,8 @@
     "mockupBadge": "Voucher Prezentowy",
     "mockupTitle": "Chwila Czystego Spokoju",
     "mockupDesc": "Ważny na wszystkie zabiegi w InTouch Studio"
-  },"Footer": {
+  },
+  "Footer": {
     "description": "Holistyczne studio masażu i terapii w sercu Oslo. Zadbaj o równowagę ciała i umysłu.",
     "bookBtn": "Zarezerwuj wizytę",
     "navTitle": "Nawigacja",
