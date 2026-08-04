@@ -1,5 +1,11 @@
 {
-    "HomePage": {
-      "title": "Hovedsiden"
-    }
+  "HomePage": {
+    "title": "Home"
+  },
+  "Hero": {
+    "pill": "InTouch • Massage & Rituals Studio",
+    "headline": "Relax Your Body. Recharge Your Soul.",
+    "subtitle": "Disconnect from the outside world and reconnect within through the healing benefits of massage.",
+    "button": "BOOK NOW"
   }
+}

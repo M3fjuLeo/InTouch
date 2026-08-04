@@ -1,5 +1,11 @@
 {
-    "HomePage": {
-      "title": "Hovedsiden"
-    }
+  "HomePage": {
+    "title": "Hovedsiden"
+  },
+  "Hero": {
+    "pill": "InTouch • Massasje & Ritualer Studio",
+    "headline": "Slapp av i kroppen. Lad opp sjelen.",
+    "subtitle": "Koble fra omverdenen og koble til deg selv igjen gjennom de helbredende fordelene med massasje.",
+    "button": "BESTILL NÅ"
   }
+}

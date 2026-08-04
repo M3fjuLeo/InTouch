@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --brand-primary: #AD6268;
-  --brand-dark: #2A1719;
+  --brand-primary: #ad6268;
+  --brand-dark: #2a1719;
   --brand-darker: #201213;
-  --brand-darkest: #150C0C;
-  --brand-accent: #AD6268;
-  --brand-light: #DABEC0;
+  --brand-darkest: #150c0c;
+  --brand-accent: #ad6268;
+  --brand-light: #dabec0;
 }
 
 @theme {
@@ -16,4 +16,8 @@
   --color-brand-darkest: var(--brand-darkest);
   --color-brand-accent: var(--brand-accent);
   --color-brand-light: var(--brand-light);
+
+  /* Definicja fontów */
+  --font-serif-custom: var(--font-serif-custom), ui-serif, Georgia, serif;
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
 }
