@@ -1,9 +1,16 @@
+import { AboutSection } from "../components/about/AboutSection";
 import { HeroSection } from "../components/hero/HeroSection";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
-      <HeroSection />
+    <main className="relative bg-brand-darkest">
+      <div className="sticky top-0 h-screen w-full">
+        <HeroSection />
+      </div>
+
+      <div className="relative z-10 bg-neutral-50 rounded-t-[2.5rem] md:rounded-t-[4rem] shadow-[0_-20px_50px_rgba(0,0,0,0.5)]">
+        <AboutSection />
+      </div>
     </main>
   );
 }

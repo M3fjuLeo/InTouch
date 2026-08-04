@@ -14,5 +14,23 @@
     "offer": "Oferta",
     "vouchers": "Vouchery",
     "bookNow": "REZERWACJA"
+  },"About": {
+    "pill": "O Studiu InTouch",
+    "title": "Sztuka głębokiego relaksu i regeneracji w sercu miasta",
+    "description": "W InTouch wierzymy, że masaż to nie tylko zabieg dla ciała, ale przede wszystkim bezcenny czas zatrzymania. Tworzymy kameralną przestrzeń, w której odzyskasz wewnętrzną harmonię i lekkość.",
+    "pillars": {
+      "p1": {
+        "title": "Świadomy Dotyk",
+        "description": "Każda sesja w InTouch to unikalny rytuał dopasowany do indywidualnych potrzeb Twojego ciała i poziomu napięcia."
+      },
+      "p2": {
+        "title": "Atmosfera Spokoju",
+        "description": "Przytulna przestrzeń, ciepłe światło oraz certyfikowane naturalne olejki eteryczne kojące wszystkie zmysły."
+      },
+      "p3": {
+        "title": "Pełne Zaopiekowanie",
+        "description": "Gwarantujemy dyskrecję, najwyższe standardy higieny i pełną uważność naszych doświadczonych terapeutów."
+      }
+    }
   }
 }

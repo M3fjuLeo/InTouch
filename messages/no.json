@@ -14,5 +14,23 @@
     "offer": "Tilbud",
     "vouchers": "Gavekort",
     "bookNow": "BESTILL NÅ"
+  },"About": {
+    "pill": "Om InTouch Studio",
+    "title": "Kunsten av dyp avslapning og regenerering i hjertet av byen",
+    "description": "Hos InTouch tror vi at massasje ikke bare er en kroppsbehandling, men en uvurderlig tid for å stoppe opp. Vi skaper et intimt rom hvor du kan gjenvinne indre harmoni og letthet.",
+    "pillars": {
+      "p1": {
+        "title": "Bevisst Berøring",
+        "description": "Hver økt hos InTouch er et unikt rituale tilpasset kroppens individuelle behov og spenningsnivåer."
+      },
+      "p2": {
+        "title": "Atmosfære av Ro",
+        "description": "Et koselig rom, varm belysning og sertifiserte naturlige eteriske oljer for å berolige alle sansene dine."
+      },
+      "p3": {
+        "title": "Full Omsorg",
+        "description": "Vi garanterer diskresjon, de høyeste hygienestandardene og full oppmerksomhet fra våre erfarne terapeuter."
+      }
+    }
   }
 }

@@ -14,5 +14,23 @@
     "offer": "Offer",
     "vouchers": "Vouchers",
     "bookNow": "BOOK NOW"
+  },"About": {
+    "pill": "About InTouch Studio",
+    "title": "The art of deep relaxation and regeneration in the heart of the city",
+    "description": "At InTouch, we believe that massage is not just a body treatment, but an invaluable time to pause. We create an intimate space where you can regain inner harmony and lightness.",
+    "pillars": {
+      "p1": {
+        "title": "Conscious Touch",
+        "description": "Every session at InTouch is a unique ritual tailored to your body's individual needs and tension levels."
+      },
+      "p2": {
+        "title": "Atmosphere of Peace",
+        "description": "A cozy space, warm lighting, and certified natural essential oils to soothe all your senses."
+      },
+      "p3": {
+        "title": "Complete Care",
+        "description": "We guarantee discretion, the highest hygiene standards, and the full mindfulness of our experienced therapists."
+      }
+    }
   }
 }
