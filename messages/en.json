@@ -90,5 +90,24 @@
         "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
       }
     ]
+  },"Testimonials": {
+    "list": [
+      {
+        "text": "The massage brought me immediate relief from back pain. I finally felt deep peace and full relaxation after a stressful week.",
+        "author": "Anna"
+      },
+      {
+        "text": "Perfect atmosphere and a highly professional approach to neck tension. I come back here regularly every two weeks.",
+        "author": "Katarzyna"
+      },
+      {
+        "text": "An extraordinary experience of body and mind regeneration. You can feel immense intuition and passion in every movement.",
+        "author": "Michał"
+      },
+      {
+        "text": "A safe and extremely relaxing massage. It helped me effectively relieve tension in my lower back.",
+        "author": "Marta"
+      }
+    ]
   }
 }

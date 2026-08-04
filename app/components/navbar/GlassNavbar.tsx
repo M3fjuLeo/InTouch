@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Sparkles, Menu, X, Calendar } from "lucide-react";
+import { Menu, X, Calendar } from "lucide-react";
 import { Link, usePathname } from "../../../i18n/routing";
+import { Button } from "../ui/Button";
+import { LogoIcon } from "../ui/LogoIcon";
 
 interface NavLink {
   href: string;
@@ -45,20 +47,18 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
               : "bg-white/10 backdrop-blur-md border border-white/20 shadow-xl"
           }`}
         >
-          {/* Logo */}
           <Link
             href="/"
             className="flex items-center gap-3 group cursor-pointer focus:outline-none"
           >
-            <div className="w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-transform group-hover:scale-105 shadow-md bg-brand-darker border border-brand-primary">
-              <Sparkles className="w-5 h-5 text-brand-primary" />
+            <div className="flex items-center justify-center transition-transform group-hover:scale-105">
+              <LogoIcon className="w-12 h-12 md:w-12 md:h-12 drop-shadow-md brightness-110 contrast-125" />
             </div>
             <span className="font-serif-custom text-2xl md:text-3xl font-medium tracking-tight text-white group-hover:text-brand-light transition-colors">
               InTouch
             </span>
           </Link>
 
-          {/* Desktop Links & Lang Switcher */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-light text-white/90">
             {links.map((link) => (
               <Link
@@ -74,7 +74,6 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
               </Link>
             ))}
 
-            {/* Language Switcher (Desktop) */}
             <div className="flex items-center gap-3 border-l border-white/20 pl-6 ml-2">
               {locales.map((loc) => (
                 <Link
@@ -93,16 +92,10 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
             </div>
           </nav>
 
-          {/* CTA & Mobile Toggle */}
           <div className="flex items-center gap-2">
-            <a
-              href={bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 md:px-7 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-semibold tracking-wide text-white transition-all duration-300 hover:brightness-110 hover:scale-105 active:scale-95 cursor-pointer shadow-lg border border-white/20 inline-flex items-center justify-center bg-brand-primary"
-            >
+            <Button href={bookingUrl} isExternal>
               {bookNowText}
-            </a>
+            </Button>
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -117,13 +110,12 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden mt-3 p-5 rounded-3xl bg-brand-darker/95 backdrop-blur-2xl border border-brand-primary/30 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-300">
             <div className="flex flex-col gap-2">
               <div className="text-xs uppercase tracking-widest text-brand-light pb-2 border-b border-white/10 flex justify-between items-center">
                 <span>InTouch Studio</span>
-                {/* Language Switcher (Mobile) */}
+
                 <div className="flex gap-3">
                   {locales.map((loc) => (
                     <Link
@@ -155,16 +147,16 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
               ))}
 
               <div className="pt-3 border-t border-white/10">
-                <a
-                  href={bookingUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="w-full py-3 rounded-full text-xs font-semibold uppercase tracking-wider text-white shadow-lg cursor-pointer flex items-center justify-center gap-2 bg-brand-primary"
-                >
-                  <Calendar className="w-4 h-4" />
-                  {bookNowText}
-                </a>
+                <div onClick={() => setMobileMenuOpen(false)}>
+                  <Button
+                    href={bookingUrl}
+                    isExternal
+                    className="w-full"
+                    iconLeft={<Calendar className="w-4 h-4" />}
+                  >
+                    {bookNowText}
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

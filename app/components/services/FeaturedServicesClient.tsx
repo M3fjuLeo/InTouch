@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import { Sparkles, Calendar, ArrowRight } from "lucide-react";
-import { Link } from "../../../i18n/routing";
+import {  Calendar, ArrowRight } from "lucide-react";
+import { Button } from "../ui/Button";
+import { Badge } from "../ui/Badge";
 
 interface Service {
   id: string;
@@ -32,7 +33,6 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
   labels,
   bookingUrl,
 }) => {
-  // Wybieramy tylko 4 pierwsze usługi, aby zachować czytelność harmonijki
   const featuredServices = services.slice(0, 4);
   const [activeId, setActiveId] = useState<string>(featuredServices[0]?.id);
 
@@ -42,19 +42,16 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
       className="py-24 px-6 bg-brand-darkest text-brand-light"
     >
       <div className="max-w-6xl mx-auto">
-        {/* Nagłówek Sekcji */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/5 border border-brand-primary/30 text-xs font-medium text-brand-primary mb-3">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>{labels.badge}</span>
-          </div>
+          <Badge variant="dark" className="mb-3">
+            {labels.badge}
+          </Badge>
           <h2 className="font-serif-custom text-4xl sm:text-5xl font-medium text-white mb-6">
             {labels.title}
           </h2>
           <p className="text-sm text-white/70 font-light">{labels.subtitle}</p>
         </div>
 
-        {/* WIDOK DESKTOP: Horyzontalna Harmonijka */}
         <div className="hidden md:flex h-[550px] gap-4 w-full">
           {featuredServices.map((service) => {
             const isActive = activeId === service.id;
@@ -63,10 +60,10 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
               <div
                 key={service.id}
                 onClick={() => setActiveId(service.id)}
-                className={`relative rounded-4xl overflow-hidden cursor-pointer transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] flex ${
+                className={`relative rounded-[2rem] overflow-hidden cursor-pointer transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] flex ${
                   isActive
-                    ? "flex-4 sm:flex-5 shadow-2xl"
-                    : "flex-1 hover:flex-[1.2]"
+                    ? "flex-[4] sm:flex-[5] shadow-2xl"
+                    : "flex-[1] hover:flex-[1.2]"
                 }`}
               >
                 <img
@@ -113,15 +110,15 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
                     <p className="text-white/80 font-light mb-8 line-clamp-3">
                       {service.description}
                     </p>
-                    <a
+
+                    <Button
                       href={bookingUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-8 py-3.5 rounded-full text-xs font-semibold uppercase tracking-wider text-white transition-all hover:scale-105 active:scale-95 cursor-pointer shadow-md inline-flex items-center gap-2 bg-brand-primary"
+                      isExternal
+                      size="lg"
+                      iconRight={<ArrowRight className="w-4 h-4" />}
                     >
-                      <span>{labels.bookBtn}</span>
-                      <ArrowRight className="w-4 h-4" />
-                    </a>
+                      {labels.bookBtn}
+                    </Button>
                   </div>
                 </div>
               </div>
@@ -154,29 +151,29 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
                 <p className="text-white/70 font-light text-sm mb-6 line-clamp-3">
                   {service.description}
                 </p>
-                <a
+
+                <Button
                   href={bookingUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full py-3.5 rounded-full text-xs font-semibold uppercase tracking-wider text-white transition-all cursor-pointer shadow-md flex items-center justify-center gap-2 bg-brand-primary"
+                  isExternal
+                  size="default"
+                  className="w-full"
+                  iconLeft={<Calendar className="w-4 h-4" />}
                 >
-                  <Calendar className="w-4 h-4" />
-                  <span>{labels.bookBtn}</span>
-                </a>
+                  {labels.bookBtn}
+                </Button>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Przycisk przejścia do pełnej oferty */}
         <div className="mt-12 text-center">
-          <Link
+          <Button
             href="/offer"
-            className="inline-flex items-center gap-2 text-brand-primary hover:text-brand-light transition-colors font-medium text-sm tracking-wide uppercase"
+            variant="ghost"
+            iconRight={<ArrowRight className="w-4 h-4" />}
           >
             {labels.viewAllBtn}
-            <ArrowRight className="w-4 h-4" />
-          </Link>
+          </Button>
         </div>
       </div>
     </section>

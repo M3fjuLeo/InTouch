@@ -17,7 +17,6 @@
   --color-brand-accent: var(--brand-accent);
   --color-brand-light: var(--brand-light);
 
-  /* Definicja fontów */
   --font-serif-custom: var(--font-serif-custom), ui-serif, Georgia, serif;
   --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
 }
@@ -26,15 +25,14 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Niestandardowy pasek przewijania dla karuzeli (mobilnej) */
 .custom-scrollbar::-webkit-scrollbar {
-  height: 4px; /* Bardzo cienki, elegancki pasek */
+  height: 4px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
   background: var(--brand-darker);
   border-radius: 10px;
-  margin: 0 24px; /* Margines, aby pasek nie dotykał krawędzi ekranu */
+  margin: 0 24px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
@@ -46,7 +44,6 @@ html {
   background: var(--brand-light);
 }
 
-/* Globalny pionowy pasek przewijania dla całej strony */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -58,7 +55,7 @@ html {
 ::-webkit-scrollbar-thumb {
   background: var(--brand-dark);
   border-radius: 4px;
-  border: 2px solid var(--brand-darkest); /* Tworzy efekt marginesu wokół paska */
+  border: 2px solid var(--brand-darkest);
 }
 
 ::-webkit-scrollbar-thumb:hover {

@@ -90,5 +90,24 @@
         "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
       }
     ]
+  },"Testimonials": {
+    "list": [
+      {
+        "text": "Masaż przyniósł mi natychmiastową ulgę w bólu pleców. Nareszcie poczułam głęboki spokój i pełen relaks po stresującym tygodniu.",
+        "author": "Anna"
+      },
+      {
+        "text": "Idealna atmosfera i niezwykle profesjonalne podejście do napięć karku. Wracam tu regularnie co dwa tygodnie.",
+        "author": "Katarzyna"
+      },
+      {
+        "text": "Niezwykłe doświadczenie regeneracji ciała i umysłu. Czuć ogromne wyczucie oraz pasję w każdym ruchu.",
+        "author": "Michał"
+      },
+      {
+        "text": "Bezpieczny i niezwykle odprężający masaż. Pomógł mi skutecznie złagodzić napięcia w dolnym odcinku kręgosłupa.",
+        "author": "Marta"
+      }
+    ]
   }
 }
