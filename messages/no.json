@@ -7,5 +7,12 @@
     "headline": "Slapp av i kroppen. Lad opp sjelen.",
     "subtitle": "Koble fra omverdenen og koble til deg selv igjen gjennom de helbredende fordelene med massasje.",
     "button": "BESTILL NÅ"
+  },
+  "Navbar": {
+    "home": "Hjem",
+    "about": "Om meg",
+    "offer": "Tilbud",
+    "vouchers": "Gavekort",
+    "bookNow": "BESTILL NÅ"
   }
 }

@@ -7,5 +7,12 @@
     "headline": "Zrelaksuj Ciało. Odnów Duszę.",
     "subtitle": "Odłącz się od świata zewnętrznego i połącz ze swoim wnętrzem dzięki uzdrawiającym właściwościom masażu.",
     "button": "ZAREZERWUJ TERAZ"
+  },
+  "Navbar": {
+    "home": "Główna",
+    "about": "O mnie",
+    "offer": "Oferta",
+    "vouchers": "Vouchery",
+    "bookNow": "REZERWACJA"
   }
 }

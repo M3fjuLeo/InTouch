@@ -1,6 +1,9 @@
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
 import { Playfair_Display, Inter } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import { Navbar } from "../components/navbar/Navbar";
 import "../globals.css";
 
 const playfair = Playfair_Display({
@@ -28,11 +31,15 @@ export default async function RootLayout({
     notFound();
   }
 
+  const messages = await getMessages();
+
   return (
-    // Wstrzyknięcie zmiennych CSS do głównego drzewa DOM
     <html lang={lang} className={`${inter.variable} ${playfair.variable}`}>
       <body className="bg-brand-darkest text-brand-light antialiased font-sans">
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          <Navbar />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
