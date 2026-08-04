@@ -2,19 +2,20 @@
   "HomePage": {
     "title": "Strona główna"
   },
-  "Hero": {
-    "pill": "InTouch • Studio Masażu i Rytuałów",
-    "headline": "Zrelaksuj Ciało. Odnów Duszę.",
-    "subtitle": "Odłącz się od świata zewnętrznego i połącz ze swoim wnętrzem dzięki uzdrawiającym właściwościom masażu.",
-    "button": "ZAREZERWUJ TERAZ"
-  },
   "Navbar": {
     "home": "Główna",
     "about": "O mnie",
     "offer": "Oferta",
     "vouchers": "Vouchery",
     "bookNow": "REZERWACJA"
-  },"About": {
+  },
+  "Hero": {
+    "pill": "InTouch • Studio Masażu i Rytuałów",
+    "headline": "Zrelaksuj Ciało. Odnów Duszę.",
+    "subtitle": "Odłącz się od świata zewnętrznego i połącz ze swoim wnętrzem dzięki uzdrawiającym właściwościom masażu.",
+    "button": "ZAREZERWUJ TERAZ"
+  },
+  "About": {
     "pill": "O Studiu InTouch",
     "title": "Sztuka głębokiego relaksu i regeneracji w sercu miasta",
     "description": "W InTouch wierzymy, że masaż to nie tylko zabieg dla ciała, ale przede wszystkim bezcenny czas zatrzymania. Tworzymy kameralną przestrzeń, w której odzyskasz wewnętrzną harmonię i lekkość.",
@@ -32,5 +33,62 @@
         "description": "Gwarantujemy dyskrecję, najwyższe standardy higieny i pełną uważność naszych doświadczonych terapeutów."
       }
     }
+  },
+  "Services": {
+    "badge": "OFERTA & ZABIEGI",
+    "title": "Wybierz swój masaż",
+    "subtitle": "Odkryj autorskie zabiegi dopasowane do Twojego ciała i samopoczucia.",
+    "bookBtn": "ZNAJDŹ ULGĘ",
+    "viewAllBtn": "Zobacz pełną ofertę",
+    "priceFrom": "Cena od",
+    "currency": "kr",
+    "categories": {
+      "all": "Wszystkie",
+      "body": "Ciało",
+      "special": "Specjalistyczne",
+      "focused": "Skupione"
+    },
+    "list": [
+      {
+        "id": "start-here",
+        "name": "Start Here",
+        "categoryId": "body",
+        "tag": "Pierwszy Krok",
+        "duration": "75",
+        "price": "1095",
+        "description": "Idealny pierwszy krok. Pełny masaż ciała pozwala nam właściwie ocenić Twoje ciało, zidentyfikować ukryte wzorce napięć i zlokalizować prawdziwe źródło problemu. Obejmuje 60 minut masażu i 15 minut konsultacji.",
+        "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "full-body-90",
+        "name": "Full Body",
+        "categoryId": "body",
+        "tag": "Bestseller",
+        "duration": "90",
+        "price": "1595",
+        "description": "Holistyczna terapia łącząca klasyczny i głęboki masaż. Obejmuje całe ciało, twarz i głowę. Działa jako balsam dla układu nerwowego, przynosząc głęboki spokój i wewnętrzną równowagę.",
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "targeted-relief",
+        "name": "Targeted Relief",
+        "categoryId": "focused",
+        "tag": "Ukojenie",
+        "duration": "60",
+        "price": "1095",
+        "description": "Skupiona terapia na plecy, kark i ramiona. Idealny wybór dla osób prowadzących intensywny tryb życia, skutecznie uwalniający nagromadzony stres i napięcia mięśniowe.",
+        "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "pregnancy",
+        "name": "Pregnancy",
+        "categoryId": "special",
+        "tag": "Ciąża",
+        "duration": "60",
+        "price": "1095",
+        "description": "Delikatny i bezpieczny masaż przeznaczony specjalnie dla kobiet w ciąży (między 13. a 35. tygodniem). Przynosi ulgę obciążonym stawom i plecom.",
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
   }
 }

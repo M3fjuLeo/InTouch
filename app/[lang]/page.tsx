@@ -1,5 +1,6 @@
 import { AboutSection } from "../components/about/AboutSection";
 import { HeroSection } from "../components/hero/HeroSection";
+import { FeaturedServicesSection } from "../components/services/FeaturedServicesSection";
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
 
       <div className="relative z-10 bg-neutral-50 rounded-t-[2.5rem] md:rounded-t-[4rem] shadow-[0_-20px_50px_rgba(0,0,0,0.5)]">
         <AboutSection />
+        <FeaturedServicesSection />
       </div>
     </main>
   );

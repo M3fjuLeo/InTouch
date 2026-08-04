@@ -1,36 +1,94 @@
 {
   "HomePage": {
-    "title": "Hovedsiden"
-  },
-  "Hero": {
-    "pill": "InTouch • Massasje & Ritualer Studio",
-    "headline": "Slapp av i kroppen. Lad opp sjelen.",
-    "subtitle": "Koble fra omverdenen og koble til deg selv igjen gjennom de helbredende fordelene med massasje.",
-    "button": "BESTILL NÅ"
+    "title": "Hjem"
   },
   "Navbar": {
     "home": "Hjem",
-    "about": "Om meg",
+    "about": "Om oss",
     "offer": "Tilbud",
     "vouchers": "Gavekort",
     "bookNow": "BESTILL NÅ"
-  },"About": {
+  },
+  "Hero": {
+    "pill": "InTouch • Massasje- og Ritualstudio",
+    "headline": "Slapp av i kroppen. Forny sjelen.",
+    "subtitle": "Koble fra omverdenen og få kontakt med ditt indre gjennom massasjens helbredende egenskaper.",
+    "button": "BESTILL NÅ"
+  },
+  "About": {
     "pill": "Om InTouch Studio",
     "title": "Kunsten av dyp avslapning og regenerering i hjertet av byen",
-    "description": "Hos InTouch tror vi at massasje ikke bare er en kroppsbehandling, men en uvurderlig tid for å stoppe opp. Vi skaper et intimt rom hvor du kan gjenvinne indre harmoni og letthet.",
+    "description": "Hos InTouch tror vi at massasje ikke bare er en behandling for kroppen, men fremfor alt en uvurderlig tid for å ta en pause. Vi skaper et intimt rom hvor du vil gjenvinne indre harmoni og letthet.",
     "pillars": {
       "p1": {
         "title": "Bevisst Berøring",
-        "description": "Hver økt hos InTouch er et unikt rituale tilpasset kroppens individuelle behov og spenningsnivåer."
+        "description": "Hver økt hos InTouch er et unikt ritual skreddersydd til kroppens individuelle behov og spenningsnivå."
       },
       "p2": {
-        "title": "Atmosfære av Ro",
-        "description": "Et koselig rom, varm belysning og sertifiserte naturlige eteriske oljer for å berolige alle sansene dine."
+        "title": "En Atmosfære av Ro",
+        "description": "Et koselig rom, varmt lys og sertifiserte naturlige eteriske oljer som beroliger alle sanser."
       },
       "p3": {
         "title": "Full Omsorg",
         "description": "Vi garanterer diskresjon, de høyeste hygienestandardene og full oppmerksomhet fra våre erfarne terapeuter."
       }
     }
+  },
+  "Services": {
+    "badge": "TILBUD & BEHANDLINGER",
+    "title": "Velg din massasje",
+    "subtitle": "Oppdag signaturbehandlinger skreddersydd for din kropp og velvære.",
+    "bookBtn": "FINN LINDRING",
+    "viewAllBtn": "Se hele tilbudet",
+    "priceFrom": "Pris fra",
+    "currency": "kr",
+    "categories": {
+      "all": "Alle",
+      "body": "Kropp",
+      "special": "Spesial",
+      "focused": "Fokusert"
+    },
+    "list": [
+      {
+        "id": "start-here",
+        "name": "Start Here",
+        "categoryId": "body",
+        "tag": "Første Steg",
+        "duration": "75",
+        "price": "1095",
+        "description": "Det perfekte første steget. En full kroppsmassasje lar oss vurdere kroppen din riktig, identifisere skjulte spenningsmønstre og finne den sanne kilden til problemet. Inkluderer 60 minutter massasje og 15 minutter konsultasjon.",
+        "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "full-body-90",
+        "name": "Full Body",
+        "categoryId": "body",
+        "tag": "Bestselger",
+        "duration": "90",
+        "price": "1595",
+        "description": "En helhetlig terapi som kombinerer klassisk og dypvevsmassasje. Dekker hele kroppen, ansiktet og hodet. Fungerer som en balsam for nervesystemet, og gir dyp ro og indre balanse.",
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "targeted-relief",
+        "name": "Targeted Relief",
+        "categoryId": "focused",
+        "tag": "Lindring",
+        "duration": "60",
+        "price": "1095",
+        "description": "Fokusert terapi for rygg, nakke og skuldre. Det perfekte valget for personer med en intensiv livsstil, da den frigjør effektivt akkumulert stress og muskelspenninger.",
+        "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "pregnancy",
+        "name": "Pregnancy",
+        "categoryId": "special",
+        "tag": "Graviditet",
+        "duration": "60",
+        "price": "1095",
+        "description": "En skånsom og trygg massasje designet spesielt for gravide kvinner (mellom uke 13 og 35). Gir lindring til belastede ledd og rygg.",
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
   }
 }

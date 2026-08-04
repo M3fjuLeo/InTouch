@@ -2,35 +2,93 @@
   "HomePage": {
     "title": "Home"
   },
-  "Hero": {
-    "pill": "InTouch • Massage & Rituals Studio",
-    "headline": "Relax Your Body. Recharge Your Soul.",
-    "subtitle": "Disconnect from the outside world and reconnect within through the healing benefits of massage.",
-    "button": "BOOK NOW"
-  },
   "Navbar": {
     "home": "Home",
     "about": "About",
-    "offer": "Offer",
+    "offer": "Services",
     "vouchers": "Vouchers",
     "bookNow": "BOOK NOW"
-  },"About": {
+  },
+  "Hero": {
+    "pill": "InTouch • Massage and Rituals Studio",
+    "headline": "Relax the Body. Renew the Soul.",
+    "subtitle": "Disconnect from the outside world and reconnect with your inner self through the healing properties of massage.",
+    "button": "BOOK NOW"
+  },
+  "About": {
     "pill": "About InTouch Studio",
     "title": "The art of deep relaxation and regeneration in the heart of the city",
-    "description": "At InTouch, we believe that massage is not just a body treatment, but an invaluable time to pause. We create an intimate space where you can regain inner harmony and lightness.",
+    "description": "At InTouch, we believe that massage is not just a treatment for the body, but above all an invaluable time to pause. We create an intimate space where you will regain inner harmony and lightness.",
     "pillars": {
       "p1": {
         "title": "Conscious Touch",
-        "description": "Every session at InTouch is a unique ritual tailored to your body's individual needs and tension levels."
+        "description": "Each session at InTouch is a unique ritual tailored to the individual needs of your body and level of tension."
       },
       "p2": {
-        "title": "Atmosphere of Peace",
-        "description": "A cozy space, warm lighting, and certified natural essential oils to soothe all your senses."
+        "title": "Atmosphere of Tranquility",
+        "description": "A cozy space, warm light, and certified natural essential oils soothing all the senses."
       },
       "p3": {
         "title": "Complete Care",
         "description": "We guarantee discretion, the highest hygiene standards, and the full mindfulness of our experienced therapists."
       }
     }
+  },
+  "Services": {
+    "badge": "OFFER & TREATMENTS",
+    "title": "Choose your massage",
+    "subtitle": "Discover signature treatments tailored to your body and well-being.",
+    "bookBtn": "FIND RELIEF",
+    "viewAllBtn": "View full offer",
+    "priceFrom": "Price from",
+    "currency": "kr",
+    "categories": {
+      "all": "All",
+      "body": "Body",
+      "special": "Specialized",
+      "focused": "Focused"
+    },
+    "list": [
+      {
+        "id": "start-here",
+        "name": "Start Here",
+        "categoryId": "body",
+        "tag": "First Step",
+        "duration": "75",
+        "price": "1095",
+        "description": "The perfect first step. A full body massage allows us to properly assess your body, identify hidden tension patterns, and locate the true source of the problem. Includes 60 minutes of massage and 15 minutes of consultation.",
+        "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "full-body-90",
+        "name": "Full Body",
+        "categoryId": "body",
+        "tag": "Bestseller",
+        "duration": "90",
+        "price": "1595",
+        "description": "A holistic therapy combining classic and deep tissue massage. Covers the entire body, face, and head. Acts as a balm for the nervous system, bringing deep peace and inner balance.",
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "targeted-relief",
+        "name": "Targeted Relief",
+        "categoryId": "focused",
+        "tag": "Relief",
+        "duration": "60",
+        "price": "1095",
+        "description": "A focused therapy for the back, neck, and shoulders. The perfect choice for people leading an intensive lifestyle, effectively releasing accumulated stress and muscle tension.",
+        "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "pregnancy",
+        "name": "Pregnancy",
+        "categoryId": "special",
+        "tag": "Pregnancy",
+        "duration": "60",
+        "price": "1095",
+        "description": "A gentle and safe massage designed specifically for pregnant women (between the 13th and 35th week). Brings relief to strained joints and back.",
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
   }
 }
