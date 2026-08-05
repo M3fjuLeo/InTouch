@@ -66,7 +66,7 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
                 <span className="font-serif-custom tracking-widest text-lg sm:text-xl font-normal">
                   InTouch
                 </span>
-                <LogoIcon className="w-6 h-6 brightness-200 drop-shadow-md" />
+                <LogoIcon className="w-10 h-10 brightness-200 drop-shadow-md" />
               </div>
 
               <div className="bg-brand-darker/90 backdrop-blur-md p-5 sm:p-6 rounded-2xl border border-white/10 text-white shadow-xl max-w-sm">

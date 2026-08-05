@@ -138,5 +138,95 @@
     "rights": "All rights reserved.",
     "location": "Oslo, Norway • CVR/Org: 987 654 321",
     "closeModal": "Zamknij"
+  },
+  "OfferPage": {
+    "title": "Nasza Oferta",
+    "subtitle": "Znajdź chwilę dla siebie. Wybierz terapię dopasowaną do potrzeb Twojego ciała i umysłu.",
+    "filters": {
+      "all": "Wszystkie",
+      "firstTime": "Pierwsza wizyta",
+      "fullBody": "Całe Ciało",
+      "focused": "Wybrane Partie",
+      "special": "Specjalistyczne"
+    },
+    "card": {
+      "bookNow": "Zarezerwuj",
+      "readMore": "Czytaj więcej",
+      "readLess": "Zwiń opis"
+    },
+    "services": [
+      {
+        "id": "start-here",
+        "category": "firstTime",
+        "title": "START HERE - Pierwsza Wizyta",
+        "duration": "1 h 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "Zacznij tutaj. Ten zabieg to idealny pierwszy krok. Często ból, który odczuwasz, jest wynikiem napięć, których nawet nie jesteś świadomy. Dlatego pierwsza sesja jest tak ważna. Masaż całego ciała pozwala nam ocenić Twoje ciało, zidentyfikować ukryte wzorce napięć i znaleźć prawdziwe źródło problemu. Zabieg obejmuje: \n• 60 minut masażu całego ciała dopasowanego do Twoich potrzeb \n• 15 minut konsultacji, w tym wywiad zdrowotny i plan działania. Czas konsultacji jest doliczony do masażu, więc nie tracisz cennego czasu na stole."
+      },
+      {
+        "id": "classic-90-full-face-head",
+        "category": "fullBody",
+        "title": "Masaż Klasyczny - Całe ciało, twarz i głowa",
+        "duration": "1 h 30 min",
+        "price": "1 595,00 kr",
+        "isBestseller": true,
+        "description": "Wyjątkowe doświadczenie, które dba o ciało i duszę, zapewniając relaks na wielu poziomach. Ta holistyczna terapia łączy techniki masażu klasycznego i głębokiego, docierając do punktów spustowych, aby uwolnić napięcia i blokady. Masaż twarzy pozwala uwolnić emocjonalne napięcia i poprawia sen, a praca z głową sprawia, że relaks staje się niesamowicie głęboki. Zafunduj sobie luksus regeneracji i psychosomatycznej odnowy."
+      },
+      {
+        "id": "classic-60-full",
+        "category": "fullBody",
+        "title": "Masaż Klasyczny - Całe ciało",
+        "duration": "1 h 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": true,
+        "description": "Doskonały punkt wyjścia dla każdego, kto zaczyna swoją podróż ku uzdrowieniu. 60-minutowy masaż całego ciała otwiera oczy na to, jak wiele obszarów naszego ciała wymaga uwagi (często tam, gdzie bezpośrednio nie odczuwamy bólu). Pozwala stworzyć spersonalizowany plan działania na drodze do zdrowia - równowagi fizycznej i emocjonalnej. Poprawia krążenie, reguluje stres i głęboko relaksuje."
+      },
+      {
+        "id": "classic-60-back",
+        "category": "focused",
+        "title": "Masaż Klasyczny - Plecy, kark i ramiona",
+        "duration": "1 h 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "Masaż z elementami terapii punktów spustowych skupiający się na plecach, karku i ramionach. Idealny wybór dla osób prowadzących intensywny tryb życia oraz tych, którzy spędzają wiele godzin za biurkiem. Skutecznie uwalnia napięcie mięśniowe, skupiając się na rozluźnieniu punktów stresowych wokół łopatek. Zapewnia szybką ulgę, poprawia elastyczność i przywraca poczucie lekkości."
+      },
+      {
+        "id": "classic-60-face",
+        "category": "focused",
+        "title": "Masaż Klasyczny - Twarz, głowa, kark i ramiona",
+        "duration": "1 h 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "Technika, która przynosi ulgę osobom cierpiącym na migreny, napięciowe bóle głowy oraz bruksizm (nieświadome zaciskanie zębów). Skupia się na zmęczonych mięśniach. Zalecana jest seria zabiegów dla utrzymania efektów. Początkowo może wystąpić tzw. 'kryzys ozdrowieńczy', jednak regularna terapia poprawia krążenie, dotlenia komórki i znacząco poprawia jakość snu."
+      },
+      {
+        "id": "classic-30-deep",
+        "category": "focused",
+        "title": "Elementy tkanki głębokiej - Plecy, kark i ramiona",
+        "duration": "45 min",
+        "price": "595,00 kr",
+        "isBestseller": false,
+        "description": "Krótka, ale intensywna sesja skupiona na konkretnym problemie. Szybki sposób na rozładowanie napięcia i redukcję stresu kumulującego się w karku i ramionach. Kwalifikowany terapeuta zastosuje również techniki rozciągające, aby zwiększyć zakres ruchu. Zafunduj sobie chwilę regeneracji w przerwie od codziennych obowiązków."
+      },
+      {
+        "id": "classic-120-full",
+        "category": "fullBody",
+        "title": "Rozszerzony Masaż Klasyczny - Całe ciało, twarz i głowa",
+        "duration": "2 h",
+        "price": "1 895,00 kr",
+        "isBestseller": false,
+        "description": "Pełne dwie godziny nieprzerwanego luksusu dla Twojego ciała i umysłu. Holistyczna terapia z najwyższą dbałością o każdy detal. Płynne połączenie technik docierających w najgłębsze warstwy tkanki. Umożliwia całkowite odcięcie się od świata zewnętrznego, odzyskanie jasności umysłu i głęboką psychosomatyczną odbudowę."
+      },
+      {
+        "id": "pregnancy",
+        "category": "special",
+        "title": "Masaż dla Kobiet w Ciąży (13-35 tydzień)",
+        "duration": "1 h",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "Bezpieczny i dedykowany masaż dla kobiet w ciąży, przynoszący ulgę przeciążonym mięśniom. Wykonywany w komfortowych, specjalnie dostosowanych pozycjach."
+      }
+    ]
   }
 }

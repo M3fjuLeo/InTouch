@@ -138,5 +138,94 @@
     "rights": "Alle rettigheter reservert.",
     "location": "Oslo, Norge • Org.nr.: 987 654 321",
     "closeModal": "Lukk"
+  },"OfferPage": {
+    "title": "Våre Behandlinger",
+    "subtitle": "Finn et øyeblikk for deg selv. Velg en terapi tilpasset kroppens og sinnets behov.",
+    "filters": {
+      "all": "Alle",
+      "firstTime": "Første besøk",
+      "fullBody": "Hele kroppen",
+      "focused": "Fokuserte områder",
+      "special": "Spesial"
+    },
+    "card": {
+      "bookNow": "Bestill",
+      "readMore": "Les mer",
+      "readLess": "Les mindre"
+    },
+    "services": [
+      {
+        "id": "start-here",
+        "category": "firstTime",
+        "title": "START HER - Første Besøk",
+        "duration": "1 t 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "Start her. Denne behandlingen er det perfekte første steget. Ofte er smerten du føler resultatet av spenninger du ikke engang er klar over. Derfor er den første økten så viktig. En full kroppsmassasje lar oss vurdere kroppen din, identifisere skjulte spenningsmønstre og finne den sanne kilden til problemet. Behandlingen inkluderer: \n• 60 minutter full kroppsmassasje tilpasset dine behov \n• 15 minutter konsultasjon, inkludert helseintervju og handlingsplan. Konsultasjonstiden er lagt til massasjen, slik at du ikke mister verdifull tid på benken."
+      },
+      {
+        "id": "classic-90-full-face-head",
+        "category": "fullBody",
+        "title": "Klassisk Massasje - Hele kroppen, ansikt og hode",
+        "duration": "1 t 30 min",
+        "price": "1 595,00 kr",
+        "isBestseller": true,
+        "description": "En unik opplevelse som tar vare på kropp og sjel, og gir avslapning på mange nivåer. Denne helhetlige terapien kombinerer klassisk og dypvevsmassasjeteknikker, og når triggerpunkter for å frigjøre spenninger og blokkeringer. Ansiktsmassasje bidrar til å frigjøre følelsesmessige spenninger og forbedrer søvnen, mens hodemassasje gjør avslapningen utrolig dyp. Unn deg selv luksusen av regenerering og psykosomatisk fornyelse."
+      },
+      {
+        "id": "classic-60-full",
+        "category": "fullBody",
+        "title": "Klassisk Massasje - Hele kroppen",
+        "duration": "1 t 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": true,
+        "description": "Et utmerket utgangspunkt for alle som begynner sin reise mot helbredelse. En 60-minutters full kroppsmassasje åpner øynene dine for hvor mange områder av kroppen vår som trenger oppmerksomhet (ofte der vi ikke føler direkte smerte). Det lar deg lage en personlig handlingsplan på veien til helse - fysisk og emosjonell balanse. Det forbedrer sirkulasjonen, regulerer stress og slapper dypt av."
+      },
+      {
+        "id": "classic-60-back",
+        "category": "focused",
+        "title": "Klassisk Massasje - Rygg, nakke og skuldre",
+        "duration": "1 t 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "En massasje med elementer av triggerpunktterapi med fokus på rygg, nakke og skuldre. Det perfekte valget for personer med en intensiv livsstil og de som tilbringer mange timer bak et skrivebord. Frigjør effektivt muskelspenninger, med fokus på å slappe av stresspunkter rundt skulderbladene. Gir rask lindring, forbedrer fleksibiliteten og gjenoppretter en følelse av letthet."
+      },
+      {
+        "id": "classic-60-face",
+        "category": "focused",
+        "title": "Klassisk Massasje - Ansikt, hode, nakke og skuldre",
+        "duration": "1 t 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "En teknikk som gir lindring for personer som lider av migrene, spenningshodepine og bruksisme (ubevisst tanngnissing). Fokuserer på slitne muskler. En serie behandlinger anbefales for å opprettholde effekten. I begynnelsen kan en såkalt 'helbredelseskrise' oppstå, men regelmessig terapi forbedrer sirkulasjonen, oksygenerer celler og forbedrer søvnkvaliteten betydelig."
+      },
+      {
+        "id": "classic-30-deep",
+        "category": "focused",
+        "title": "Dypvevselementer - Rygg, nakke og skuldre",
+        "duration": "45 min",
+        "price": "595,00 kr",
+        "isBestseller": false,
+        "description": "En kort, men intensiv økt med fokus på et spesifikt problem. En rask måte å frigjøre spenninger og redusere stress som bygger seg opp i nakke og skuldre. En kvalifisert terapeut vil også bruke tøyeteknikker for å øke bevegelsesområdet. Unn deg et øyeblikk med regenerering i en pause fra daglige plikter."
+      },
+      {
+        "id": "classic-120-full",
+        "category": "fullBody",
+        "title": "Utvidet Klassisk Massasje - Hele kroppen, ansikt og hode",
+        "duration": "2 t",
+        "price": "1 895,00 kr",
+        "isBestseller": false,
+        "description": "Hele to timer med uavbrutt luksus for din kropp og sinn. En holistisk terapi med største oppmerksomhet på hver detalj. En sømløs kombinasjon av teknikker som når de dypeste lagene av vevet. Lar deg koble helt av fra omverdenen, gjenvinne mental klarhet og oppnå dyp psykosomatisk gjenoppretting."
+      },
+      {
+        "id": "pregnancy",
+        "category": "special",
+        "title": "Gravidmassasje (uke 13-35)",
+        "duration": "1 t",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "En trygg og dedikert massasje for gravide, som gir lindring til overbelastede muskler. Utføres i komfortable, spesialtilpassede stillinger."
+      }
+    ]
   }
 }

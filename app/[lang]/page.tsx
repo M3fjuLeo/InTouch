@@ -17,7 +17,6 @@ export default function HomePage() {
         <FeaturedServicesSection />
         <SocialProofSection />
         <VouchersSection />
-        <FooterSection />
       </div>
     </main>
   );

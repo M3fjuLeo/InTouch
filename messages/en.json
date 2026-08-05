@@ -135,5 +135,94 @@
     "rights": "All rights reserved.",
     "location": "Oslo, Norway • Org. no.: 987 654 321",
     "closeModal": "Close"
+  },"OfferPage": {
+    "title": "Our Services",
+    "subtitle": "Find a moment for yourself. Choose a therapy tailored to the needs of your body and mind.",
+    "filters": {
+      "all": "All",
+      "firstTime": "First Visit",
+      "fullBody": "Full Body",
+      "focused": "Targeted Areas",
+      "special": "Specialized"
+    },
+    "card": {
+      "bookNow": "Book",
+      "readMore": "Read more",
+      "readLess": "Read less"
+    },
+    "services": [
+      {
+        "id": "start-here",
+        "category": "firstTime",
+        "title": "START HERE - First Visit",
+        "duration": "1 h 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "Start here. This treatment is the perfect first step. Often, the pain you feel is the result of tensions you are not even aware of. That is why the first session is so important. A full body massage allows us to assess your body, identify hidden tension patterns, and find the true source of the problem. The treatment includes: \n• 60 minutes of full body massage tailored to your needs \n• 15 minutes of consultation, including a health interview and action plan. The consultation time is added to the massage, so you don't lose precious time on the table."
+      },
+      {
+        "id": "classic-90-full-face-head",
+        "category": "fullBody",
+        "title": "Classic Massage - Full body, face, and head",
+        "duration": "1 h 30 min",
+        "price": "1 595,00 kr",
+        "isBestseller": true,
+        "description": "A unique experience that cares for body and soul, providing relaxation on many levels. This holistic therapy combines classic and deep tissue massage techniques, reaching trigger points to release tensions and blockages. Face massage helps release emotional tension and improves sleep, while head massage makes relaxation incredibly deep. Treat yourself to the luxury of regeneration and psychosomatic renewal."
+      },
+      {
+        "id": "classic-60-full",
+        "category": "fullBody",
+        "title": "Classic Massage - Full body",
+        "duration": "1 h 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": true,
+        "description": "An excellent starting point for anyone beginning their journey to healing. A 60-minute full body massage opens your eyes to how many areas of our body need attention (often where we don't feel direct pain). It allows you to create a personalized action plan on the path to health - physical and emotional balance. It improves circulation, regulates stress, and deeply relaxes."
+      },
+      {
+        "id": "classic-60-back",
+        "category": "focused",
+        "title": "Classic Massage - Back, neck, and shoulders",
+        "duration": "1 h 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "A massage with elements of trigger point therapy focusing on the back, neck, and shoulders. The perfect choice for people leading an intensive lifestyle and those who spend many hours behind a desk. Effectively releases muscle tension, focusing on relaxing stress points around the shoulder blades. Provides quick relief, improves flexibility, and restores a sense of lightness."
+      },
+      {
+        "id": "classic-60-face",
+        "category": "focused",
+        "title": "Classic Massage - Face, head, neck, and shoulders",
+        "duration": "1 h 15 min",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "A technique that brings relief to people suffering from migraines, tension headaches, and bruxism (unconscious teeth grinding). Focuses on tired muscles. A series of treatments is recommended to maintain the effects. Initially, a so-called 'healing crisis' may occur, but regular therapy improves circulation, oxygenates cells, and significantly improves sleep quality."
+      },
+      {
+        "id": "classic-30-deep",
+        "category": "focused",
+        "title": "Deep tissue elements - Back, neck, and shoulders",
+        "duration": "45 min",
+        "price": "595,00 kr",
+        "isBestseller": false,
+        "description": "A short but intensive session focused on a specific problem. A quick way to release tension and reduce stress accumulating in the neck and shoulders. A qualified therapist will also use stretching techniques to increase the range of motion. Treat yourself to a moment of regeneration during a break from daily duties."
+      },
+      {
+        "id": "classic-120-full",
+        "category": "fullBody",
+        "title": "Extended Classic Massage - Full body, face, and head",
+        "duration": "2 h",
+        "price": "1 895,00 kr",
+        "isBestseller": false,
+        "description": "A full two hours of uninterrupted luxury for your body and mind. A holistic therapy with the utmost attention to every detail. A seamless combination of techniques reaching the deepest layers of tissue. Allows you to completely disconnect from the outside world, regain mental clarity, and achieve deep psychosomatic recovery."
+      },
+      {
+        "id": "pregnancy",
+        "category": "special",
+        "title": "Pregnancy Massage (13-35 weeks)",
+        "duration": "1 h",
+        "price": "1 095,00 kr",
+        "isBestseller": false,
+        "description": "A safe and dedicated massage for pregnant women, bringing relief to overloaded muscles. Performed in comfortable, specially adapted positions."
+      }
+    ]
   }
 }

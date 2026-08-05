@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Navbar } from "../components/navbar/Navbar";
 import "../globals.css";
+import { FooterSection } from "../components/footer/FooterSection";
 
 const playfair = Playfair_Display({
   subsets: ["latin", "latin-ext"],
@@ -39,6 +40,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
+          <FooterSection />
         </NextIntlClientProvider>
       </body>
     </html>
