@@ -7,7 +7,7 @@
     "about": "O mnie",
     "offer": "Oferta",
     "vouchers": "Vouchery",
-    "bookNow": "REZERWACJA"
+    "contact": "Kontakt"
   },
   "Hero": {
     "brand": "In Touch",
@@ -136,7 +136,7 @@
     "privacy": "Privacy Policy (Personvern)",
     "terms": "Terms of Service (Vilkår)",
     "rights": "All rights reserved.",
-    "location": "Oslo, Norway • CVR/Org: 987 654 321",
+    "location": "Oslo, Norway • CVR/Org: 929 173 848",
     "closeModal": "Zamknij"
   },
   "OfferPage": {
@@ -228,5 +228,33 @@
         "description": "Bezpieczny i dedykowany masaż dla kobiet w ciąży, przynoszący ulgę przeciążonym mięśniom. Wykonywany w komfortowych, specjalnie dostosowanych pozycjach."
       }
     ]
+  },
+  "ContactPage": {
+    "title": "Kontakt",
+    "subtitle": "Masz pytania lub chcesz umówić się na wizytę? Skontaktuj się ze mną.",
+    "details": {
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "hours": "Godziny otwarcia",
+      "social": "Media społecznościowe"
+    },
+    "schedule": {
+      "mon": "Poniedziałek",
+      "tue": "Wtorek",
+      "wed": "Środa",
+      "thu": "Czwartek",
+      "fri": "Piątek",
+      "sat": "Sobota",
+      "sun": "Niedziela"
+    },
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "message": "Twoja wiadomość",
+      "submit": "Wyślij wiadomość",
+      "success": "Wiadomość została wysłana.",
+      "error": "Wystąpił błąd podczas wysyłania."
+    }
   }
 }

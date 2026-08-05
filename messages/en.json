@@ -7,7 +7,7 @@
     "about": "About",
     "offer": "Services",
     "vouchers": "Vouchers",
-    "bookNow": "BOOK NOW"
+    "contact": "Contact"
   },
   "Hero": {
     "brand": "In Touch",
@@ -93,7 +93,8 @@
         "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
       }
     ]
-  },"Testimonials": {
+  },
+  "Testimonials": {
     "list": [
       {
         "text": "The massage brought me immediate relief from back pain. I finally felt deep peace and full relaxation after a stressful week.",
@@ -112,7 +113,8 @@
         "author": "Marta"
       }
     ]
-  },"Vouchers": {
+  },
+  "Vouchers": {
     "badge": "Gift Cards",
     "title": "Gift Relief",
     "description": "Digital and physical gift cards available for any treatment or a chosen amount.",
@@ -120,7 +122,8 @@
     "mockupBadge": "Gift Voucher",
     "mockupTitle": "A Moment of Pure Peace",
     "mockupDesc": "Valid for all treatments at InTouch Studio"
-  },"Footer": {
+  },
+  "Footer": {
     "description": "Holistic massage and therapy studio in the heart of Oslo. Take care of your body and mind balance.",
     "bookBtn": "Book an appointment",
     "navTitle": "Navigation",
@@ -133,9 +136,10 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "rights": "All rights reserved.",
-    "location": "Oslo, Norway • Org. no.: 987 654 321",
+    "location": "Oslo, Norway • Org. no.: 929 173 848",
     "closeModal": "Close"
-  },"OfferPage": {
+  },
+  "OfferPage": {
     "title": "Our Services",
     "subtitle": "Find a moment for yourself. Choose a therapy tailored to the needs of your body and mind.",
     "filters": {
@@ -224,5 +228,33 @@
         "description": "A safe and dedicated massage for pregnant women, bringing relief to overloaded muscles. Performed in comfortable, specially adapted positions."
       }
     ]
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Have questions or want to book an appointment? Get in touch with me.",
+    "details": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Opening hours",
+      "social": "Social media"
+    },
+    "schedule": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    },
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "message": "Your message",
+      "submit": "Send message",
+      "success": "Message sent successfully.",
+      "error": "An error occurred while sending."
+    }
   }
 }

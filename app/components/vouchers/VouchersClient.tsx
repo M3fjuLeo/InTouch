@@ -57,7 +57,7 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
 
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-white/10 aspect-[4/3] md:aspect-square lg:aspect-[4/3] group bg-brand-darker">
             <img
-              src="https://images.unsplash.com/photo-1607344645866-009c320c5ab8?auto=format&fit=crop&w=1200&q=80"
+              src="/voucher.png"
               alt="Voucher"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80"
             />

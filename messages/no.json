@@ -7,7 +7,7 @@
     "about": "Om oss",
     "offer": "Tilbud",
     "vouchers": "Gavekort",
-    "bookNow": "BESTILL NÅ"
+    "contact": "Kontakt"
   },
   "Hero": {
     "brand": "In Touch",
@@ -136,9 +136,10 @@
     "privacy": "Personvernerklæring",
     "terms": "Vilkår for bruk",
     "rights": "Alle rettigheter reservert.",
-    "location": "Oslo, Norge • Org.nr.: 987 654 321",
+    "location": "Oslo, Norge • Org.nr.: 929 173 848",
     "closeModal": "Lukk"
-  },"OfferPage": {
+  },
+  "OfferPage": {
     "title": "Våre Behandlinger",
     "subtitle": "Finn et øyeblikk for deg selv. Velg en terapi tilpasset kroppens og sinnets behov.",
     "filters": {
@@ -227,5 +228,33 @@
         "description": "En trygg og dedikert massasje for gravide, som gir lindring til overbelastede muskler. Utføres i komfortable, spesialtilpassede stillinger."
       }
     ]
+  },
+  "ContactPage": {
+    "title": "Kontakt",
+    "subtitle": "Har du spørsmål eller ønsker å bestille time? Ta kontakt med meg.",
+    "details": {
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-post",
+      "hours": "Åpningstider",
+      "social": "Sosiale medier"
+    },
+    "schedule": {
+      "mon": "Mandag",
+      "tue": "Tirsdag",
+      "wed": "Onsdag",
+      "thu": "Torsdag",
+      "fri": "Fredag",
+      "sat": "Lørdag",
+      "sun": "Søndag"
+    },
+    "form": {
+      "name": "Fullt navn",
+      "email": "E-postadresse",
+      "message": "Din melding",
+      "submit": "Send melding",
+      "success": "Meldingen ble sendt.",
+      "error": "Det oppstod en feil under sending."
+    }
   }
 }
