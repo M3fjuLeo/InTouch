@@ -10,10 +10,13 @@
     "bookNow": "BOOK NOW"
   },
   "Hero": {
-    "pill": "InTouch • Massage and Rituals Studio",
-    "headline": "Relax the Body. Renew the Soul.",
-    "subtitle": "Disconnect from the outside world and reconnect with your inner self through the healing properties of massage.",
-    "button": "BOOK NOW"
+    "brand": "In Touch",
+    "headline": "In touch with yourself",
+    "subtitle1": "Holistic massage therapy",
+    "subtitle2": "For those who care for others and have forgotten themselves.",
+    "subtitle3": "Rest. Restore. Reconnect.",
+    "bookBtn": "Book a massage",
+    "giftBtn": "Buy a Gift Card"
   },
   "About": {
     "pill": "About InTouch Studio",

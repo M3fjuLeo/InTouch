@@ -10,10 +10,13 @@
     "bookNow": "BESTILL NÅ"
   },
   "Hero": {
-    "pill": "InTouch • Massasje- og Ritualstudio",
-    "headline": "Slapp av i kroppen. Forny sjelen.",
-    "subtitle": "Koble fra omverdenen og få kontakt med ditt indre gjennom massasjens helbredende egenskaper.",
-    "button": "BESTILL NÅ"
+    "brand": "In Touch",
+    "headline": "I kontakt med deg selv",
+    "subtitle1": "Holistisk massasjeterapi",
+    "subtitle2": "For de som tar vare på andre og har glemt seg selv.",
+    "subtitle3": "Hvil. Forny. Gjenopprett.",
+    "bookBtn": "Bestill massasje",
+    "giftBtn": "Kjøp Gavekort"
   },
   "About": {
     "pill": "Om InTouch Studio",

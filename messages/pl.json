@@ -10,10 +10,13 @@
     "bookNow": "REZERWACJA"
   },
   "Hero": {
-    "pill": "InTouch • Studio Masażu i Rytuałów",
-    "headline": "Zrelaksuj Ciało. Odnów Duszę.",
-    "subtitle": "Odłącz się od świata zewnętrznego i połącz ze swoim wnętrzem dzięki uzdrawiającym właściwościom masażu.",
-    "button": "ZAREZERWUJ TERAZ"
+    "brand": "In Touch",
+    "headline": "W kontakcie ze sobą",
+    "subtitle1": "Holistyczna terapia masażem",
+    "subtitle2": "Dla tych, którzy dbają o innych, a zapomnieli o sobie.",
+    "subtitle3": "Odpocznij. Zregeneruj się. Odzyskaj harmonię.",
+    "bookBtn": "Zarezerwuj masaż",
+    "giftBtn": "Kup Kartę Podarunkową"
   },
   "About": {
     "pill": "O Studiu InTouch",
