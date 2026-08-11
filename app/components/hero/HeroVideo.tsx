@@ -2,8 +2,8 @@
 
 import React, { useState, useRef } from "react";
 
-const HERO_VIDEO_URL =
-  "https://www.thenowmassage.com/hubfs/THE%20NOW/Videos/New%20Website%20Header%20-%20The%20NOW%20Massage%20Montage%20-%20High%20Bitrate.mp4";
+// Jeśli wolisz wideo z dysku (public/hero-video.mp4), zmień na: const HERO_VIDEO_URL = "/hero-video.mp4";
+const HERO_VIDEO_URL = "/hero-video.mp4";
 const FALLBACK_IMAGE =
   "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1920&q=80";
 
@@ -32,7 +32,7 @@ export const HeroVideo = () => {
 
       {!videoLoaded && (
         <img
-          src="/hero-video"
+          src={FALLBACK_IMAGE}
           alt="InTouch Studio Background"
           className="w-full h-full object-cover opacity-60"
         />

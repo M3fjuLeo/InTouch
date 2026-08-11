@@ -1,9 +1,9 @@
 import { OfferClient } from "@/app/components/offer/OfferClient";
 import { getTranslations } from "next-intl/server";
 
-export default async function OfferPage() {
-  const t = await getTranslations("OfferPage");
+export default async function OfferView() {
   const bookingUrl = process.env.NEXT_PUBLIC_BOOKING_URL || "#";
+  const t = await getTranslations("OfferPage");
 
   const content = {
     title: t("title"),
