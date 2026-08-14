@@ -12,6 +12,7 @@ import { Navbar } from "../components/navbar/Navbar";
 import { FooterSection } from "../components/footer/FooterSection";
 import { LocalBusinessSchema } from "../components/seo/LocalBusinessSchema";
 import "../globals.css";
+import { CookieBanner } from "../components/ui/CookieBanner";
 
 const playfair = Playfair_Display({
   subsets: ["latin", "latin-ext"],
@@ -88,6 +89,7 @@ export default async function RootLayout({
           <Navbar />
           {children}
           <FooterSection />
+          <CookieBanner />
         </NextIntlClientProvider>
       </body>
     </html>

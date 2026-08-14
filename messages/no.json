@@ -2,6 +2,11 @@
   "metadata": {
     "title": "In Touch Massasjeterapi | Massasje i Drammen",
     "description": "Profesjonell massasjeterapi i Drammen. Tilbyr klassisk massasje, dypvevsmassasje og gravidmassasje. Bestill din time i dag."
+  },"CookieBanner": {
+    "title": "Ditt personvern",
+    "description": "Vi bruker informasjonskapsler for å sikre at nettsiden fungerer som den skal, analysere trafikk og tilpasse innhold. Du kan godta alle eller avvise valgfrie.",
+    "acceptAll": "Godta alle",
+    "rejectOptional": "Kun nødvendige"
   },
   "HomePage": {
     "title": "Hjem"

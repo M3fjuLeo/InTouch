@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   routing.locales.forEach((locale) => {
     Object.values(pathnames).forEach((slugData) => {
       let slug;
-      if (typeof slugData === "string") {
+      if (typeof slugData === "string") {  
         slug = slugData;
       } else {
         slug = slugData[locale as keyof typeof slugData];

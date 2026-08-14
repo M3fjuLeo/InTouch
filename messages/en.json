@@ -3,6 +3,12 @@
     "title": "In Touch Massage Therapy | Massage in Drammen",
     "description": "Professional massage therapy in Drammen. Offering classic massage, deep tissue massage, and pregnancy massage. Book your appointment today."
   },
+  "CookieBanner": {
+    "title": "Your privacy",
+    "description": "We use cookies to ensure the proper functioning of the site, analyze traffic, and customize content. You can accept all or reject optional ones.",
+    "acceptAll": "Accept all",
+    "rejectOptional": "Only necessary"
+  },
   "HomePage": {
     "title": "Home"
   },
