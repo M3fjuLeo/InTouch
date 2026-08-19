@@ -134,20 +134,56 @@
     "mockupDesc": "Ważny na wszystkie zabiegi w InTouch Studio"
   },
   "Footer": {
-    "description": "Holistyczne studio masażu i terapii w sercu Oslo. Zadbaj o równowagę ciała i umysłu.",
+    "description": "Profesjonalne studio masażu w Drammen.",
     "bookBtn": "Zarezerwuj wizytę",
     "navTitle": "Nawigacja",
-    "navHome": "Strona Główna",
-    "navAbout": "O Mnie",
-    "navOffer": "Oferta & Zabiegi",
-    "navVouchers": "Vouchery & Karty",
-    "contactTitle": "Kontakt & Social",
-    "legalTitle": "Aspekty Prawne",
-    "privacy": "Privacy Policy (Personvern)",
-    "terms": "Terms of Service (Vilkår)",
-    "rights": "All rights reserved.",
-    "location": "Oslo, Norway • CVR/Org: 929 173 848",
-    "closeModal": "Zamknij"
+    "navHome": "Strona główna",
+    "navAbout": "O nas",
+    "navOffer": "Oferta",
+    "navVouchers": "Vouchery",
+    "contactTitle": "Kontakt",
+    "legalTitle": "Informacje prawne",
+    "privacy": "Polityka Prywatności",
+    "terms": "Regulamin",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "location": "Drammen, Norwegia",
+    "closeModal": "Zamknij",
+    "privacyContent": [
+      {
+        "title": "1. Administrator danych",
+        "text": "Administratorem danych osobowych jest InTouch Massage Studio z siedzibą w Drammen (Org.nr: 929 173 848). Przetwarzamy dane zgodnie z norweską ustawą o ochronie danych osobowych (Personopplysningsloven) oraz RODO."
+      },
+      {
+        "title": "2. Cel i podstawa przetwarzania",
+        "text": "Dane zbierane są w celu obsługi rezerwacji, świadczenia usług terapeutycznych oraz spełnienia wymogów prawnych. Podstawą prawną jest wykonanie umowy (Art. 6 ust. 1 lit. b RODO) oraz obowiązek prawny (Art. 6 ust. 1 lit. c RODO)."
+      },
+      {
+        "title": "3. Odbiorcy danych",
+        "text": "Dane są bezpiecznie przechowywane u naszego certyfikowanego dostawcy systemu rezerwacji (Timma). Nie udostępniamy danych podmiotom trzecim w celach marketingowych bez wyraźnej zgody."
+      },
+      {
+        "title": "4. Prawa użytkownika",
+        "text": "Masz prawo do wglądu, poprawienia, przeniesienia lub usunięcia swoich danych. W celu realizacji tych praw skontaktuj się z nami pod adresem intouch.massasje@gmail.com."
+      }
+    ],
+    "termsContent": [
+      {
+        "title": "1. Rezerwacje i anulacje",
+        "text": "Bezpłatne anulowanie lub zmiana terminu wizyty możliwe są najpóźniej na 24 godziny przed zaplanowanym czasem. W przypadku późniejszej anulacji lub niestawienia się (no-show), klient zostanie obciążony kosztem w wysokości 100% ceny zabiegu."
+      },
+      {
+        "title": "2. Informacje zdrowotne",
+        "text": "Klient ma obowiązek przed rozpoczęciem zabiegu poinformować terapeutę o wszelkich schorzeniach, alergiach, przebytych operacjach lub ciąży. Zabiegi wykonywane są na własne ryzyko klienta, jeśli zataił on istotne informacje o stanie zdrowia."
+      },
+      {
+        "title": "3. Płatności",
+        "text": "Akceptujemy płatności po zakończeniu wizyty za pośrednictwem kart płatniczych, aplikacji Vipps oraz gotówką."
+      },
+      {
+        "title": "4. Spory konsumenckie",
+        "text": "Wszelkie reklamacje rozpatrywane są zgodnie z norweską ustawą o zakupach konsumenckich (Forbrukerkjøpsloven). W przypadku sporów klient może zwrócić się do Forbrukerrådet."
+      }
+    ]
   },
   "OfferPage": {
     "title": "Nasza Oferta",

@@ -9,10 +9,10 @@ import {
 } from "next-intl/server";
 import { routing } from "../../i18n/routing";
 import { Navbar } from "../components/navbar/Navbar";
-import { FooterSection } from "../components/footer/FooterSection";
 import { LocalBusinessSchema } from "../components/seo/LocalBusinessSchema";
 import "../globals.css";
 import { CookieBanner } from "../components/ui/CookieBanner";
+import { FooterSection } from "../components/footer/FooterSection";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ lang: locale }));

@@ -134,20 +134,56 @@
     "mockupDesc": "Valid for all treatments at InTouch Studio"
   },
   "Footer": {
-    "description": "Holistic massage and therapy studio in the heart of Oslo. Take care of your body and mind balance.",
+    "description": "Professional massage studio in Drammen.",
     "bookBtn": "Book an appointment",
     "navTitle": "Navigation",
     "navHome": "Home",
-    "navAbout": "About Me",
-    "navOffer": "Services & Treatments",
-    "navVouchers": "Vouchers & Cards",
-    "contactTitle": "Contact & Social",
+    "navAbout": "About Us",
+    "navOffer": "Treatments",
+    "navVouchers": "Vouchers",
+    "contactTitle": "Contact",
     "legalTitle": "Legal",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "terms": "Terms & Conditions",
     "rights": "All rights reserved.",
-    "location": "Oslo, Norway • Org. no.: 929 173 848",
-    "closeModal": "Close"
+    "location": "Drammen, Norway",
+    "closeModal": "Close",
+    "privacyContent": [
+      {
+        "title": "1. Data Controller",
+        "text": "The data controller is InTouch Massage Studio (Org.nr: 929 173 848) located in Drammen. We process data in accordance with the Norwegian Personal Data Act (Personopplysningsloven) and GDPR."
+      },
+      {
+        "title": "2. Purpose and Legal Basis",
+        "text": "We only collect information necessary for booking and providing therapeutic services. The legal basis is the performance of a contract (GDPR Art. 6(1)(b)) and legal obligations."
+      },
+      {
+        "title": "3. Data Processors",
+        "text": "Your data is stored securely with our certified booking system provider (Timma). We never share personal data with third parties for marketing purposes without consent."
+      },
+      {
+        "title": "4. Your Rights",
+        "text": "You have the right to access, rectify, delete, or port your data. Contact us at intouch.massasje@gmail.com to exercise your rights."
+      }
+    ],
+    "termsContent": [
+      {
+        "title": "1. Booking and Cancellation",
+        "text": "Cancellations or rescheduling must be done at least 24 hours before the appointment. Late cancellations or no-shows will be charged 100% of the treatment price."
+      },
+      {
+        "title": "2. Health Information",
+        "text": "The client is obliged to inform the therapist of any medical conditions, allergies, injuries, or pregnancy before the treatment begins."
+      },
+      {
+        "title": "3. Payment",
+        "text": "Payment is made after the treatment via card, Vipps, or cash at the studio."
+      },
+      {
+        "title": "4. Dispute Resolution",
+        "text": "Any complaints are handled in accordance with the Norwegian Consumer Purchases Act (Forbrukerkjøpsloven). In case of unresolved disputes, the client can contact the Consumer Council (Forbrukerrådet)."
+      }
+    ]
   },
   "OfferPage": {
     "title": "Our Services",
@@ -266,7 +302,8 @@
       "success": "Message sent successfully.",
       "error": "An error occurred while sending."
     }
-  },"FaqPage": {
+  },
+  "FaqPage": {
     "title": "FAQ",
     "subtitle": "Frequently Asked Questions",
     "contactPrompt": "Have other questions or concerns before your appointment? Feel free to contact me.",

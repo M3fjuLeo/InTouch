@@ -3,7 +3,7 @@ export function LocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
     name: "In Touch Massasjeterapi",
-    url: process.env.NEXT_PUBLIC_BASE_URL,
+    url: process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000",
     logo: `${process.env.NEXT_PUBLIC_BASE_URL}/icon.png`,
     image: `${process.env.NEXT_PUBLIC_BASE_URL}/icon.png`,
     telephone: process.env.NEXT_PUBLIC_CONTACT_PHONE,

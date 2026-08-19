@@ -134,20 +134,56 @@
     "mockupDesc": "Gyldig for alle behandlinger hos InTouch Studio"
   },
   "Footer": {
-    "description": "Holistisk massasje- og terapistudio i hjertet av Oslo. Ta vare på balansen mellom kropp og sinn.",
+    "description": "Profesjonelt massasjestudio i Drammen.",
     "bookBtn": "Bestill time",
     "navTitle": "Navigasjon",
     "navHome": "Hjem",
-    "navAbout": "Om Meg",
-    "navOffer": "Behandlinger & Tilbud",
-    "navVouchers": "Gavekort & Kort",
-    "contactTitle": "Kontakt & Sosiale medier",
+    "navAbout": "Om oss",
+    "navOffer": "Behandlinger",
+    "navVouchers": "Gavekort",
+    "contactTitle": "Kontakt",
     "legalTitle": "Juridisk",
     "privacy": "Personvernerklæring",
-    "terms": "Vilkår for bruk",
-    "rights": "Alle rettigheter reservert.",
-    "location": "Oslo, Norge • Org.nr.: 929 173 848",
-    "closeModal": "Lukk"
+    "terms": "Vilkår og betingelser",
+    "rights": "Med enerett.",
+    "location": "Drammen, Norge",
+    "closeModal": "Lukk",
+    "privacyContent": [
+      {
+        "title": "1. Behandlingsansvarlig",
+        "text": "InTouch Massage Studio (Org.nr: 929 173 848) er ansvarlig for behandlingen av personopplysninger, i samsvar med Personopplysningsloven og GDPR."
+      },
+      {
+        "title": "2. Formål og rettslig grunnlag",
+        "text": "Vi samler kun inn informasjon som er nødvendig for timebestilling og levering av tjenester. Grunnlaget er oppfyllelse av avtale (GDPR Art. 6 nr. 1 b) og rettslige forpliktelser."
+      },
+      {
+        "title": "3. Databehandlere",
+        "text": "Dine data lagres sikkert hos vår leverandør (Timma). Vi deler aldri personopplysninger med tredjeparter for markedsføring uten samtykke."
+      },
+      {
+        "title": "4. Dine rettigheter",
+        "text": "Du har rett til innsyn, retting, sletting eller dataportabilitet. Kontakt oss på intouch.massasje@gmail.com for å utøve dine rettigheter."
+      }
+    ],
+    "termsContent": [
+      {
+        "title": "1. Bestilling og avbestilling",
+        "text": "Avbestilling eller endring av time må skje senest 24 timer før avtalt tid. Ved for sen avbestilling eller manglende oppmøte (no-show) faktureres 100% av behandlingens pris."
+      },
+      {
+        "title": "2. Helseopplysninger",
+        "text": "Kunden plikter å informere terapeuten om eventuelle medisinske tilstander, allergier, skader eller graviditet før behandlingen starter."
+      },
+      {
+        "title": "3. Betaling",
+        "text": "Betaling skjer etter endt behandling via bankkort, Vipps eller kontant i lokalet."
+      },
+      {
+        "title": "4. Klagerett",
+        "text": "Eventuelle klager behandles i samsvar med Forbrukerkjøpsloven. Ved uløste tvister kan kunden kontakte Forbrukerrådet."
+      }
+    ]
   },
   "OfferPage": {
     "title": "Våre Behandlinger",

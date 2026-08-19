@@ -1,11 +1,20 @@
 "use client";
 
 import React, { useState } from "react";
-import { ArrowUpRight, Mail, ShieldCheck, FileText } from "lucide-react";
+import {
+  ArrowUpRight,
+  Mail,
+  ShieldCheck,
+  FileText,
+  Phone,
+  MapPin,
+} from "lucide-react";
 import { Link } from "../../../i18n/routing";
 import { Button } from "../ui/Button";
 import { LogoIcon } from "../ui/LogoIcon";
 import { InstagramIcon, FacebookIcon } from "../ui/SocialIcons";
+import { PrivacyPolicy } from "./PrivacyPolicy";
+import { TermsOfService } from "./TermsOfService";
 
 interface FooterClientProps {
   labels: {
@@ -23,17 +32,23 @@ interface FooterClientProps {
     rights: string;
     location: string;
     closeModal: string;
+    privacyContent: { title: string; text: string }[];
+    termsContent: { title: string; text: string }[];
   };
-  bookingUrl: string;
 }
 
-export const FooterClient: React.FC<FooterClientProps> = ({
-  labels,
-  bookingUrl,
-}) => {
+export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
   const [activeLegalModal, setActiveLegalModal] = useState<
     "privacy" | "terms" | null
   >(null);
+
+  const bookingUrl = process.env.NEXT_PUBLIC_BOOKING_URL || "";
+  const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+  const phone = process.env.NEXT_PUBLIC_CONTACT_PHONE;
+  const address = process.env.NEXT_PUBLIC_CONTACT_ADDRESS;
+  const orgNr = process.env.NEXT_PUBLIC_ORG_NR;
+  const instagramUrl = process.env.NEXT_PUBLIC_INSTAGRAM_URL;
+  const facebookUrl = process.env.NEXT_PUBLIC_FACEBOOK_URL;
 
   return (
     <footer className="bg-[#FDFBFB] text-[#3D2C2C] border-t border-[#3D2C2C]/10 pt-16 pb-12 px-6 sm:px-12 relative z-20">
@@ -79,14 +94,6 @@ export const FooterClient: React.FC<FooterClientProps> = ({
               </li>
               <li>
                 <Link
-                  href="/about"
-                  className="hover:opacity-70 transition-opacity"
-                >
-                  {labels.navAbout}
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/offer"
                   className="hover:opacity-70 transition-opacity"
                 >
@@ -95,10 +102,18 @@ export const FooterClient: React.FC<FooterClientProps> = ({
               </li>
               <li>
                 <Link
-                  href="/vouchers"
+                  href="/#vouchers"
                   className="hover:opacity-70 transition-opacity"
                 >
                   {labels.navVouchers}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/faq"
+                  className="hover:opacity-70 transition-opacity"
+                >
+                  FAQ
                 </Link>
               </li>
             </ul>
@@ -109,37 +124,62 @@ export const FooterClient: React.FC<FooterClientProps> = ({
               {labels.contactTitle}
             </h4>
             <ul className="space-y-3 text-xs sm:text-sm text-[#3D2C2C]/90 font-light">
-              <li>
-                <a
-                  href="mailto:contact@intouchmassage.no"
-                  className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
-                >
-                  <Mail className="w-4 h-4 text-[#3D2C2C]/60" />
-                  <span>contact@intouchmassage.no</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
-                >
-                  <InstagramIcon className="w-4 h-4 text-[#3D2C2C]/60" />
-                  <span>Instagram</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
-                >
-                  <FacebookIcon className="w-4 h-4 text-[#3D2C2C]/60" />
-                  <span>Facebook</span>
-                </a>
-              </li>
+              {instagramUrl && (
+                <li>
+                  <a
+                    href={instagramUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
+                  >
+                    <InstagramIcon className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <span>Instagram</span>
+                  </a>
+                </li>
+              )}
+              {facebookUrl && (
+                <li>
+                  <a
+                    href={facebookUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
+                  >
+                    <FacebookIcon className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <span>Facebook</span>
+                  </a>
+                </li>
+              )}
+              {phone && (
+                <li>
+                  <a
+                    href={`tel:${phone.replace(/\s/g, "")}`}
+                    className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
+                  >
+                    <Phone className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <span>{phone}</span>
+                  </a>
+                </li>
+              )}
+              {email && (
+                <li>
+                  <a
+                    href={`mailto:${email}`}
+                    className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
+                  >
+                    <Mail className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <span>{email}</span>
+                  </a>
+                </li>
+              )}
+              {address && (
+                <li>
+                  <span className="inline-flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <span>{address}</span>
+                  </span>
+                </li>
+              )}
             </ul>
           </div>
 
@@ -153,7 +193,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({
                   onClick={() => setActiveLegalModal("privacy")}
                   className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity cursor-pointer text-left"
                 >
-                  <ShieldCheck className="w-4 h-4 text-[#3D2C2C]/60" />
+                  <ShieldCheck className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
                   <span>{labels.privacy}</span>
                 </button>
               </li>
@@ -162,7 +202,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({
                   onClick={() => setActiveLegalModal("terms")}
                   className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity cursor-pointer text-left"
                 >
-                  <FileText className="w-4 h-4 text-[#3D2C2C]/60" />
+                  <FileText className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
                   <span>{labels.terms}</span>
                 </button>
               </li>
@@ -172,7 +212,8 @@ export const FooterClient: React.FC<FooterClientProps> = ({
 
         <div className="pt-8 border-t border-[#3D2C2C]/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#3D2C2C]/60 font-light">
           <p>
-            © {new Date().getFullYear()} InTouch Massage Studio. {labels.rights}
+            © {new Date().getFullYear()} InTouch Massage Studio. {labels.rights}{" "}
+            {orgNr && `| Org.nr: ${orgNr}`}
           </p>
           <p className="tracking-wider uppercase text-[10px]">
             {labels.location}
@@ -187,9 +228,9 @@ export const FooterClient: React.FC<FooterClientProps> = ({
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="bg-[#FDFBFB] border border-[#3D2C2C]/15 rounded-3xl p-6 sm:p-10 max-w-2xl w-full text-[#3D2C2C] shadow-2xl relative max-h-[85vh] overflow-y-auto custom-scrollbar"
+            className="bg-[#FDFBFB] border border-[#3D2C2C]/15 rounded-3xl p-6 sm:p-10 max-w-2xl w-full text-[#3D2C2C] shadow-2xl relative max-h-[85vh] flex flex-col"
           >
-            <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#3D2C2C]/10">
+            <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#3D2C2C]/10 shrink-0">
               <h3 className="font-serif-custom text-2xl font-normal text-[#3D2C2C]">
                 {activeLegalModal === "privacy" ? labels.privacy : labels.terms}
               </h3>
@@ -201,54 +242,15 @@ export const FooterClient: React.FC<FooterClientProps> = ({
               </button>
             </div>
 
-            <div className="text-xs sm:text-sm text-[#3D2C2C]/80 font-light leading-relaxed space-y-4">
+            <div className="text-xs sm:text-sm text-[#3D2C2C]/80 font-light leading-relaxed space-y-4 overflow-y-auto custom-scrollbar pr-2">
               {activeLegalModal === "privacy" ? (
-                <>
-                  <p>
-                    <strong>1. Behandling av Personopplysninger:</strong>{" "}
-                    InTouch Massage Studio behandler personopplysninger i
-                    samsvar med den gjeldende personvernforordningen (GDPR).
-                  </p>
-                  <p>
-                    <strong>2. Formål:</strong> Vi samler kun inn informasjon
-                    som er nødvendig for å gjennomføre timebestilling, levere
-                    terapeutiske tjenester og oppfylle lovpålagte helsekrav.
-                  </p>
-                  <p>
-                    <strong>3. Lagring og Sikkerhet:</strong> Deres data
-                    oppbevares sikkert hos våre sertifiserte databehandlere
-                    (Timma). Vi deler aldri informasjon med tredjeparter uten
-                    samtykke.
-                  </p>
-                  <p>
-                    <strong>4. Dine Rettigheter:</strong> Du har rett til
-                    innsyn, retting eller sletting av dine lagrede
-                    personopplysninger når som helst ved å kontakte oss på
-                    contact@intouchmassage.no.
-                  </p>
-                </>
+                <PrivacyPolicy content={labels.privacyContent} />
               ) : (
-                <>
-                  <p>
-                    <strong>1. Bestilling og Avbestilling:</strong> Avbestilling
-                    eller endring av time må skje senest 24 timer før avtalt
-                    tid. Ved for sen avbestilling eller uteblivelse faktureres
-                    100% av behandlingens pris.
-                  </p>
-                  <p>
-                    <strong>2. Helseopplysninger:</strong> Kunden plikter å
-                    informere terapeuten om eventuelle medisinske tilstander,
-                    allergier eller graviditet før behandlingen starter.
-                  </p>
-                  <p>
-                    <strong>3. Betaling:</strong> Betaling skjer etter endt
-                    behandling via kort, Vipps eller kontant i lokalet.
-                  </p>
-                </>
+                <TermsOfService content={labels.termsContent} />
               )}
             </div>
 
-            <div className="mt-8 pt-4 border-t border-[#3D2C2C]/10 text-right">
+            <div className="mt-8 pt-4 border-t border-[#3D2C2C]/10 text-right shrink-0">
               <Button onClick={() => setActiveLegalModal(null)} size="sm">
                 {labels.closeModal}
               </Button>
