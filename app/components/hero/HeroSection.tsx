@@ -46,7 +46,7 @@ export async function HeroSection() {
             {t("bookBtn")}
           </Button>
           <Button
-            href="/vouchers"
+            href="#vouchers"
             variant="outline"
             size="lg"
             className="border-white/40 text-white hover:bg-white/10 hover:border-white"

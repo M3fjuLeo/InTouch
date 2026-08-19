@@ -2,7 +2,8 @@
   "metadata": {
     "title": "In Touch Massasjeterapi | Massasje i Drammen",
     "description": "Profesjonell massasjeterapi i Drammen. Tilbyr klassisk massasje, dypvevsmassasje og gravidmassasje. Bestill din time i dag."
-  },"CookieBanner": {
+  },
+  "CookieBanner": {
     "title": "Ditt personvern",
     "description": "Vi bruker informasjonskapsler for å sikre at nettsiden fungerer som den skal, analysere trafikk og tilpasse innhold. Du kan godta alle eller avvise valgfrie.",
     "acceptAll": "Godta alle",
@@ -265,5 +266,123 @@
       "success": "Meldingen ble sendt.",
       "error": "Det oppstod en feil under sending."
     }
+  },
+  "FaqPage": {
+    "title": "FAQ",
+    "subtitle": "Ofte stilte spørsmål",
+    "contactPrompt": "Har du andre spørsmål eller bekymringer før timen? Ta gjerne kontakt med meg.",
+    "contactButton": "Gå til kontakt",
+    "faqs": [
+      {
+        "id": "1",
+        "question": "Hvordan velger jeg riktig massasje?",
+        "answer": "Velg varigheten på massasjen du har lyst på. Hvis dette er din første gang hos meg, oppfordrer jeg deg spesielt til å bestille 60 min full kroppsmassasje.\nFør hver massasje vil jeg ha en kort samtale med deg. Du vil fortelle meg om dine behov, spenninger og hva du bryr deg mest om.\nDu trenger ikke å vite nøyaktig hva kroppen din trenger — det er derfor jeg er her."
+      },
+      {
+        "id": "2",
+        "question": "Hvordan kan jeg bestille en time?",
+        "answer": "Å bestille en time er veldig enkelt. Du finner lenken til bestilling direkte på forsiden.\nVelg massasjen du er interessert i, varigheten på behandlingen og en passende dato — og ferdig.\nJeg tar ikke imot bestillinger på telefon eller SMS. Alle timer bestilles online."
+      },
+      {
+        "id": "3",
+        "question": "Kan jeg kontakte deg per telefon?",
+        "answer": "Jeg har vanligvis hendene fulle når jeg jobber med klienter, og derfor kan jeg ikke alltid ta telefonen.\nI nødsituasjoner, hvis jeg har mulighet, kan jeg raskt svare på en SMS.\nHvis du har spørsmål, ønsker å vite mer om massasjen eller trenger hjelp før timen, vennligst bruk kontaktskjemaet som er tilgjengelig på nettsiden.\nDette gjør at jeg kan rolig fokusere på personen som for øyeblikket er på benken."
+      },
+      {
+        "id": "4",
+        "question": "Hvordan forbereder jeg meg til en massasje?",
+        "answer": "For å gjøre massasjen så behagelig som mulig for deg:\n\n• Ikke spis ca. 1,5–2 timer før massasjen.\n• Hvis du kommer rett etter en treningsøkt, ta en dusj. Hygiene er svært viktig for meg.\n• Ikke røyk sigaretter umiddelbart før massasjen.\n• Ikke drikk alkohol før massasjen.\n• Fjern alle smykker — det beste er å la dem ligge hjemme eller oppbevare dem trygt i vesken.\n• Planlegg besøket slik at du ikke kommer i hui og hast rett fra jobb.\n• Hvis du har en skade, helseplager, bruker medisiner eller hvis noe har skjedd som kan ha betydning for massasjen — informer meg før vi starter.\n\nKom i ro og orden, frisk etter en dusj, og gi deg selv et øyeblikk til å puste. Resten tar jeg meg av."
+      },
+      {
+        "id": "5",
+        "question": "Må jeg forberede meg på en spesiell måte når det gjelder kroppshår?",
+        "answer": "Du trenger ikke å vokse eller barbere deg før massasjen.\nHerrer, hvis kroppshåret er veldig tett, ber jeg bare om en skånsom stussing i stedet for full fjerning. Kortere hår vil gjøre arbeidet mitt enklere og massasjen mer behagelig.\nDamer trenger ikke å barbere bena før besøket. Du trenger ikke å unnskylde deg for det eller føle deg flau.\nOg det viktigste av alt — ikke unnskyld for hvordan kroppen din ser ut.\nJeg er ikke her for å dømmme deg. Jeg har sett tusenvis av menneskekropper — hver og en forskjellig, hver og en unik.\nDette stedet er for at du kan legge fra deg selv-dømmingen et øyeblikk, føle deg trygg og bare omfavne deg selv.\nOg jeg skal hjelpe deg med det."
+      },
+      {
+        "id": "6",
+        "question": "Må jeg kle av meg til massasjen?",
+        "answer": "Herrer blir bedt om å beholde undertøyet på, mens damer kan beholde undertøystrusen på.\nKroppen er trygt tildekket og svøpt inn. Kun den spesifikke delen av kroppen jeg jobber med for øyeblikket avdekkes.\nDin følelse av trygghet og komfort er det viktigste for meg."
+      },
+      {
+        "id": "7",
+        "question": "Gjør massasjen vondt?",
+        "answer": "Massasjen kan være intens, spesielt når vi jobber med områder som er sterkt spente, men smerten bør være behagelig, avslappende og gi en følelse av lindring.\nUnder massasjen forblir vi i konstant kontakt. Jeg lytter til kroppen din, observerer reaksjonene dens og tilpasser intensiteten til dine behov.\nHvis noe er for sterkt eller ubehagelig — si ifra til meg."
+      },
+      {
+        "id": "8",
+        "question": "Kan jeg be om en sterkere eller mildere massasje?",
+        "answer": "Selvfølgelig.\nIntensiteten på massasjen kan alltid tilpasses dine preferanser og din aktuelle form.\nDet finnes ikke én riktig intensitet for alle. Det som er ideelt trykk for én person, kan være for sterkt for en annen.\nDerfor lytter jeg til deg og kroppen din gjennom hele behandlingen."
+      },
+      {
+        "id": "9",
+        "question": "Kan jeg peke ut et bestemt område du bør fokusere på?",
+        "answer": "Ja. Hvis nakken, ryggen, skuldrene, bena, hoftene eller en annen del av kroppen plager deg mest — fortell meg om det under samtalen.\nMassasjetiden er begrenset, så vi vil sammen sette prioriteringer for å få mest mulig ut av tiden som er satt av til behandlingen din."
+      },
+      {
+        "id": "10",
+        "question": "Må man snakke under massasjen?",
+        "answer": "Absolutt ikke.\nDu kan snakke med meg hvis du har lyst til det, men du kan også koble helt ut.\nJeg forventer ikke samtale. Du kan bare lukke øynene, puste og hvile.\nDette er din tid."
+      },
+      {
+        "id": "11",
+        "question": "Kan jeg sovne under massasjen?",
+        "answer": "Selvfølgelig!\nHvis kroppen og nervesystemet ditt endelig gir slipp nok til at du sovner — tillat deg selv å gjøre det.\nFor meg er det et tegn på at du har klart å virkelig koble ut fra hverdagen og gå inn i en tilstand av dyp avslapning."
+      },
+      {
+        "id": "12",
+        "question": "Er massasjen egnet for personer som aldri har fått massasje før?",
+        "answer": "Helt absolutt!\nHvis dette er første gang, vennligst informer meg om det. Jeg vil forklare alt grundig og sørge for at du vet hva du kan forvente.\nDu trenger ikke å stresse for noe — jeg vil guide deg gjennom hele behandlingen."
+      },
+      {
+        "id": "13",
+        "question": "Utfører du massasje for gravide kvinner?",
+        "answer": "Ja! Jeg har en spesiell, komfortabel pute beregnet for gravide kvinner og en dedikert massasje tilgjengelig i bestillingssystemet.\nHvis du ikke har noen kontraindikasjoner og er mellom uke 13 og 35 i svangerskapet, er du velkommen.\nFørste trimester og sluttfasen av svangerskapet krever spesiell forsiktighet, og derfor utføres ikke massasjer i disse periodene her av sikkerhetsmessige grunner.\nHvis du er i tvil, konsulter legen din eller jordmoren om mulighet for massasje."
+      },
+      {
+        "id": "14",
+        "question": "Kan jeg få massasje under menstruasjonen?",
+        "answer": "Ja. Menstruasjon i seg selv er ikke en kontraindikasjon mot massasje.\nAlt avhenger av hvordan du føler deg.\nHvis du sliter med sterke menssmerter eller tar smertestillende medikamenter, kan oppfatningen din av stimuli være endret.\nInformer meg om det, og jeg vil ha det i bakhodet under massasjen."
+      },
+      {
+        "id": "15",
+        "question": "Kan jeg komme til massasje hvis jeg er syk?",
+        "answer": "Hvis du er snørrete, har vondt i halsen, hoster, har feber eller andre tegn på sykdom — bli hjemme og flytt timen.\nArbeidet mitt innebærer direkte kontakt med mennesker. Hvis du smitter meg, blir jeg nødt til å avlyse de neste timene.\nSom liten bedriftseier har jeg virkelig ikke tid til det.\nHvis du kjenner at noe er på gang, skriv til meg, så flytter vi timen."
+      },
+      {
+        "id": "16",
+        "question": "Jeg har andre helseproblemer. Kan jeg få massasje?",
+        "answer": "Hvis du har helseproblemer, en skade, har vært gjennom operasjon, tar medisiner eller har noen form for tvil — skriv til meg før timen.\nInformer meg om alt som kan ha betydning for massasjen, så vil jeg forklare nøyaktig hvordan vi kan tilnærme oss behandlingen.\nEr du usikker — det er alltid bedre å spørre."
+      },
+      {
+        "id": "17",
+        "question": "Hva bør jeg gjøre etter massasjen?",
+        "answer": "Etter massasjen bør du gi deg selv tid til å hvile.\nDrikk en varm kopp te, sørg for god væskebalanse og planlegg resten av dagen uten store forpliktelser.\nLes en bok, krøl deg sammen under et teppe, koble av, og aller helst gå tidlig til sengs.\nHvis mulig, unngå intens trening og hard anstrengelse umiddelbart etter massasjen.\nSakt ned. Pust. La kroppen din gjøre resten."
+      },
+      {
+        "id": "18",
+        "question": "Kan musklene gjøre vondt etter massasjen?",
+        "answer": "Etter en mer intens massasje kan det oppstå midlertidig ømhet i musklene eller en følelse som ligner på det man har etter en treningsøkt.\nMen hvis det oppstår skarp, uvanlig smerte eller noe bekymrer deg — ta kontakt med meg."
+      },
+      {
+        "id": "19",
+        "question": "Hvor ofte bør man ta massasje?",
+        "answer": "Massasje er alltid en god idé.\nJo oftere du gir deg selv et øyeblikk med oppmerksomhet, stopp og ekte avslapning, jo bedre for nervesystemet ditt.\nDu trenger ikke å vente til spenningen blir uutholdelig.\nMitt minimum for alle? Massasje 1x i måneden.\nBehandle det ikke som en luksus, men som en fast form for egenomsorg."
+      },
+      {
+        "id": "20",
+        "question": "Kan jeg kjøpe et gavekort på massasje?",
+        "answer": "Selvfølgelig!\nDu kan kjøpe gavekort via skjemaet på nettsiden.\nDu kan hente det elegant innpakket på studioet, eller — hvis du ikke kan hente det personlig — kan jeg sende deg en spesialgenerert lenke til mottakeren.\nDette er alltid en unik gave — å gi noen omsorg, oppmerksomhet og tid bare for seg selv."
+      },
+      {
+        "id": "21",
+        "question": "Kan jeg avlyse eller endre en time?",
+        "answer": "Ja. Du kan gjøre dette selv ved å bruke lenken som finnes i bestillingsbekreftelsen.\nAvbestilling eller endring av time er mulig senest 24 timer før tidspunktet.\nTimen din er reservert utelukkende for deg. Tidlig beskjed gir meg mulighet til å tilby den til en annen person.\nVed avbestilling senere enn 24 timer før timen eller ved manglende oppmøte, må timen betales i sin helhet og faktura vil bli utstedt.\nVennligst — respekter min tid akkurat slik jeg respekterer din."
+      },
+      {
+        "id": "22",
+        "question": "Hva om jeg kommer for sent til timen?",
+        "answer": "Hver time er satt opp til et bestemt klokkeslett, og en annen klient kan vente etter deg.\nDerfor utvider jeg ikke massasjen med den tiden du er for sen — av respekt for de neste personene og deres reserverte tid.\nVennligst send en kort SMS hvis du vet at du blir for sen.\nPunktlighet lar meg tilby hver enkelt klient et rolig og profesjonelt besøk."
+      }
+    ]
   }
 }

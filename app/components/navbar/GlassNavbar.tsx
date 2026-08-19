@@ -49,13 +49,26 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
     e: React.MouseEvent<HTMLAnchorElement>,
     link: NavLink
   ) => {
-    if (link.hash && pathname === link.href) {
+    if (pathname === link.href) {
       e.preventDefault();
-      const element = document.getElementById(link.hash);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-        window.history.pushState(null, "", `#${link.hash}`);
+
+      if (link.hash) {
+        const element = document.getElementById(link.hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+          window.history.pushState(null, "", `#${link.hash}`);
+        }
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }
+    }
+    setMobileMenuOpen(false);
+  };
+
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
     setMobileMenuOpen(false);
   };
@@ -73,6 +86,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
           >
             <Link
               href="/"
+              onClick={handleLogoClick}
               className="flex items-center gap-3 group cursor-pointer focus:outline-none"
             >
               <div className="flex items-center justify-center transition-transform group-hover:scale-105">
@@ -88,9 +102,10 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
 
             <nav className="hidden md:flex items-center gap-8 text-sm font-light text-white/90">
               {links.map((link) => {
+                // Uproszczone generowanie linków (bez as any)
                 const linkTarget = link.hash
-                  ? { pathname: link.href as any, hash: link.hash }
-                  : (link.href as any);
+                  ? `${link.href}#${link.hash}`
+                  : link.href;
 
                 return (
                   <Link
@@ -113,7 +128,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
                   <Link
                     key={loc}
                     href={pathname}
-                    locale={loc as any}
+                    locale={loc}
                     className={`text-xs font-medium uppercase transition-colors ${
                       currentLocale === loc
                         ? "text-brand-primary"
@@ -146,7 +161,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
         <div className="flex items-center justify-between px-7 py-6 border-b border-white/10">
           <Link
             href="/"
-            onClick={() => setMobileMenuOpen(false)}
+            onClick={handleLogoClick}
             className="flex items-center gap-3"
           >
             <LogoIcon
@@ -168,9 +183,10 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
         <div className="flex flex-col justify-between h-full px-8 py-12">
           <div className="flex flex-col gap-8">
             {links.map((link) => {
+              // Uproszczone generowanie linków w menu mobilnym
               const linkTarget = link.hash
-                ? { pathname: link.href as any, hash: link.hash }
-                : (link.href as any);
+                ? `${link.href}#${link.hash}`
+                : link.href;
 
               return (
                 <Link
@@ -190,7 +206,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
               <Link
                 key={loc}
                 href={pathname}
-                locale={loc as any}
+                locale={loc}
                 onClick={() => setMobileMenuOpen(false)}
                 className={`text-base font-medium uppercase tracking-widest transition-colors ${
                   currentLocale === loc

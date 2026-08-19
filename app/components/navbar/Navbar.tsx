@@ -10,6 +10,7 @@ export async function Navbar() {
     { href: "/offer", label: t("offer") },
     { href: "/", hash: "vouchers", label: t("vouchers") },
     { href: "/contact", label: t("contact") },
+    { href: "/faq", label: "FAQ" },
   ];
 
   return <GlassNavbar links={links} currentLocale={locale} />;

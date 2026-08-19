@@ -266,5 +266,123 @@
       "success": "Wiadomość została wysłana.",
       "error": "Wystąpił błąd podczas wysyłania."
     }
+  },
+  "FaqPage": {
+    "title": "FAQ",
+    "subtitle": "Najczęściej zadawane pytania",
+    "contactPrompt": "Masz inne pytania lub wątpliwości przed wizytą? Śmiało, skontaktuj się ze mną.",
+    "contactButton": "Przejdź do kontaktu",
+    "faqs": [
+      {
+        "id": "1",
+        "question": "Jak wybrać odpowiedni masaż?",
+        "answer": "Wybierz długość masażu, na którą masz ochotę. Jeśli jesteś u mnie pierwszy raz, szczególnie zachęcam do skorzystania z masażu całego ciała 60 min.\nPrzed każdym masażem przeprowadzę z Tobą krótki wywiad. Opowiesz mi o swoich potrzebach, napięciach i tym, na czym najbardziej Ci zależy.\nNie musisz wiedzieć, czego dokładnie potrzebuje Twoje ciało — od tego jestem ja."
+      },
+      {
+        "id": "2",
+        "question": "Jak mogę zarezerwować wizytę?",
+        "answer": "Rezerwacja wizyty jest bardzo prosta. Link do rezerwacji znajdziesz bezpośrednio na stronie głównej.\nWybierz interesujący Cię masaż, długość zabiegu oraz dogodny termin — i gotowe.\nNie przyjmuję rezerwacji telefonicznych ani przez SMS. Wszystkie wizyty rezerwujemy online."
+      },
+      {
+        "id": "3",
+        "question": "Czy mogę skontaktować się z Tobą telefonicznie?",
+        "answer": "Zazwyczaj mam zajęte ręce podczas pracy z klientami, dlatego nie zawsze mogę odebrać telefon.\nW sytuacjach awaryjnych, jeśli mam taką możliwość, mogę szybko odpisać na SMS.\nJeśli masz pytania, chcesz dowiedzieć się więcej o masażu lub potrzebujesz pomocy przed wizytą, proszę skorzystaj z formularza kontaktowego dostępnego na stronie.\nDzięki temu mogę spokojnie skupić się na osobie, która właśnie jest na stole."
+      },
+      {
+        "id": "4",
+        "question": "Jak przygotować się do masażu?",
+        "answer": "Aby masaż był dla Ciebie jak najbardziej komfortowy:\n\n• Nie jedz około 1,5–2 godziny przed masażem.\n• Jeśli przychodzisz bezpośrednio po treningu, weź prysznic. Higiena jest dla mnie bardzo ważna.\n• Nie pal papierosów bezpośrednio przed masażem.\n• Nie pij alkoholu przed masażem.\n• Zdejmij całą biżuterię — najlepiej zostaw ją w domu lub schowaj bezpiecznie w torebce.\n• Zaplanuj wizytę tak, aby nie przychodzić w pośpiechu prosto z pracy.\n• Jeśli masz uraz, dolegliwość, przyjmujesz leki lub wydarzyło się coś, co może mieć znaczenie dla masażu — poinformuj mnie przed rozpoczęciem.\n\nPrzyjdź spokojnie, świeżo po prysznicu i daj sobie chwilę oddechu. Resztą zajmę się ja."
+      },
+      {
+        "id": "5",
+        "question": "Czy muszę przygotować się w jakiś szczególny sposób pod względem owłosienia?",
+        "answer": "Nie musisz się depilować ani golić przed masażem.\nPanowie, jeśli owłosienie na ciele jest bardzo obfite, proszę jedynie o delikatne przycięcie, a nie całkowitą depilację. Krótsze włosy ułatwią mi pracę i sprawią, że masaż będzie bardziej komfortowy.\nPanie nie muszą golić nóg przed wizytą. Nie musisz się za to przepraszać ani czuć skrępowania.\nI co najważniejsze — nie przepraszaj za wygląd swojego ciała.\nNie jestem tutaj po to, żeby Cię oceniać. Widziałam tysiące ludzkich ciał — każde inne, każde wyjątkowe.\nTo miejsce jest po to, żebyś mogła/mógł na chwilę odłożyć ocenianie siebie, poczuć się bezpiecznie i po prostu przytulić samą/samego siebie.\nA ja Ci w tym pomogę."
+      },
+      {
+        "id": "6",
+        "question": "Czy trzeba się rozebrać do masażu?",
+        "answer": "Panowie proszeni są o pozostanie w bieliźnie, natomiast panie mogą pozostać w samych majtkach.\nCiało jest bezpiecznie przykryte i otulone. Odkrywana jest wyłącznie ta część ciała, nad którą aktualnie pracuję.\nTwoje poczucie bezpieczeństwa i komfort są dla mnie najważniejsze."
+      },
+      {
+        "id": "7",
+        "question": "Czy masaż boli?",
+        "answer": "Masaż może być intensywny, szczególnie jeśli pracujemy z mocno napiętymi obszarami, ale ból powinien być przyjemny, odprężający i dający poczucie ulgi.\nPodczas masażu pozostajemy w stałym kontakcie. Słucham Twojego ciała, obserwuję jego reakcje i dostosowuję intensywność do Twoich potrzeb.\nJeśli coś jest zbyt mocne lub niekomfortowe — mów mi o tym."
+      },
+      {
+        "id": "8",
+        "question": "Czy mogę poprosić o mocniejszy albo delikatniejszy masaż?",
+        "answer": "Oczywiście.\nIntensywność masażu zawsze możemy dostosować do Twoich preferencji i aktualnego samopoczucia.\nNie ma jednej właściwej intensywności dla każdego. To, co dla jednej osoby jest idealnym naciskiem, dla innej może być zbyt mocne.\nDlatego słucham Ciebie i Twojego ciała przez cały zabieg."
+      },
+      {
+        "id": "9",
+        "question": "Czy mogę wskazać konkretny obszar, na którym chcesz się skupić?",
+        "answer": "Tak. Jeśli najbardziej dokucza Ci kark, plecy, ramiona, nogi, biodra czy inna część ciała — powiedz mi o tym podczas wywiadu.\nCzas masażu jest ograniczony, dlatego wspólnie ustalimy priorytety, aby jak najlepiej wykorzystać czas przeznaczony na Twój zabieg."
+      },
+      {
+        "id": "10",
+        "question": "Czy podczas masażu trzeba rozmawiać?",
+        "answer": "Absolutnie nie.\nMożesz ze mną rozmawiać, jeśli masz na to ochotę, ale możesz również całkowicie się wyciszyć.\nNie oczekuję rozmowy. Możesz po prostu zamknąć oczy, odetchnąć i odpocząć.\nTo jest Twój czas."
+      },
+      {
+        "id": "11",
+        "question": "Czy mogę zasnąć podczas masażu?",
+        "answer": "Oczywiście!\nJeśli Twoje ciało i układ nerwowy w końcu odpuszczą na tyle, że zaśniesz — pozwól sobie na to.\nDla mnie to znak, że udało Ci się naprawdę odłączyć od codzienności i wejść w stan głębokiego relaksu."
+      },
+      {
+        "id": "12",
+        "question": "Czy masaż jest odpowiedni dla osób, które nigdy wcześniej nie korzystały z masażu?",
+        "answer": "Jak najbardziej!\nJeśli jesteś pierwszy raz, poinformuj mnie o tym. Wszystko dokładnie Ci wytłumaczę i zadbam o to, żebyś wiedział/wiedziała, czego się spodziewać.\nNie musisz się niczym stresować — poprowadzę Cię przez cały zabieg."
+      },
+      {
+        "id": "13",
+        "question": "Czy wykonujesz masaż kobietom w ciąży?",
+        "answer": "Tak! Mam specjalną, wygodną poduszkę przeznaczoną dla kobiet w ciąży oraz dedykowany masaż dostępny w systemie rezerwacji.\nJeśli nie masz przeciwwskazań i jesteś pomiędzy 13. a 35. tygodniem ciąży, zapraszam.\nPierwszy trymestr oraz końcowy etap ciąży wymagają szczególnej ostrożności, dlatego ze względów bezpieczeństwa masaże w tych okresach nie są u mnie wykonywane.\nW razie wątpliwości skonsultuj możliwość masażu ze swoim lekarzem lub położną."
+      },
+      {
+        "id": "14",
+        "question": "Czy mogę skorzystać z masażu podczas menstruacji?",
+        "answer": "Tak. Menstruacja sama w sobie nie jest przeciwwskazaniem do masażu.\nWszystko zależy od Twojego samopoczucia.\nJeśli ciężko znosisz bóle menstruacyjne albo przyjmujesz leki przeciwbólowe, możesz mieć zmienione odczuwanie bodźców.\nPoinformuj mnie o tym, a będę miała to na uwadze podczas masażu."
+      },
+      {
+        "id": "15",
+        "question": "Czy mogę przyjść na masaż, jeśli jestem chora/chory?",
+        "answer": "Jeśli jesteś zasmarkana/y, boli Cię gardło, kaszlesz, masz gorączkę lub inne oznaki choroby — zostań w domu i przełóż wizytę.\nMoja praca to bezpośredni kontakt z ludźmi. Jeśli zarazisz mnie, będę musiała odwołać kolejne wizyty.\nJako mały przedsiębiorca naprawdę nie mam na to czasu.\nJeśli czujesz, że coś Cię bierze, napisz do mnie i przełożymy wizytę."
+      },
+      {
+        "id": "16",
+        "question": "Mam inne problemy zdrowotne. Czy mogę skorzystać z masażu?",
+        "answer": "Jeśli masz problemy zdrowotne, uraz, jesteś po operacji, przyjmujesz leki lub masz jakiekolwiek wątpliwości — napisz do mnie przed wizytą.\nPoinformuj mnie o wszystkim, co może mieć znaczenie dla masażu, a dokładnie Ci wyjaśnię, jak możemy podejść do zabiegu.\nJeśli nie masz pewności — zawsze lepiej zapytać."
+      },
+      {
+        "id": "17",
+        "question": "Co zrobić po masażu?",
+        "answer": "Po masażu daj sobie czas na odpoczynek.\nNapij się ciepłej herbaty, zadbaj o nawodnienie i zaplanuj resztę dnia bez większych obowiązków.\nPoczytaj książkę, wejdź pod kocyk, wycisz się, a najlepiej idź wcześniej spać.\nJeśli możesz, unikaj intensywnego treningu i dużego wysiłku bezpośrednio po masażu.\nZwolnij. Odetchnij. Pozwól swojemu ciału zrobić resztę."
+      },
+      {
+        "id": "18",
+        "question": "Czy po masażu mogą boleć mięśnie?",
+        "answer": "Po intensywniejszym masażu może pojawić się przejściowa wrażliwość mięśni lub uczucie podobne do tego po treningu.\nJeśli jednak pojawi się silny, nietypowy ból lub coś Cię zaniepokoi — skontaktuj się ze mną."
+      },
+      {
+        "id": "19",
+        "question": "Jak często warto korzystać z masażu?",
+        "answer": "Masaż jest zawsze dobrym pomysłem.\nIm częściej dajesz sobie chwilę uważności, zatrzymania i prawdziwego relaksu, tym lepiej dla Twojego układu nerwowego.\nNie musisz czekać, aż napięcie stanie się nie do zniesienia.\nMoje minimum dla każdego? Masaż 1× w miesiącu.\nPotraktuj go nie jako luksus, ale jako regularną formę troski o siebie."
+      },
+      {
+        "id": "20",
+        "question": "Czy mogę kupić voucher na masaż?",
+        "answer": "Oczywiście!\nVoucher możesz zakupić poprzez formularz na stronie.\nMożesz odebrać go elegancko zapakowanego w gabinecie albo — jeśli nie możesz odebrać go osobiście — mogę wysłać Ci specjalnie wygenerowany link dla osoby obdarowanej.\nTo zawsze wyjątkowy prezent — podarowanie komuś troski, uwagi i czasu tylko dla siebie."
+      },
+      {
+        "id": "21",
+        "question": "Czy mogę odwołać lub przełożyć wizytę?",
+        "answer": "Tak. Możesz zrobić to samodzielnie poprzez link znajdujący się w potwierdzeniu rezerwacji.\nOdwołanie lub zmiana wizyty możliwe są najpóźniej 24 godziny przed terminem.\nTwój termin jest zarezerwowany wyłącznie dla Ciebie. Wcześniejsza informacja daje mi możliwość zaoferowania go innej osobie.\nW przypadku odwołania później niż 24 godziny przed wizytą lub niepojawienia się na niej, wizyta jest w pełni płatna i zostanie wystawiona faktura.\nProszę — szanuj mój czas tak samo, jak ja szanuję Twój."
+      },
+      {
+        "id": "22",
+        "question": "Co jeśli spóźnię się na wizytę?",
+        "answer": "Każda wizyta jest zaplanowana na konkretną godzinę, a po Tobie może czekać kolejny klient.\nDlatego nie przedłużam masażu o czas Twojego spóźnienia — z szacunku do kolejnych osób i ich zarezerwowanego czasu.\nJeśli wiesz, że się spóźnisz, proszę o krótką wiadomość SMS.\nPunktualność pozwala mi zapewnić każdemu klientowi spokojną i profesjonalną wizytę."
+      }
+    ]
   }
 }

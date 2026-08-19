@@ -1,30 +1,24 @@
 import { MetadataRoute } from "next";
-import { pathnames, routing } from "../i18n/routing";
+import { routing } from "../i18n/routing"; // Upewnij się, że ścieżka do routing.ts jest poprawna
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL as string;
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://twojadomena.no";
 
-  const entries: MetadataRoute.Sitemap = [];
+  // Lista bazowych ścieżek zgodna z Twoimi folderami
+  const routes = ["", "/contact", "/faq", "/offer"];
 
-  routing.locales.forEach((locale) => {
-    Object.values(pathnames).forEach((slugData) => {
-      let slug;
-      if (typeof slugData === "string") {  
-        slug = slugData;
-      } else {
-        slug = slugData[locale as keyof typeof slugData];
-      }
+  const sitemapEntries: MetadataRoute.Sitemap = [];
 
-      if (slug === "/") slug = "";
-
-      entries.push({
-        url: `${baseUrl}/${locale}${slug}`,
+  routes.forEach((route) => {
+    routing.locales.forEach((locale) => {
+      sitemapEntries.push({
+        url: `${baseUrl}/${locale}${route}`,
         lastModified: new Date(),
-        changeFrequency: "weekly",
-        priority: slug === "" ? 1 : 0.8,
+        changeFrequency: "monthly",
+        priority: route === "" ? 1 : 0.8,
       });
     });
   });
 
-  return entries;
+  return sitemapEntries;
 }

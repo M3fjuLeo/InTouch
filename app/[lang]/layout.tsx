@@ -14,6 +14,10 @@ import { LocalBusinessSchema } from "../components/seo/LocalBusinessSchema";
 import "../globals.css";
 import { CookieBanner } from "../components/ui/CookieBanner";
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ lang: locale }));
+}
+
 const playfair = Playfair_Display({
   subsets: ["latin", "latin-ext"],
   variable: "--font-serif-custom",
@@ -25,10 +29,6 @@ const inter = Inter({
   variable: "--font-sans",
   display: "swap",
 });
-
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ lang: locale }));
-}
 
 export async function generateMetadata({
   params,

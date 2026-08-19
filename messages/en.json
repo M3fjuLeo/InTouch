@@ -266,5 +266,122 @@
       "success": "Message sent successfully.",
       "error": "An error occurred while sending."
     }
+  },"FaqPage": {
+    "title": "FAQ",
+    "subtitle": "Frequently Asked Questions",
+    "contactPrompt": "Have other questions or concerns before your appointment? Feel free to contact me.",
+    "contactButton": "Go to contact",
+    "faqs": [
+      {
+        "id": "1",
+        "question": "How to choose the right massage?",
+        "answer": "Choose the duration of the massage you feel like having. If this is your first time with me, I especially encourage you to book the 60 min full body massage.\nBefore every massage, I will conduct a short interview with you. You will tell me about your needs, tensions, and what matters most to you.\nYou don't have to know exactly what your body needs — that's what I'm here for."
+      },
+      {
+        "id": "2",
+        "question": "How can I book an appointment?",
+        "answer": "Booking an appointment is very simple. You will find the booking link directly on the homepage.\nSelect the massage you are interested in, the duration of the treatment, and a convenient date — and you're done.\nI do not accept bookings by phone or text message. All appointments are booked online."
+      },
+      {
+        "id": "3",
+        "question": "Can I contact you by phone?",
+        "answer": "I usually have my hands full while working with clients, which is why I can't always answer the phone.\nIn emergency situations, if I have the opportunity, I can quickly reply to a text message.\nIf you have questions, want to learn more about the massage, or need help before your appointment, please use the contact form available on the website.\nThis allows me to calmly focus on the person currently on the table."
+      },
+      {
+        "id": "4",
+        "question": "How to prepare for a massage?",
+        "answer": "To make the massage as comfortable as possible for you:\n\n• Do not eat about 1.5–2 hours before the massage.\n• If you are coming directly after a workout, please take a shower. Hygiene is very important to me.\n• Do not smoke cigarettes immediately before the massage.\n• Do not drink alcohol before the massage.\n• Remove all jewelry — preferably leave it at home or keep it safely in your bag.\n• Plan your visit so you don't rush straight from work.\n• If you have an injury, health condition, take medications, or if anything happened that might matter for the massage — inform me before we start.\n\nCome calmly, fresh after a shower, and give yourself a moment to breathe. I'll take care of the rest."
+      },
+      {
+        "id": "5",
+        "question": "Do I need to prepare in any special way regarding body hair?",
+        "answer": "You do not need to wax or shave before the massage.\nGentlemen, if your body hair is very dense, I only ask for a gentle trim rather than complete removal. Shorter hair will make my work easier and the massage more comfortable.\nLadies do not need to shave their legs before the visit. You don't need to apologize for it or feel embarrassed.\nAnd most importantly — do not apologize for how your body looks.\nI am not here to judge you. I have seen thousands of human bodies — each different, each unique.\nThis place is for you to put down self-judgment for a moment, feel safe, and simply embrace yourself.\nAnd I will help you with that."
+      },
+      {
+        "id": "6",
+        "question": "Do I need to undress for the massage?",
+        "answer": "Gentlemen are asked to remain in their underwear, while ladies may remain in their underwear bottoms.\nYour body is securely covered and draped. Only the specific part of the body I am currently working on is uncovered.\nYour sense of security and comfort are most important to me."
+      },
+      {
+        "id": "7",
+        "question": "Does the massage hurt?",
+        "answer": "The massage can be intense, especially when we work with heavily tense areas, but the pain should be pleasant, relaxing, and bring a sense of relief.\nDuring the massage, we stay in constant contact. I listen to your body, observe its reactions, and adjust the intensity to your needs.\nIf anything is too strong or uncomfortable — let me know."
+      },
+      {
+        "id": "8",
+        "question": "Can I ask for a stronger or gentler massage?",
+        "answer": "Of course.\nThe intensity of the massage can always be adjusted to your preferences and current well-being.\nThere is no single correct intensity for everyone. What is the ideal pressure for one person might be too strong for another.\nThat is why I listen to you and your body throughout the entire treatment."
+      },
+      {
+        "id": "9",
+        "question": "Can I point out a specific area you should focus on?",
+        "answer": "Yes. If your neck, back, shoulders, legs, hips, or any other part of the body is bothering you the most — tell me about it during the interview.\nThe massage time is limited, so we will set priorities together to make the best use of the time allocated for your treatment."
+      },
+      {
+        "id": "10",
+        "question": "Do I have to talk during the massage?",
+        "answer": "Absolutely not.\nYou can talk to me if you feel like it, but you can also completely quiet down.\nI do not expect conversation. You can simply close your eyes, breathe, and rest.\nThis is your time."
+      },
+      {
+        "id": "11",
+        "question": "Can I fall asleep during the massage?",
+        "answer": "Of course!\nIf your body and nervous system finally let go enough for you to fall asleep — allow yourself to do so.\nFor me, this is a sign that you have managed to truly disconnect from everyday life and enter a state of deep relaxation."
+      },
+      {
+        "id": "12",
+        "question": "Is the massage suitable for people who have never had a massage before?",
+        "answer": "Most definitely!\nIf this is your first time, let me know. I will explain everything thoroughly and make sure you know what to expect.\nYou don't have to stress about anything — I will guide you through the entire treatment."
+      },
+      {
+        "id": "13",
+        "question": "Do you perform massages for pregnant women?",
+        "answer": "Yes! I have a special, comfortable pregnancy pillow and a dedicated massage available in the booking system.\nIf you have no contraindications and are between the 13th and 35th week of pregnancy, you are welcome.\nThe first trimester and the final stage of pregnancy require special caution, which is why massages during these periods are not performed here for safety reasons.\nIf in doubt, consult your doctor or midwife about the possibility of a massage."
+      },
+      {
+        "id": "14",
+        "question": "Can I get a massage during menstruation?",
+        "answer": "Yes. Menstruation in itself is not a contraindication to massage.\nIt all depends on how you feel.\nIf you suffer from severe menstrual pain or take painkillers, your perception of stimuli may be altered.\nInform me about it, and I will keep it in mind during the massage."
+      },
+      {
+        "id": "15",
+        "question": "Can I come for a massage if I am sick?",
+        "answer": "If you have a runny nose, a sore throat, a cough, a fever, or other signs of illness — stay home and reschedule your appointment.\nMy work involves direct contact with people. If you infect me, I will have to cancel subsequent appointments.\nAs a small business owner, I really don't have time for that.\nIf you feel something is coming on, write to me and we will reschedule the visit."
+      },
+      {
+        "id": "16",
+        "question": "I have other health issues. Can I get a massage?",
+        "answer": "If you have health issues, an injury, had surgery, take medications, or have any doubts — write to me before your appointment.\nInform me of anything that might matter for the massage, and I will explain precisely how we can approach the treatment.\nIf you are unsure — it's always better to ask."
+      },
+      {
+        "id": "17",
+        "question": "What to do after a massage?",
+        "answer": "After the massage, give yourself time to rest.\nHave a warm cup of tea, stay hydrated, and plan the rest of your day without major obligations.\nRead a book, get under a blanket, unwind, and ideally go to sleep early.\nIf possible, avoid intense workouts and heavy exertion immediately after the massage.\nSlow down. Breathe. Let your body do the rest."
+      },
+      {
+        "id": "18",
+        "question": "Can my muscles be sore after a massage?",
+        "answer": "After a more intense massage, temporary muscle tenderness or a feeling similar to post-workout soreness may occur.\nHowever, if sharp, unusual pain appears or something worries you — contact me."
+      },
+      {
+        "id": "19",
+        "question": "How often is it worth getting a massage?",
+        "answer": "A massage is always a good idea.\nThe more often you give yourself a moment of mindfulness, pausing, and true relaxation, the better for your nervous system.\nYou don't have to wait until the tension becomes unbearable.\nMy minimum for everyone? Massage 1x a month.\nTreat it not as a luxury, but as a regular form of self-care."
+      },
+      {
+        "id": "20",
+        "question": "Can I buy a massage voucher?",
+        "answer": "Of course!\nYou can purchase a voucher through the form on the website.\nYou can pick it up elegantly packaged at the studio or — if you cannot pick it up in person — I can send you a specially generated link for the recipient.\nIt is always a unique gift — giving someone care, attention, and time just for themselves."
+      },
+      {
+        "id": "21",
+        "question": "Can I cancel or reschedule an appointment?",
+        "answer": "Yes. You can do this yourself using the link found in the booking confirmation.\nCancellation or changing an appointment is possible up to 24 hours before the scheduled time.\nYour slot is reserved exclusively for you. Advance notice gives me the opportunity to offer it to someone else.\nIn case of cancellation later than 24 hours before the appointment or failure to show up, the visit is fully payable and an invoice will be issued.\nPlease — respect my time just as I respect yours."
+      },
+      {
+        "id": "22",
+        "question": "What if I am late for my appointment?",
+        "answer": "Each appointment is scheduled for a specific time, and another client may be waiting after you.\nTherefore, I do not extend the massage by the time you are late — out of respect for subsequent clients and their reserved time.\nIf you know you will be late, please send a short text message.\nPunctuality allows me to provide every client with a calm and professional visit."
+      }
+    ]
   }
 }
