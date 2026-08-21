@@ -44,7 +44,8 @@ export async function generateMetadata({
     locale: actualLocale,
     namespace: "metadata",
   });
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL as string;
+
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
   return {
     title: t("title"),
