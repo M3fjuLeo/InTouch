@@ -39,7 +39,7 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
   return (
     <section
       id="wyroznione-zabiegi"
-      className="py-24 px-6 bg-brand-dark text-brand-light"
+      className="py-24 px-6 bg-brand-darkest text-brand-light"
     >
       <div className="max-w-6xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">

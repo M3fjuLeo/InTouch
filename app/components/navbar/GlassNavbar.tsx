@@ -80,8 +80,8 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
           <div
             className={`flex items-center justify-between px-3 md:px-5 py-2 md:py-2.5 rounded-full transition-all duration-500 ring-1 ring-white/10 ${
               scrolled
-                ? "bg-brand-dark/80 backdrop-blur-xl border border-brand-primary/30 shadow-2xl"
-                : "bg-white/10 backdrop-blur-md border border-white/20 shadow-xl"
+                ? "bg-brand-darkest/40 backdrop-blur-xl border border-white/10 shadow-lg"
+                : "bg-white/10 backdrop-blur-md border border-white/20 shadow-sm"
             }`}
           >
             <Link
@@ -102,7 +102,6 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
 
             <nav className="hidden md:flex items-center gap-8 text-sm font-light text-white/90">
               {links.map((link) => {
-                // Uproszczone generowanie linków (bez as any)
                 const linkTarget = link.hash
                   ? `${link.href}#${link.hash}`
                   : link.href;
@@ -183,7 +182,6 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
         <div className="flex flex-col justify-between h-full px-8 py-12">
           <div className="flex flex-col gap-8">
             {links.map((link) => {
-              // Uproszczone generowanie linków w menu mobilnym
               const linkTarget = link.hash
                 ? `${link.href}#${link.hash}`
                 : link.href;

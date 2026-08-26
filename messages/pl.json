@@ -21,7 +21,7 @@
   },
   "Hero": {
     "brand": "In Touch",
-    "headline": "W kontakcie ze sobą",
+    "headline": "Masaż, który pomaga Ci odnaleźć na nowo kontakt z własnym ciałem.",
     "subtitle1": "Holistyczna terapia masażem",
     "subtitle2": "Dla tych, którzy dbają o innych, a zapomnieli o sobie.",
     "subtitle3": "Odpocznij. Zregeneruj się. Odzyskaj harmonię.",
@@ -123,6 +123,12 @@
         "author": "Marta"
       }
     ]
+  },
+  "SocialProof": {
+    "badge": "OPINIE",
+    "title": "Co mówią klienci",
+    "ratingText": "Setki zadowolonych klientów i doskonałe opinie w Google",
+    "sourceText": "Opinia z Google"
   },
   "Vouchers": {
     "badge": "Karty Podarunkowe",

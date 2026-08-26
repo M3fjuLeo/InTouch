@@ -21,7 +21,7 @@
   },
   "Hero": {
     "brand": "In Touch",
-    "headline": "I kontakt med deg selv",
+    "headline": "Massasje som hjelper deg å finne tilbake til kroppen din.",
     "subtitle1": "Holistisk massasjeterapi",
     "subtitle2": "For de som tar vare på andre og har glemt seg selv.",
     "subtitle3": "Hvil. Forny. Gjenopprett.",
@@ -123,6 +123,12 @@
         "author": "Marta"
       }
     ]
+  },
+  "SocialProof": {
+    "badge": "TILBAKEMELDINGER",
+    "title": "Hva kundene sier",
+    "ratingText": "Utmerkede tilbakemeldinger fra våre kunder på Google",
+    "sourceText": "Google-anmeldelse"
   },
   "Vouchers": {
     "badge": "Gavekort",

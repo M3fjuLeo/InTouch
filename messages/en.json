@@ -21,7 +21,7 @@
   },
   "Hero": {
     "brand": "In Touch",
-    "headline": "In touch with yourself",
+    "headline": "Massage that helps you reconnect with your body.",
     "subtitle1": "Holistic massage therapy",
     "subtitle2": "For those who care for others and have forgotten themselves.",
     "subtitle3": "Rest. Restore. Reconnect.",
@@ -123,6 +123,12 @@
         "author": "Marta"
       }
     ]
+  },
+  "SocialProof": {
+    "badge": "TESTIMONIALS",
+    "title": "What clients say",
+    "ratingText": "Excellent reviews from our clients on Google",
+    "sourceText": "Google Review"
   },
   "Vouchers": {
     "badge": "Gift Cards",

@@ -27,7 +27,7 @@ export async function AboutSection() {
   return (
     <section
       id="about"
-      className="py-24 sm:py-32 px-6 text-brand-darkest transition-colors duration-500"
+      className="py-24 sm:py-32 px-6 bg-brand-bg text-brand-darkest transition-colors duration-500"
     >
       <div className="max-w-5xl mx-auto">
         <div className="flex justify-center mb-6">
@@ -48,7 +48,7 @@ export async function AboutSection() {
             return (
               <div
                 key={idx}
-                className="p-8 rounded-3xl bg-white border border-neutral-200 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col items-start group"
+                className="p-8 rounded-3xl bg-brand-light border border-brand-dark/10 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col items-start group"
               >
                 <div className="w-12 h-12 rounded-2xl flex items-center justify-center mb-6 transition-transform group-hover:scale-110 bg-brand-primary/10 border border-brand-primary/20">
                   <Icon className="w-6 h-6 text-brand-primary" />
@@ -56,7 +56,7 @@ export async function AboutSection() {
                 <h3 className="font-serif-custom text-2xl font-medium text-brand-darkest mb-3">
                   {pillar.title}
                 </h3>
-                <p className="text-sm text-brand-dark font-light leading-relaxed">
+                <p className="text-sm text-brand-darkest/80 font-light leading-relaxed">
                   {pillar.description}
                 </p>
               </div>

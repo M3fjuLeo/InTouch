@@ -15,41 +15,34 @@ export async function HeroSection() {
     >
       <HeroVideo />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 pt-28 pb-16 flex flex-col items-center justify-center text-center">
+      <div className="relative z-10 w-full max-w-4xl mx-auto px-6 pt-28 pb-16 flex flex-col items-center justify-center text-center">
         <LogoIcon
-          className="w-16 h-16 md:w-20 md:h-20 mb-6 drop-shadow-lg"
+          className="w-24 h-24 sm:w-28 sm:h-28 mb-4 drop-shadow-lg"
           variant="light"
         />
 
-        <span className="text-sm md:text-base font-semibold tracking-[0.3em] uppercase text-white/90 mb-4 drop-shadow-md">
+        <span className="font-serif-custom text-4xl sm:text-5xl md:text-6xl font-normal uppercase tracking-widest text-white mb-4 drop-shadow-md">
           {t("brand")}
         </span>
 
-        <h1 className="font-serif-custom text-4xl sm:text-6xl md:text-7xl font-normal tracking-tight text-white leading-[1.1] mb-6 drop-shadow-md">
+        <h1 className="font-serif-custom italic text-xl sm:text-2xl md:text-3xl font-normal text-white leading-relaxed mb-12 max-w-sm sm:max-w-md mx-auto drop-shadow-md">
           {t("headline")}
         </h1>
 
-        <div className="flex flex-col gap-1.5 mb-10 max-w-2xl px-2">
-          <p className="text-lg sm:text-xl text-white font-medium drop-shadow-sm">
-            {t("subtitle1")}
-          </p>
-          <p className="text-sm sm:text-base text-white/80 font-light drop-shadow-sm">
-            {t("subtitle2")}
-          </p>
-          <p className="text-xs sm:text-sm text-brand-primary font-medium tracking-[0.2em] uppercase mt-3 drop-shadow-sm">
-            {t("subtitle3")}
-          </p>
-        </div>
-
-        <div className="flex flex-col sm:flex-row items-center gap-4">
-          <Button href={bookingUrl} isExternal size="lg">
+        <div className="flex flex-col sm:flex-row items-center justify-center w-full max-w-xs sm:max-w-none mx-auto gap-4">
+          <Button
+            href={bookingUrl}
+            isExternal
+            size="lg"
+            className="w-full sm:w-auto"
+          >
             {t("bookBtn")}
           </Button>
           <Button
             href="#vouchers"
             variant="outline"
             size="lg"
-            className="border-white/40 text-white hover:bg-white/10 hover:border-white"
+            className="w-full sm:w-auto border-white text-white hover:bg-white/10"
           >
             {t("giftBtn")}
           </Button>

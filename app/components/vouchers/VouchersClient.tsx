@@ -26,7 +26,7 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
   return (
     <section
       id="vouchers"
-      className="py-20 sm:py-28 px-6 sm:px-12 bg-brand-dark text-brand-light relative overflow-hidden"
+      className="py-20 sm:py-28 px-6 sm:px-12 bg-brand-darkest text-brand-light relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 items-center gap-12 lg:gap-16">

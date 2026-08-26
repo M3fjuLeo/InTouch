@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
-import { Button } from '../ui/Button';
-import { FacebookIcon, InstagramIcon } from '../ui/SocialIcons';
+import React, { useState } from "react";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { Button } from "../ui/Button";
+import { FacebookIcon, InstagramIcon } from "../ui/SocialIcons";
 
 interface ContactClientProps {
   content: {
@@ -23,18 +23,23 @@ interface ContactClientProps {
   };
 }
 
-export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }) => {
+export const ContactClient: React.FC<ContactClientProps> = ({
+  content,
+  envData,
+}) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [formStatus, setFormStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [formStatus, setFormStatus] = useState<"idle" | "success" | "error">(
+    "idle"
+  );
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setFormStatus('idle');
+    setFormStatus("idle");
 
     setTimeout(() => {
       setIsSubmitting(false);
-      setFormStatus('success');
+      setFormStatus("success");
     }, 1000);
   };
 
@@ -67,7 +72,10 @@ export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }
                     <Phone className="w-4 h-4" />
                     {content.details.phone}
                   </h3>
-                  <a href={`tel:${envData.phone.replace(/\s+/g, '')}`} className="text-white/80 font-light hover:text-white transition-colors">
+                  <a
+                    href={`tel:${envData.phone.replace(/\s+/g, "")}`}
+                    className="text-white/80 font-light hover:text-white transition-colors"
+                  >
                     {envData.phone}
                   </a>
                 </div>
@@ -77,7 +85,10 @@ export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }
                     <Mail className="w-4 h-4" />
                     {content.details.email}
                   </h3>
-                  <a href={`mailto:${envData.email}`} className="text-white/80 font-light hover:text-white transition-colors">
+                  <a
+                    href={`mailto:${envData.email}`}
+                    className="text-white/80 font-light hover:text-white transition-colors"
+                  >
                     {envData.email}
                   </a>
                 </div>
@@ -87,10 +98,20 @@ export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }
                     {content.details.social}
                   </h3>
                   <div className="flex gap-4">
-                    <a href={envData.instagramUrl} target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
+                    <a
+                      href={envData.instagramUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white/80 hover:text-white transition-colors"
+                    >
                       <InstagramIcon className="w-6 h-6" />
                     </a>
-                    <a href={envData.facebookUrl} target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
+                    <a
+                      href={envData.facebookUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white/80 hover:text-white transition-colors"
+                    >
                       <FacebookIcon className="w-6 h-6" />
                     </a>
                   </div>
@@ -103,13 +124,27 @@ export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }
                   {content.details.hours}
                 </h3>
                 <ul className="space-y-2 text-sm text-white/80 font-light">
-                  <li className="flex justify-between"><span>{content.schedule.mon}</span> <span>09:00–20:00</span></li>
-                  <li className="flex justify-between"><span>{content.schedule.tue}</span> <span>09:00–20:00</span></li>
-                  <li className="flex justify-between"><span>{content.schedule.wed}</span> <span>09:00–20:00</span></li>
-                  <li className="flex justify-between"><span>{content.schedule.thu}</span> <span>09:00–20:00</span></li>
-                  <li className="flex justify-between"><span>{content.schedule.fri}</span> <span>09:00–20:00</span></li>
-                  <li className="flex justify-between"><span>{content.schedule.sat}</span> <span>09:00–20:00</span></li>
-                  <li className="flex justify-between text-brand-primary"><span>{content.schedule.sun}</span> <span>10:00–20:00</span></li>
+                  <li className="flex justify-between">
+                    <span>{content.schedule.mon}</span> <span>09:00–20:00</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>{content.schedule.tue}</span> <span>09:00–20:00</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>{content.schedule.wed}</span> <span>09:00–20:00</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>{content.schedule.thu}</span> <span>09:00–20:00</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>{content.schedule.fri}</span> <span>09:00–20:00</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>{content.schedule.sat}</span> <span>09:00–20:00</span>
+                  </li>
+                  <li className="flex justify-between text-brand-primary">
+                    <span>{content.schedule.sun}</span> <span>10:00–20:00</span>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -130,7 +165,10 @@ export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }
           <div className="bg-white/5 border border-white/10 rounded-3xl p-8 sm:p-12 h-fit">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-xs font-semibold uppercase tracking-wider text-white/70 mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-xs font-semibold uppercase tracking-wider text-white/70 mb-2"
+                >
                   {content.form.name}
                 </label>
                 <input
@@ -143,7 +181,10 @@ export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-xs font-semibold uppercase tracking-wider text-white/70 mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-xs font-semibold uppercase tracking-wider text-white/70 mb-2"
+                >
                   {content.form.email}
                 </label>
                 <input
@@ -156,7 +197,10 @@ export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-xs font-semibold uppercase tracking-wider text-white/70 mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-xs font-semibold uppercase tracking-wider text-white/70 mb-2"
+                >
                   {content.form.message}
                 </label>
                 <textarea
@@ -168,15 +212,23 @@ export const ContactClient: React.FC<ContactClientProps> = ({ content, envData }
                 />
               </div>
 
-              <Button type="submit" disabled={isSubmitting} className="w-full justify-center">
-                {isSubmitting ? '...' : content.form.submit}
+              <Button
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full justify-center"
+              >
+                {isSubmitting ? "..." : content.form.submit}
               </Button>
 
-              {formStatus === 'success' && (
-                <p className="text-sm text-green-400 text-center mt-4">{content.form.success}</p>
+              {formStatus === "success" && (
+                <p className="text-sm text-green-400 text-center mt-4">
+                  {content.form.success}
+                </p>
               )}
-              {formStatus === 'error' && (
-                <p className="text-sm text-red-400 text-center mt-4">{content.form.error}</p>
+              {formStatus === "error" && (
+                <p className="text-sm text-red-400 text-center mt-4">
+                  {content.form.error}
+                </p>
               )}
             </form>
           </div>

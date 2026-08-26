@@ -2,20 +2,18 @@
 
 :root {
   --brand-primary: #ad6268;
-  --brand-dark: #2a1719;
-  --brand-darker: #201213;
-  --brand-darkest: #150c0c;
-  --brand-accent: #ad6268;
-  --brand-light: #dabec0;
+  --brand-dark: #623337;
+  --brand-darkest: #2e2426;
+  --brand-light: #f1eaea;
+  --brand-bg: #fbf9f8;
 }
 
 @theme {
   --color-brand-primary: var(--brand-primary);
   --color-brand-dark: var(--brand-dark);
-  --color-brand-darker: var(--brand-darker);
   --color-brand-darkest: var(--brand-darkest);
-  --color-brand-accent: var(--brand-accent);
   --color-brand-light: var(--brand-light);
+  --color-brand-bg: var(--brand-bg);
 
   --font-serif-custom: var(--font-serif-custom), ui-serif, Georgia, serif;
   --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
@@ -30,7 +28,7 @@ html {
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: var(--brand-darker);
+  background: var(--brand-dark);
   border-radius: 10px;
   margin: 0 24px;
 }
