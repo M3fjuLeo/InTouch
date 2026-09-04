@@ -31,7 +31,7 @@ export async function AboutSection() {
     >
       <div className="max-w-5xl mx-auto">
         <div className="flex justify-center mb-6">
-          <Badge variant="dark">{t("pill")}</Badge>
+          <Badge variant="solid">{t("pill")}</Badge>
         </div>
 
         <h2 className="font-serif-custom text-3xl sm:text-5xl md:text-6xl text-center font-normal tracking-tight leading-[1.15] max-w-3xl mx-auto mb-8">
@@ -53,7 +53,7 @@ export async function AboutSection() {
                 <div className="w-12 h-12 rounded-2xl flex items-center justify-center mb-6 transition-transform group-hover:scale-110 bg-brand-primary/10 border border-brand-primary/20">
                   <Icon className="w-6 h-6 text-brand-primary" />
                 </div>
-                <h3 className="font-serif-custom text-2xl font-medium text-brand-darkest mb-3">
+                <h3 className="font-serif-custom text-2xl font-medium text-brand-dark mb-3">
                   {pillar.title}
                 </h3>
                 <p className="text-sm text-brand-darkest/80 font-light leading-relaxed">

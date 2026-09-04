@@ -144,50 +144,102 @@
     "bookBtn": "Book an appointment",
     "navTitle": "Navigation",
     "navHome": "Home",
-    "navAbout": "About Us",
-    "navOffer": "Treatments",
+    "navAbout": "About us",
+    "navOffer": "Services",
     "navVouchers": "Vouchers",
     "contactTitle": "Contact",
     "legalTitle": "Legal",
     "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions",
+    "terms": "Terms of Service",
     "rights": "All rights reserved.",
     "location": "Drammen, Norway",
     "closeModal": "Close",
     "privacyContent": [
       {
         "title": "1. Data Controller",
-        "text": "The data controller is InTouch Massage Studio (Org.nr: 929 173 848) located in Drammen. We process data in accordance with the Norwegian Personal Data Act (Personopplysningsloven) and GDPR."
+        "text": "The data controller is InTouch Massage Studio based in Drammen (Org. no.: 929 173 848). We process data in accordance with the Norwegian Personal Data Act (Personopplysningsloven) and GDPR."
       },
       {
-        "title": "2. Purpose and Legal Basis",
-        "text": "We only collect information necessary for booking and providing therapeutic services. The legal basis is the performance of a contract (GDPR Art. 6(1)(b)) and legal obligations."
+        "title": "2. Purpose and legal basis for processing",
+        "text": "Data is collected to manage bookings, provide therapeutic services, and meet legal requirements. The legal basis is the performance of a contract (Art. 6(1)(b) GDPR) and legal obligation (Art. 6(1)(c) GDPR)."
       },
       {
-        "title": "3. Data Processors",
-        "text": "Your data is stored securely with our certified booking system provider (Timma). We never share personal data with third parties for marketing purposes without consent."
+        "title": "3. Data recipients",
+        "text": "Data is securely stored with our certified booking system provider (Timma). We do not share data with third parties for marketing purposes without explicit consent."
       },
       {
-        "title": "4. Your Rights",
-        "text": "You have the right to access, rectify, delete, or port your data. Contact us at intouch.massasje@gmail.com to exercise your rights."
+        "title": "4. User rights",
+        "text": "You have the right to access, correct, transfer, or delete your data. To exercise these rights, contact us at intouch.massasje@gmail.com."
       }
     ],
     "termsContent": [
       {
-        "title": "1. Booking and Cancellation",
-        "text": "Cancellations or rescheduling must be done at least 24 hours before the appointment. Late cancellations or no-shows will be charged 100% of the treatment price."
+        "title": "1. Bookings and cancellations",
+        "text": "Free cancellation or rescheduling of an appointment is possible up to 24 hours before the scheduled time. In case of late cancellation or no-show, the client will be charged 100% of the treatment price.[cite: 1]"
       },
       {
-        "title": "2. Health Information",
-        "text": "The client is obliged to inform the therapist of any medical conditions, allergies, injuries, or pregnancy before the treatment begins."
+        "title": "2. Health information",
+        "text": "Before starting the treatment, the client is obliged to inform the therapist of any illnesses, allergies, previous surgeries, or pregnancy. Treatments are performed at the client's own risk if they conceal significant health information.[cite: 1]"
       },
       {
-        "title": "3. Payment",
-        "text": "Payment is made after the treatment via card, Vipps, or cash at the studio."
+        "title": "3. Payments",
+        "text": "We accept payments after the visit via payment cards, the Vipps app, and cash.[cite: 1]"
       },
       {
-        "title": "4. Dispute Resolution",
-        "text": "Any complaints are handled in accordance with the Norwegian Consumer Purchases Act (Forbrukerkjøpsloven). In case of unresolved disputes, the client can contact the Consumer Council (Forbrukerrådet)."
+        "title": "4. Consumer disputes",
+        "text": "All complaints are handled in accordance with the Norwegian Consumer Purchases Act (Forbrukerkjøpsloven). In the event of disputes, the client may contact the Forbrukerrådet.[cite: 1]"
+      },
+      {
+        "title": "5. Minimum age",
+        "text": "Our services are available to individuals who are at least 16 years old. Minors aged 16–18 may receive a treatment only with the written consent of a parent or legal guardian.[cite: 1]"
+      },
+      {
+        "title": "6. Contraindications and cancellation of treatment",
+        "text": "The therapist has the right to refuse or interrupt a treatment if the client exhibits health contraindications (e.g., fever, infectious disease, skin inflammation, fresh injuries) that threaten the safety of the client or the therapist. In such cases, the client will not be charged the full cost of the treatment, unless the contraindication resulted from concealing health information.[cite: 1]"
+      },
+      {
+        "title": "7. Pregnancy massage",
+        "text": "Pregnancy massage is performed only between the 14th and 35th week of pregnancy. Outside this period, the treatment is not performed for safety reasons.[cite: 1]"
+      },
+      {
+        "title": "8. Behavior towards the therapist",
+        "text": "Any behavior violating the therapist's privacy, dignity, or comfort (including sexual behavior, inappropriate comments, or physical contact beyond the scope of the treatment) will result in immediate termination of the visit without the right to a refund and may lead to a refusal of future service.[cite: 1]"
+      },
+      {
+        "title": "9. Vouchers",
+        "text": "Gift vouchers (gavekort) are valid for 6 months from the date of purchase and are non-extendable and non-refundable for cash. The voucher's expiration date is visible on the purchase receipt sent to the client.[cite: 1]"
+      },
+      {
+        "title": "10. Personal data (Privacy)",
+        "text": "The client's personal and health data are processed solely to provide the service and in accordance with applicable data protection laws (Personopplysningsloven/GDPR). Data is not shared with third parties without the client's consent.[cite: 1]"
+      },
+      {
+        "title": "11. Lateness",
+        "text": "A client's lateness shortens the duration of the treatment without a price reduction. For delays exceeding 15 minutes, the studio reserves the right to refuse the treatment, treating it as a no-show (see point 1).[cite: 1]"
+      },
+      {
+        "title": "12. Hygiene and client's condition",
+        "text": "Treatments are not performed on clients under the visible influence of alcohol or other intoxicating substances, nor in the presence of visible signs of an infectious disease.[cite: 1]"
+      },
+      {
+        "title": "13. Personal belongings",
+        "text": "The studio is not responsible for the client's personal belongings left unattended during the visit.[cite: 1]"
+      },
+      {
+        "title": "14. Changes to the terms and conditions",
+        "text": "The studio reserves the right to amend these terms and conditions. The current version is always available in the app/on the studio's website.[cite: 1]"
+      },
+      {
+        "title": "15. Force majeure",
+        "text": "The studio is not responsible for the cancellation or rescheduling of an appointment due to circumstances beyond its control (therapist's illness, breakdown, weather conditions preventing travel).[cite: 1]"
+      },
+      {
+        "title": "16. Photos and social media",
+        "text": "The studio may take photos of the premises/products for promotional purposes. Photos of the client are taken only with their explicit consent.[cite: 1]"
+      },
+      {
+        "title": "17. Right to refuse service",
+        "text": "The studio reserves the right to refuse service in the event of aggressive, disrespectful behavior by the client or a violation of these terms, regardless of the reason described in point 8.[cite: 1]"
       }
     ]
   },

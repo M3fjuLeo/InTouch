@@ -39,11 +39,11 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
   return (
     <section
       id="wyroznione-zabiegi"
-      className="py-24 px-6 bg-brand-darkest text-brand-light"
+      className="py-24 px-6 bg-brand-primary text-brand-light"
     >
       <div className="max-w-6xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <Badge variant="dark" className="mb-3">
+          <Badge variant="light" className="mb-3 bg-primary-light">
             {labels.badge}
           </Badge>
           <h2 className="font-serif-custom text-4xl sm:text-5xl font-medium text-white mb-6">

@@ -175,19 +175,71 @@
     "termsContent": [
       {
         "title": "1. Rezerwacje i anulacje",
-        "text": "Bezpłatne anulowanie lub zmiana terminu wizyty możliwe są najpóźniej na 24 godziny przed zaplanowanym czasem. W przypadku późniejszej anulacji lub niestawienia się (no-show), klient zostanie obciążony kosztem w wysokości 100% ceny zabiegu."
+        "text": "Bezpłatne anulowanie lub zmiana terminu wizyty możliwe są najpóźniej na 24 godziny przed zaplanowanym czasem. W przypadku późniejszej anulacji lub niestawienia się (no-show), klient zostanie obciążony kosztem w wysokości 100% ceny zabiegu.[cite: 1]"
       },
       {
         "title": "2. Informacje zdrowotne",
-        "text": "Klient ma obowiązek przed rozpoczęciem zabiegu poinformować terapeutę o wszelkich schorzeniach, alergiach, przebytych operacjach lub ciąży. Zabiegi wykonywane są na własne ryzyko klienta, jeśli zataił on istotne informacje o stanie zdrowia."
+        "text": "Klient ma obowiązek przed rozpoczęciem zabiegu poinformować terapeutę o wszelkich schorzeniach, alergiach, przebytych operacjach lub ciąży. Zabiegi wykonywane są na własne ryzyko klienta, jeśli zataił on istotne informacje o stanie zdrowia.[cite: 1]"
       },
       {
         "title": "3. Płatności",
-        "text": "Akceptujemy płatności po zakończeniu wizyty za pośrednictwem kart płatniczych, aplikacji Vipps oraz gotówką."
+        "text": "Akceptujemy płatności po zakończeniu wizyty za pośrednictwem kart płatniczych, aplikacji Vipps oraz gotówką.[cite: 1]"
       },
       {
         "title": "4. Spory konsumenckie",
-        "text": "Wszelkie reklamacje rozpatrywane są zgodnie z norweską ustawą o zakupach konsumenckich (Forbrukerkjøpsloven). W przypadku sporów klient może zwrócić się do Forbrukerrådet."
+        "text": "Wszelkie reklamacje rozpatrywane są zgodnie z norweską ustawą o zakupach konsumenckich (Forbrukerkjøpsloven). W przypadku sporów klient może zwrócić się do Forbrukerrådet.[cite: 1]"
+      },
+      {
+        "title": "5. Wiek minimalny",
+        "text": "Z usług gabinetu mogą korzystać osoby, które ukończyły 16 lat. Osoby niepełnoletnie w wieku 16–18 lat mogą skorzystać z zabiegu wyłącznie za pisemną zgodą rodzica lub opiekuna prawnego.[cite: 1]"
+      },
+      {
+        "title": "6. Przeciwwskazania i odwołanie zabiegu",
+        "text": "Terapeuta ma prawo odmówić wykonania zabiegu lub przerwać go w trakcie, jeśli u klienta wystąpią przeciwwskazania zdrowotne (np. gorączka, choroba zakaźna, stan zapalny skóry, świeże urazy) zagrażające bezpieczeństwu klienta lub terapeuty. W takim przypadku klient nie zostanie obciążony pełnym kosztem zabiegu, chyba że przeciwwskazanie wynikało z zatajenia informacji zdrowotnych.[cite: 1]"
+      },
+      {
+        "title": "7. Masaż w ciąży",
+        "text": "Masaż dla kobiet w ciąży wykonywany jest wyłącznie pomiędzy 14. a 35. tygodniem ciąży. Poza tym okresem zabieg nie jest wykonywany ze względów bezpieczeństwa.[cite: 1]"
+      },
+      {
+        "title": "8. Zachowanie wobec terapeuty",
+        "text": "Wszelkie zachowania naruszające prywatność, godność lub komfort terapeuty (w tym zachowania o charakterze seksualnym, niestosowne komentarze lub kontakt fizyczny wykraczający poza zakres zabiegu) skutkują natychmiastowym przerwaniem wizyty bez prawa do zwrotu kosztów oraz mogą skutkować odmową obsługi klienta w przyszłości.[cite: 1]"
+      },
+      {
+        "title": "9. Vouchery",
+        "text": "Vouchery podarunkowe (gavekort) są ważne przez 6 miesięcy od daty zakupu i nie podlegają przedłużeniu ani zwrotowi gotówkowemu. Data ważności vouchera jest widoczna na potwierdzeniu zakupu przesłanym do klienta.[cite: 1]"
+      },
+      {
+        "title": "10. Dane osobowe (Personvern)",
+        "text": "Dane osobowe i zdrowotne klienta przetwarzane są wyłącznie w celu realizacji usługi i zgodnie z obowiązującymi przepisami o ochronie danych (Personopplysningsloven/GDPR). Dane nie są udostępniane osobom trzecim bez zgody klienta.[cite: 1]"
+      },
+      {
+        "title": "11. Spóźnienia",
+        "text": "Spóźnienie klienta skraca czas trwania zabiegu bez obniżenia ceny. Przy spóźnieniu powyżej 15 minut gabinet zastrzega sobie prawo do odmowy wykonania zabiegu, traktując to jako niestawienie się (patrz pkt 1).[cite: 1]"
+      },
+      {
+        "title": "12. Higiena i stan klienta",
+        "text": "Zabiegi nie są wykonywane wobec klientów pod widocznym wpływem alkoholu lub innych substancji odurzających, a także w przypadku widocznych oznak choroby zakaźnej.[cite: 1]"
+      },
+      {
+        "title": "13. Rzeczy osobiste",
+        "text": "Gabinet nie ponosi odpowiedzialności za rzeczy osobiste klienta pozostawione bez nadzoru podczas wizyty.[cite: 1]"
+      },
+      {
+        "title": "14. Zmiana regulaminu",
+        "text": "Gabinet zastrzega sobie prawo do zmiany niniejszego regulaminu. Aktualna wersja regulaminu dostępna jest zawsze w aplikacji/na stronie gabinetu.[cite: 1]"
+      },
+      {
+        "title": "15. Siła wyższa",
+        "text": "Gabinet nie ponosi odpowiedzialności za odwołanie lub zmianę terminu wizyty z przyczyn niezależnych (choroba terapeuty, awaria, warunki pogodowe uniemożliwiające dojazd).[cite: 1]"
+      },
+      {
+        "title": "16. Zdjęcia i social media",
+        "text": "Gabinet może wykonywać zdjęcia pomieszczeń/produktów w celach promocyjnych. Zdjęcia klienta wykonywane są wyłącznie za jego wyraźną zgodą.[cite: 1]"
+      },
+      {
+        "title": "17. Prawo do odmowy obsługi",
+        "text": "Gabinet zastrzega sobie prawo do odmowy wykonania usługi w przypadku agresywnego, niekulturalnego zachowania klienta lub naruszenia niniejszego regulaminu, niezależnie od powodu opisanego w punkcie 8.[cite: 1]"
       }
     ]
   },

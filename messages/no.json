@@ -148,46 +148,98 @@
     "navOffer": "Behandlinger",
     "navVouchers": "Gavekort",
     "contactTitle": "Kontakt",
-    "legalTitle": "Juridisk",
+    "legalTitle": "Juridisk informasjon",
     "privacy": "Personvernerklæring",
-    "terms": "Vilkår og betingelser",
-    "rights": "Med enerett.",
+    "terms": "Vilkår for bruk",
+    "rights": "Alle rettigheter reservert.",
     "location": "Drammen, Norge",
     "closeModal": "Lukk",
     "privacyContent": [
       {
         "title": "1. Behandlingsansvarlig",
-        "text": "InTouch Massage Studio (Org.nr: 929 173 848) er ansvarlig for behandlingen av personopplysninger, i samsvar med Personopplysningsloven og GDPR."
+        "text": "Behandlingsansvarlig for personopplysninger er InTouch Massage Studio med base i Drammen (Org.nr: 929 173 848). Vi behandler data i samsvar med den norske personopplysningsloven og GDPR."
       },
       {
-        "title": "2. Formål og rettslig grunnlag",
-        "text": "Vi samler kun inn informasjon som er nødvendig for timebestilling og levering av tjenester. Grunnlaget er oppfyllelse av avtale (GDPR Art. 6 nr. 1 b) og rettslige forpliktelser."
+        "title": "2. Formål og rettslig grunnlag for behandling",
+        "text": "Opplysninger samles inn for å håndtere bestillinger, levere terapeutiske tjenester og oppfylle lovkrav. Det rettslige grunnlaget er oppfyllelse av en avtale (GDPR art. 6(1)(b)) og rettslig forpliktelse (GDPR art. 6(1)(c))."
       },
       {
-        "title": "3. Databehandlere",
-        "text": "Dine data lagres sikkert hos vår leverandør (Timma). Vi deler aldri personopplysninger med tredjeparter for markedsføring uten samtykke."
+        "title": "3. Mottakere av opplysninger",
+        "text": "Opplysninger lagres sikkert hos vår sertifiserte leverandør av bestillingssystem (Timma). Vi deler ikke data med tredjeparter for markedsføringsformål uten uttrykkelig samtykke."
       },
       {
-        "title": "4. Dine rettigheter",
-        "text": "Du har rett til innsyn, retting, sletting eller dataportabilitet. Kontakt oss på intouch.massasje@gmail.com for å utøve dine rettigheter."
+        "title": "4. Brukerens rettigheter",
+        "text": "Du har rett til innsyn, retting, overføring eller sletting av dataene dine. For å utøve disse rettighetene, kontakt oss på intouch.massasje@gmail.com."
       }
     ],
     "termsContent": [
       {
-        "title": "1. Bestilling og avbestilling",
-        "text": "Avbestilling eller endring av time må skje senest 24 timer før avtalt tid. Ved for sen avbestilling eller manglende oppmøte (no-show) faktureres 100% av behandlingens pris."
+        "title": "1. Bestillinger og avbestillinger",
+        "text": "Gratis avbestilling eller endring av time er mulig senest 24 timer før oppsatt tid. Ved senere avbestilling eller manglende oppmøte (no-show), vil klienten bli belastet med 100% av behandlingens pris.[cite: 1]"
       },
       {
-        "title": "2. Helseopplysninger",
-        "text": "Kunden plikter å informere terapeuten om eventuelle medisinske tilstander, allergier, skader eller graviditet før behandlingen starter."
+        "title": "2. Helseinformasjon",
+        "text": "Før behandlingen starter, plikter klienten å informere terapeuten om eventuelle sykdommer, allergier, tidligere operasjoner eller graviditet. Behandlinger utføres på klientens egen risiko dersom vedkommende holder tilbake vesentlig helseinformasjon.[cite: 1]"
       },
       {
         "title": "3. Betaling",
-        "text": "Betaling skjer etter endt behandling via bankkort, Vipps eller kontant i lokalet."
+        "text": "Vi aksepterer betaling etter timen via betalingskort, Vipps og kontanter.[cite: 1]"
       },
       {
-        "title": "4. Klagerett",
-        "text": "Eventuelle klager behandles i samsvar med Forbrukerkjøpsloven. Ved uløste tvister kan kunden kontakte Forbrukerrådet."
+        "title": "4. Forbrukertvister",
+        "text": "Alle klager behandles i samsvar med forbrukerkjøpsloven. Ved tvister kan klienten henvende seg til Forbrukerrådet.[cite: 1]"
+      },
+      {
+        "title": "5. Aldersgrense",
+        "text": "Våre tjenester kan benyttes av personer som har fylt 16 år. Mindreårige i alderen 16–18 år kan kun motta behandling med skriftlig samtykke fra forelder eller foresatt.[cite: 1]"
+      },
+      {
+        "title": "6. Kontraindikasjoner og avbrytelse av behandling",
+        "text": "Terapeuten har rett til å nekte eller avbryte en behandling dersom klienten oppviser helsemessige kontraindikasjoner (f.eks. feber, smittsom sykdom, hudbetennelse, ferske skader) som truer sikkerheten til klienten eller terapeuten. I slike tilfeller vil ikke klienten bli belastet for hele kostnaden av behandlingen, med mindre kontraindikasjonen skyldes tilbakeholdelse av helseinformasjon.[cite: 1]"
+      },
+      {
+        "title": "7. Gravidmassasje",
+        "text": "Gravidmassasje utføres utelukkende mellom uke 14 og 35 av svangerskapet. Utenfor denne perioden utføres ikke behandlingen av sikkerhetsmessige årsaker.[cite: 1]"
+      },
+      {
+        "title": "8. Oppførsel mot terapeuten",
+        "text": "Enhver oppførsel som krenker terapeutens privatliv, verdighet eller komfort (inkludert seksuell atferd, upassende kommentarer eller fysisk kontakt utover behandlingens omfang) vil føre til umiddelbar avbrytelse av timen uten rett til refusjon, og kan føre til at klienten nektes betjening i fremtiden.[cite: 1]"
+      },
+      {
+        "title": "9. Gavekort",
+        "text": "Gavekort er gyldige i 6 måneder fra kjøpsdato, kan ikke forlenges og refunderes ikke i kontanter. Utløpsdatoen for gavekortet er synlig på kvitteringen som sendes til klienten.[cite: 1]"
+      },
+      {
+        "title": "10. Personopplysninger (Personvern)",
+        "text": "Klientens person- og helseopplysninger behandles utelukkende for å levere tjenesten og i samsvar med gjeldende personvernlovgivning (Personopplysningsloven/GDPR). Data deles ikke med tredjeparter uten klientens samtykke.[cite: 1]"
+      },
+      {
+        "title": "11. Forsinkelser",
+        "text": "Forsinkelse fra klientens side forkorter behandlingens varighet uten prisreduksjon. Ved forsinkelser på over 15 minutter forbeholder studioet seg retten til å nekte behandling, og betrakter det som manglende oppmøte (se punkt 1).[cite: 1]"
+      },
+      {
+        "title": "12. Hygiene og klientens tilstand",
+        "text": "Behandlinger utføres ikke på klienter under synlig påvirkning av alkohol eller andre rusmidler, og heller ikke ved synlige tegn på smittsom sykdom.[cite: 1]"
+      },
+      {
+        "title": "13. Personlige eiendeler",
+        "text": "Studioet er ikke ansvarlig for klientens personlige eiendeler som etterlates uten tilsyn under besøket.[cite: 1]"
+      },
+      {
+        "title": "14. Endring av vilkår",
+        "text": "Studioet forbeholder seg retten til å endre disse vilkårene. Den gjeldende versjonen er alltid tilgjengelig i appen/på studioets nettside.[cite: 1]"
+      },
+      {
+        "title": "15. Force majeure",
+        "text": "Studioet er ikke ansvarlig for avbestilling eller flytting av timer på grunn av uforutsette hendelser (terapeutens sykdom, strømbrudd, værforhold som forhindrer reise).[cite: 1]"
+      },
+      {
+        "title": "16. Bilder og sosiale medier",
+        "text": "Studioet kan ta bilder av lokaler/produkter for promoteringsformål. Bilder av klienten tas kun med dennes uttrykkelige samtykke.[cite: 1]"
+      },
+      {
+        "title": "17. Rett til å nekte betjening",
+        "text": "Studioet forbeholder seg retten til å nekte å utføre en tjeneste ved aggressiv, respektløs oppførsel fra klienten eller ved brudd på disse vilkårene, uavhengig av årsaken beskrevet i punkt 8.[cite: 1]"
       }
     ]
   },

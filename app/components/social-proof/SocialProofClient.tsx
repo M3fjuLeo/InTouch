@@ -39,7 +39,10 @@ export const SocialProofClient: React.FC<SocialProofClientProps> = ({
   if (!testimonials || testimonials.length === 0) return null;
 
   return (
-    <section className="py-20 sm:py-28 px-6 bg-brand-bg text-brand-darkest relative overflow-hidden">
+    <section
+      className="py-20 sm:py-28 px-6 text-brand-darkest relative overflow-hidden bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: 'url("/feedback-bg.jpeg")' }}
+    >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none text-brand-primary/[0.04]">
         <Quote className="w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] rotate-180" />
       </div>

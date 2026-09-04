@@ -74,7 +74,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                 href={bookingUrl}
                 isExternal
                 size="sm"
-                className="bg-[#C29B9A]/20 text-[#3D2C2C] hover:bg-[#C29B9A]/30 border border-[#C29B9A]/40 shadow-none"
+                className="bg-brand-primary text-brand-light shadow-none"
                 iconRight={<ArrowUpRight className="w-3.5 h-3.5" />}
               >
                 {labels.bookBtn}

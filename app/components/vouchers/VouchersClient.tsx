@@ -26,12 +26,16 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
   return (
     <section
       id="vouchers"
-      className="py-20 sm:py-28 px-6 sm:px-12 bg-brand-darkest text-brand-light relative overflow-hidden"
+      className="py-20 sm:py-28 px-6 sm:px-12 bg-brand-primary text-brand-light relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 items-center gap-12 lg:gap-16">
           <div className="space-y-6 sm:space-y-8 text-left">
-            <Badge variant="dark" icon={<Gift className="w-3.5 h-3.5" />}>
+            <Badge
+              variant="light"
+              className="bg-primary-light"
+              icon={<Gift className="w-3.5 h-3.5" />}
+            >
               {labels.badge}
             </Badge>
 
@@ -48,7 +52,8 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
                 href={bookingUrl}
                 isExternal
                 size="lg"
-                iconRight={<ArrowRight className="w-4 h-4 text-white" />}
+                className="bg-primary-light text-brand-dark"
+                iconRight={<ArrowRight className="w-4 h-4 text-brand-dark" />}
               >
                 {labels.button}
               </Button>
@@ -61,15 +66,15 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
               alt="Voucher"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-brand-darkest via-brand-darkest/40 to-transparent flex flex-col justify-between p-6 sm:p-10 pointer-events-none">
-              <div className="flex items-center justify-between text-white/90">
+            <div className="absolute inset-0 bg-gradient-to-t from-brand-darkest via-brand-darkest/40 to-transparent p-6 sm:p-10 pointer-events-none">
+              {/* <div className="flex items-center justify-between text-white/90">
                 <span className="font-serif-custom tracking-widest text-lg sm:text-xl font-normal">
                   InTouch
                 </span>
                 <LogoIcon className="w-10 h-10 brightness-200 drop-shadow-md" />
-              </div>
+              </div> */}
 
-              <div className="bg-brand-darker/90 backdrop-blur-md p-5 sm:p-6 rounded-2xl border border-white/10 text-white shadow-xl max-w-sm">
+              <div className="bg-brand-darker/90 mt-65 backdrop-blur-md p-5 sm:p-6 rounded-2xl border border-white/10 text-white shadow-xl max-w-sm">
                 <div className="text-[10px] uppercase tracking-widest font-semibold text-brand-primary mb-1">
                   {labels.mockupBadge}
                 </div>
