@@ -168,7 +168,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
                   >
                     <Mail className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
-                    <span>{email}</span>
+                    <span>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</span>
                   </a>
                 </li>
               )}
