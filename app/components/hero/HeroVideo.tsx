@@ -1,18 +1,31 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
-// Jeśli wolisz wideo z dysku (public/hero-video.mp4), zmień na: const HERO_VIDEO_URL = "/hero-video.mp4";
 const HERO_VIDEO_URL = "/hero-video.mp4";
-const FALLBACK_IMAGE =
-  "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1920&q=80";
+const FALLBACK_IMAGE = "/video-poster.jpg";
 
 export const HeroVideo = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
+  useEffect(() => {
+    // Jeśli wideo jest już zbuforowane w przeglądarce, wymuś zmianę stanu
+    if (videoRef.current && videoRef.current.readyState >= 2) {
+      setVideoLoaded(true);
+    }
+  }, []);
+
   return (
-    <div className="absolute inset-0 z-0 bg-brand-darkest">
+    <div className="absolute inset-0 z-0 bg-brand-darkest overflow-hidden">
+      {!videoLoaded && (
+        <img
+          src={FALLBACK_IMAGE}
+          alt="InTouch Studio Background"
+          className="absolute inset-0 w-full h-full object-cover opacity-60"
+        />
+      )}
+
       <video
         ref={videoRef}
         autoPlay
@@ -20,7 +33,7 @@ export const HeroVideo = () => {
         muted
         playsInline
         onLoadedData={() => setVideoLoaded(true)}
-        className={`w-full h-full object-cover transition-opacity duration-1000 ${
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
           videoLoaded
             ? "opacity-70 scale-105 transition-transform duration-[12000ms] ease-out"
             : "opacity-0"
@@ -29,14 +42,6 @@ export const HeroVideo = () => {
       >
         <source src={HERO_VIDEO_URL} type="video/mp4" />
       </video>
-
-      {!videoLoaded && (
-        <img
-          src={FALLBACK_IMAGE}
-          alt="InTouch Studio Background"
-          className="w-full h-full object-cover opacity-60"
-        />
-      )}
 
       <div className="absolute inset-0 bg-black/40 bg-gradient-to-t from-brand-darkest via-black/25 to-black/50" />
       <div

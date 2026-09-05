@@ -55,6 +55,11 @@ export async function generateMetadata({
       canonical: `/${segment}`,
       languages: { en: "/en", no: "/no", pl: "/pl" },
     },
+    // Dodana konfiguracja ikon dla przeglądarki i Google
+    icons: {
+      icon: [{ url: "/icon.png", type: "image/png" }],
+      apple: [{ url: "/icon.png", type: "image/png" }],
+    },
     openGraph: {
       title: t("title"),
       description: t("description"),
@@ -62,6 +67,15 @@ export async function generateMetadata({
       siteName: "In Touch Massasjeterapi",
       locale: actualLocale,
       type: "website",
+      // Dodana miniaturka generowana z pierwszej klatki wideo
+      images: [
+        {
+          url: "/video-poster.jpg",
+          width: 1200,
+          height: 630,
+          alt: "In Touch Massasjeterapi",
+        },
+      ],
     },
   };
 }
