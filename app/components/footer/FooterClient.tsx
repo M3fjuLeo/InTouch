@@ -34,6 +34,13 @@ interface FooterClientProps {
     closeModal: string;
     privacyContent: { title: string; text: string }[];
     termsContent: { title: string; text: string }[];
+    bookingUrl?: string;
+    email?: string;
+    phone?: string;
+    address?: string;
+    orgNr?: string;
+    instagramUrl?: string;
+    facebookUrl?: string;
   };
 }
 
@@ -41,14 +48,6 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
   const [activeLegalModal, setActiveLegalModal] = useState<
     "privacy" | "terms" | null
   >(null);
-
-  const bookingUrl = process.env.NEXT_PUBLIC_BOOKING_URL || "";
-  const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
-  const phone = process.env.NEXT_PUBLIC_CONTACT_PHONE;
-  const address = process.env.NEXT_PUBLIC_CONTACT_ADDRESS;
-  const orgNr = process.env.NEXT_PUBLIC_ORG_NR;
-  const instagramUrl = process.env.NEXT_PUBLIC_INSTAGRAM_URL;
-  const facebookUrl = process.env.NEXT_PUBLIC_FACEBOOK_URL;
 
   return (
     <footer className="bg-[#FDFBFB] text-[#3D2C2C] border-t border-[#3D2C2C]/10 pt-16 pb-12 px-6 sm:px-12 relative z-20">
@@ -71,7 +70,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
 
             <div className="pt-2">
               <Button
-                href={bookingUrl}
+                href={labels.bookingUrl || ""}
                 isExternal
                 size="sm"
                 className="bg-brand-primary text-brand-light shadow-none"
@@ -124,10 +123,10 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
               {labels.contactTitle}
             </h4>
             <ul className="space-y-3 text-xs sm:text-sm text-[#3D2C2C]/90 font-light">
-              {instagramUrl && (
+              {labels.instagramUrl && (
                 <li>
                   <a
-                    href={instagramUrl}
+                    href={labels.instagramUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
@@ -137,10 +136,10 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                   </a>
                 </li>
               )}
-              {facebookUrl && (
+              {labels.facebookUrl && (
                 <li>
                   <a
-                    href={facebookUrl}
+                    href={labels.facebookUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
@@ -150,33 +149,33 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                   </a>
                 </li>
               )}
-              {phone && (
+              {labels.phone && (
                 <li>
                   <a
-                    href={`tel:${phone.replace(/\s/g, "")}`}
+                    href={`tel:${labels.phone.replace(/\s/g, "")}`}
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
                   >
                     <Phone className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
-                    <span>{phone}</span>
+                    <span>{labels.phone}</span>
                   </a>
                 </li>
               )}
-              {email && (
+              {labels.email && (
                 <li>
                   <a
-                    href={`mailto:${email}`}
+                    href={`mailto:${labels.email}`}
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
                   >
                     <Mail className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
-                    <span>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</span>
+                    <span>{labels.email}</span>
                   </a>
                 </li>
               )}
-              {address && (
+              {labels.address && (
                 <li>
                   <span className="inline-flex items-center gap-2">
                     <MapPin className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
-                    <span>{address}</span>
+                    <span>{labels.address}</span>
                   </span>
                 </li>
               )}
@@ -213,7 +212,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
         <div className="pt-8 border-t border-[#3D2C2C]/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#3D2C2C]/60 font-light">
           <p>
             © {new Date().getFullYear()} InTouch Massage Studio. {labels.rights}{" "}
-            {orgNr && `| Org.nr: ${orgNr}`}
+            {labels.orgNr && `| Org.nr: ${labels.orgNr}`}
           </p>
           <p className="tracking-wider uppercase text-[10px]">
             {labels.location}
