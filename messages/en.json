@@ -17,7 +17,8 @@
     "about": "About me",
     "offer": "Services",
     "vouchers": "Vouchers",
-    "contact": "Contact"
+    "contact": "Contact",
+    "collaborations": "Collaboration"
   },
   "Hero": {
     "brand": "In Touch",
@@ -180,7 +181,8 @@
         "text": "The studio reserves the right to refuse service in the event of aggressive, disrespectful behavior by the client or a violation of these terms, regardless of the reason described in point 8.[cite: 1]"
       }
     ],
-    "madeBy": "Website by"
+    "madeBy": "Website by",
+    "navCollaborations": "Collaboration"
   },
   "OfferPage": {
     "title": "Our treatments",
@@ -445,6 +447,89 @@
       "studio": "The interior of the In Touch studio",
       "oils": "Essential oils and lavender on a shelf in the studio",
       "ritual": "Karolina with palo santo before a treatment"
+    }
+  },
+  "CollaborationsPage": {
+    "title": "Collaboration",
+    "lead": "Two ways to work together: massage as part of your event, or a place on the In Touch team.",
+    "paths": {
+      "events": {
+        "title": "For hotels, companies and organisers",
+        "description": "Massage as part of gatherings, conferences and retreats."
+      },
+      "join": {
+        "title": "For therapists",
+        "description": "Join In Touch as a massage therapist, physiotherapist or bodywork specialist."
+      }
+    },
+    "events": {
+      "title": "Massage as part of exceptional experiences",
+      "paragraphs": [
+        "Gatherings, conferences, yoga retreats or team events in a mountain cabin are occasions not only to meet and grow, but also to pause for a moment and take care of yourself.",
+        "I offer professional massage that lets participants relax their bodies, regain energy and find space for real rest. Massage becomes a valuable part of the programme, and the organiser can be confident that every detail has been carefully thought through.",
+        "I work with hotels, companies and event organisers, creating solutions tailored to the character of the event, the number of participants and the time available.",
+        "Have an idea for a joint project, or looking for a way to add a moment of recovery to your event? Write to me. I would love to hear your vision and prepare a proposal tailored to your needs."
+      ],
+      "form": {
+        "title": "Tell me about your event",
+        "name": "Full name",
+        "email": "Email",
+        "venue": "Venue / hotel / company",
+        "people": "Number of people",
+        "days": "Number of days",
+        "eventType": "What kind of event",
+        "eventTypePlaceholder": "e.g. yoga retreat, conference, company gathering, team building",
+        "date": "Date",
+        "message": "Anything else you would like to tell me?",
+        "optional": "optional",
+        "messagePlaceholder": "Your ideas, expectations, another project…",
+        "submit": "Send enquiry",
+        "note": "I will get back to you with a proposal as soon as possible.",
+        "success": "Thank you! Your enquiry has been sent.",
+        "error": "Something went wrong. Please try again or send me an email."
+      }
+    },
+    "join": {
+      "title": "Let's create a place together where the body and the person truly matter.",
+      "paragraphs": [
+        "In Touch is a space where professionalism meets mindfulness, and every treatment is a chance to restore balance, relax and reconnect with your own body.",
+        "If you are a massage therapist, physiotherapist or bodywork specialist and would like to bring your knowledge, experience and skills to In Touch, I would love to hear from you.",
+        "I am open to working with people who share my approach to bodywork, value an individual approach to every client and want to grow in an atmosphere of mutual respect and professionalism."
+      ],
+      "subtitle": "Want to join In Touch?",
+      "closing": [
+        "Send me your CV and a short cover letter telling me about your experience, your approach to the work and what you would like to bring to In Touch.",
+        "I look forward to getting to know you and finding out what we could create together."
+      ],
+      "form": {
+        "title": "Tell me about yourself",
+        "name": "Full name",
+        "email": "Email address",
+        "specialization": "Specialisation",
+        "specializationPlaceholder": "Choose a specialisation",
+        "specializations": {
+          "massage": "Massage therapist",
+          "physio": "Physiotherapist",
+          "other": "Other specialisation"
+        },
+        "cv": "CV",
+        "cvHint": "PDF, max. {max} MB",
+        "letter": "Cover letter",
+        "letterHint": "PDF or DOCX, max. {max} MB",
+        "chooseFile": "Choose file",
+        "submit": "Send application",
+        "success": "Thank you! Your application has been sent.",
+        "error": "Something went wrong. Please try again or send me an email.",
+        "fileErrors": {
+          "missing": "Please attach a file.",
+          "type": "Invalid file format.",
+          "size": "The file is too large (max. {max} MB)."
+        }
+      }
+    },
+    "images": {
+      "events": "Karolina giving a back massage in the In Touch studio",
+      "join": "Preparing the massage table with a candle and lavender"
     }
   }
 }

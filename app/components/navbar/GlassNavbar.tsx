@@ -77,7 +77,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-50 px-4 py-4 md:py-6 transition-all duration-300">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div
             className={`flex items-center justify-between px-3 md:px-5 py-2 md:py-2.5 rounded-full transition-all duration-500 ring-1 ring-white/10 ${
               scrolled
@@ -101,7 +101,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
               </span>
             </Link>
 
-            <nav className="hidden lg:flex items-center gap-8 text-sm font-light text-white/90">
+            <nav className="hidden lg:flex items-center gap-5 xl:gap-8 text-sm font-light text-white/90">
               {links.map((link) => {
                 const linkTarget = link.hash
                   ? `${link.href}#${link.hash}`
@@ -123,7 +123,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
                 );
               })}
 
-              <div className="flex items-center gap-3 border-l border-white/20 pl-6 ml-2">
+              <div className="flex items-center gap-3 border-l border-white/20 pl-5 ml-1 xl:pl-6 xl:ml-2">
                 {locales.map((loc) => (
                   <Link
                     key={loc}

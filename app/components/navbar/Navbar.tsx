@@ -10,6 +10,7 @@ export async function Navbar() {
     { href: "/about", label: t("about") },
     { href: "/offer", label: t("offer") },
     { href: "/", hash: "vouchers", label: t("vouchers") },
+    { href: "/collaborations", label: t("collaborations") },
     { href: "/contact", label: t("contact") },
     { href: "/faq", label: "FAQ" },
   ];

@@ -17,7 +17,8 @@
     "about": "O mnie",
     "offer": "Oferta",
     "vouchers": "Vouchery",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "collaborations": "Współpraca"
   },
   "Hero": {
     "brand": "In Touch",
@@ -180,7 +181,8 @@
         "text": "Gabinet zastrzega sobie prawo do odmowy wykonania usługi w przypadku agresywnego, niekulturalnego zachowania klienta lub naruszenia niniejszego regulaminu, niezależnie od powodu opisanego w punkcie 8.[cite: 1]"
       }
     ],
-    "madeBy": "Stronę wykonał"
+    "madeBy": "Stronę wykonał",
+    "navCollaborations": "Współpraca"
   },
   "OfferPage": {
     "title": "Nasza oferta",
@@ -445,6 +447,89 @@
       "studio": "Wnętrze studia In Touch",
       "oils": "Olejki eteryczne i lawenda na półce w studiu",
       "ritual": "Karolina z palo santo przed zabiegiem"
+    }
+  },
+  "CollaborationsPage": {
+    "title": "Współpraca",
+    "lead": "Dwie drogi do wspólnej pracy: masaż jako część Twojego wydarzenia albo miejsce w zespole In Touch.",
+    "paths": {
+      "events": {
+        "title": "Dla hoteli, firm i organizatorów",
+        "description": "Masaż jako część zjazdów, konferencji i retreatów."
+      },
+      "join": {
+        "title": "Dla terapeutów",
+        "description": "Dołącz do In Touch jako masażysta, fizjoterapeuta lub specjalista pracy z ciałem."
+      }
+    },
+    "events": {
+      "title": "Masaż jako część wyjątkowych doświadczeń",
+      "paragraphs": [
+        "Zjazdy, konferencje, retreaty jogi czy spotkania integracyjne w górskich hyttach to okazje, by nie tylko spotkać się i rozwijać, ale również zatrzymać się na chwilę i zadbać o siebie.",
+        "Oferuję profesjonalne masaże, które pozwalają uczestnikom rozluźnić ciało, odzyskać energię i znaleźć przestrzeń na prawdziwy odpoczynek. Dzięki temu masaż staje się wartościowym elementem programu, a organizator zyskuje pewność, że każdy szczegół został starannie przemyślany.",
+        "Współpracuję z hotelami, firmami i organizatorami wydarzeń, tworząc rozwiązania dopasowane do charakteru spotkania, liczby uczestników i dostępnego czasu.",
+        "Masz pomysł na wspólny projekt lub szukasz sposobu, by wzbogacić swoje wydarzenie o chwilę regeneracji? Napisz do mnie. Z przyjemnością poznam Twoją wizję i przygotuję propozycję dopasowaną do Twoich potrzeb."
+      ],
+      "form": {
+        "title": "Opowiedz mi o swoim wydarzeniu",
+        "name": "Imię i nazwisko",
+        "email": "E-mail",
+        "venue": "Miejsce / hotel / firma",
+        "people": "Ile osób",
+        "days": "Ile dni",
+        "eventType": "Co to za wydarzenie",
+        "eventTypePlaceholder": "np. retreat jogi, konferencja, zjazd firmowy, integracja",
+        "date": "Data",
+        "message": "Coś jeszcze, co chcesz mi przekazać?",
+        "optional": "opcjonalnie",
+        "messagePlaceholder": "Twoje pomysły, oczekiwania, inny projekt…",
+        "submit": "Wyślij zapytanie",
+        "note": "Odezwę się z ofertą najszybciej, jak to możliwe.",
+        "success": "Dziękuję! Twoje zapytanie zostało wysłane.",
+        "error": "Nie udało się wysłać. Spróbuj ponownie lub napisz do mnie na e-mail."
+      }
+    },
+    "join": {
+      "title": "Twórzmy razem miejsce, w którym ciało i człowiek są naprawdę ważne.",
+      "paragraphs": [
+        "In Touch to przestrzeń, w której profesjonalizm spotyka się z uważnością, a każdy zabieg jest okazją do przywrócenia równowagi, rozluźnienia i lepszego kontaktu z własnym ciałem.",
+        "Jeśli jesteś masażystą, fizjoterapeutą lub specjalistą pracy z ciałem i chciałbyś wnieść swoją wiedzę, doświadczenie oraz umiejętności do In Touch, zapraszam Cię do kontaktu.",
+        "Jestem otwarta na współpracę z osobami, które podzielają moje podejście do pracy z ciałem, cenią indywidualne podejście do klienta i chcą rozwijać się w atmosferze wzajemnego szacunku i profesjonalizmu."
+      ],
+      "subtitle": "Chcesz dołączyć do In Touch?",
+      "closing": [
+        "Prześlij swoje CV oraz krótki list motywacyjny, w którym opowiesz mi o swoim doświadczeniu, podejściu do pracy i o tym, co chciałbyś wnieść do In Touch.",
+        "Z przyjemnością poznam Cię bliżej i dowiem się, jakie możliwości współpracy możemy wspólnie stworzyć."
+      ],
+      "form": {
+        "title": "Opowiedz mi o sobie",
+        "name": "Imię i nazwisko",
+        "email": "Adres e-mail",
+        "specialization": "Specjalizacja",
+        "specializationPlaceholder": "Wybierz specjalizację",
+        "specializations": {
+          "massage": "Masażysta / masażystka",
+          "physio": "Fizjoterapeuta / fizjoterapeutka",
+          "other": "Inna specjalizacja"
+        },
+        "cv": "CV",
+        "cvHint": "PDF, maks. {max} MB",
+        "letter": "List motywacyjny",
+        "letterHint": "PDF lub DOCX, maks. {max} MB",
+        "chooseFile": "Wybierz plik",
+        "submit": "Wyślij zgłoszenie",
+        "success": "Dziękuję! Twoje zgłoszenie zostało wysłane.",
+        "error": "Nie udało się wysłać. Spróbuj ponownie lub napisz do mnie na e-mail.",
+        "fileErrors": {
+          "missing": "Dodaj plik.",
+          "type": "Nieprawidłowy format pliku.",
+          "size": "Plik jest za duży (maks. {max} MB)."
+        }
+      }
+    },
+    "images": {
+      "events": "Karolina podczas masażu pleców w studiu In Touch",
+      "join": "Przygotowanie stanowiska do masażu ze świecą i lawendą"
     }
   }
 }

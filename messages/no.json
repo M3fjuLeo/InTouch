@@ -17,7 +17,8 @@
     "about": "Om meg",
     "offer": "Tilbud",
     "vouchers": "Gavekort",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "collaborations": "Samarbeid"
   },
   "Hero": {
     "brand": "In Touch",
@@ -180,7 +181,8 @@
         "text": "Studioet forbeholder seg retten til å nekte å utføre en tjeneste ved aggressiv, respektløs oppførsel fra klienten eller ved brudd på disse vilkårene, uavhengig av årsaken beskrevet i punkt 8.[cite: 1]"
       }
     ],
-    "madeBy": "Nettside av"
+    "madeBy": "Nettside av",
+    "navCollaborations": "Samarbeid"
   },
   "OfferPage": {
     "title": "Våre behandlinger",
@@ -445,6 +447,89 @@
       "studio": "Interiøret i In Touch-studioet",
       "oils": "Eteriske oljer og lavendel på en hylle i studioet",
       "ritual": "Karolina med palo santo før behandlingen"
+    }
+  },
+  "CollaborationsPage": {
+    "title": "Samarbeid",
+    "lead": "To veier til samarbeid: massasje som en del av arrangementet ditt, eller en plass i In Touch-teamet.",
+    "paths": {
+      "events": {
+        "title": "For hoteller, bedrifter og arrangører",
+        "description": "Massasje som en del av samlinger, konferanser og retreater."
+      },
+      "join": {
+        "title": "For terapeuter",
+        "description": "Bli en del av In Touch som massør, fysioterapeut eller spesialist på kroppsarbeid."
+      }
+    },
+    "events": {
+      "title": "Massasje som en del av unike opplevelser",
+      "paragraphs": [
+        "Samlinger, konferanser, yogaretreater eller teambuilding på fjellhytta er anledninger ikke bare til å møtes og utvikle seg, men også til å stoppe opp et øyeblikk og ta vare på seg selv.",
+        "Jeg tilbyr profesjonell massasje som lar deltakerne slappe av i kroppen, hente ny energi og finne rom for ekte hvile. Slik blir massasjen en verdifull del av programmet, og arrangøren kan være trygg på at hver detalj er nøye gjennomtenkt.",
+        "Jeg samarbeider med hoteller, bedrifter og arrangører og lager løsninger tilpasset arrangementets karakter, antall deltakere og tiden som er tilgjengelig.",
+        "Har du en idé til et felles prosjekt, eller ser du etter en måte å gi arrangementet ditt et øyeblikk av restitusjon? Skriv til meg. Jeg ser frem til å høre om visjonen din og lage et forslag tilpasset dine behov."
+      ],
+      "form": {
+        "title": "Fortell meg om arrangementet ditt",
+        "name": "Navn",
+        "email": "E-post",
+        "venue": "Sted / hotell / bedrift",
+        "people": "Antall personer",
+        "days": "Antall dager",
+        "eventType": "Hva slags arrangement",
+        "eventTypePlaceholder": "f.eks. yogaretreat, konferanse, firmasamling, teambuilding",
+        "date": "Dato",
+        "message": "Noe mer du vil fortelle meg?",
+        "optional": "valgfritt",
+        "messagePlaceholder": "Dine ideer, forventninger, et annet prosjekt …",
+        "submit": "Send forespørsel",
+        "note": "Jeg tar kontakt med et tilbud så snart som mulig.",
+        "success": "Takk! Forespørselen din er sendt.",
+        "error": "Noe gikk galt. Prøv igjen eller send meg en e-post."
+      }
+    },
+    "join": {
+      "title": "La oss sammen skape et sted der kroppen og mennesket virkelig betyr noe.",
+      "paragraphs": [
+        "In Touch er et rom der profesjonalitet møter oppmerksomhet, og hver behandling er en mulighet til å gjenopprette balanse, slappe av og få bedre kontakt med egen kropp.",
+        "Er du massør, fysioterapeut eller spesialist på kroppsarbeid, og ønsker å bidra med din kunnskap, erfaring og dine ferdigheter i In Touch? Da vil jeg gjerne høre fra deg.",
+        "Jeg er åpen for samarbeid med personer som deler min tilnærming til kroppsarbeid, verdsetter en individuell tilnærming til hver kunde og ønsker å utvikle seg i en atmosfære av gjensidig respekt og profesjonalitet."
+      ],
+      "subtitle": "Vil du bli en del av In Touch?",
+      "closing": [
+        "Send meg CV-en din og et kort søknadsbrev der du forteller om erfaringen din, hvordan du jobber og hva du ønsker å bidra med i In Touch.",
+        "Jeg ser frem til å bli bedre kjent med deg og finne ut hvilke samarbeidsmuligheter vi kan skape sammen."
+      ],
+      "form": {
+        "title": "Fortell meg om deg selv",
+        "name": "Navn",
+        "email": "E-postadresse",
+        "specialization": "Spesialisering",
+        "specializationPlaceholder": "Velg spesialisering",
+        "specializations": {
+          "massage": "Massør",
+          "physio": "Fysioterapeut",
+          "other": "Annen spesialisering"
+        },
+        "cv": "CV",
+        "cvHint": "PDF, maks. {max} MB",
+        "letter": "Søknadsbrev",
+        "letterHint": "PDF eller DOCX, maks. {max} MB",
+        "chooseFile": "Velg fil",
+        "submit": "Send søknad",
+        "success": "Takk! Søknaden din er sendt.",
+        "error": "Noe gikk galt. Prøv igjen eller send meg en e-post.",
+        "fileErrors": {
+          "missing": "Legg ved en fil.",
+          "type": "Ugyldig filformat.",
+          "size": "Filen er for stor (maks. {max} MB)."
+        }
+      }
+    },
+    "images": {
+      "events": "Karolina under en ryggmassasje i In Touch-studioet",
+      "join": "Massasjebenken gjøres klar med stearinlys og lavendel"
     }
   }
 }

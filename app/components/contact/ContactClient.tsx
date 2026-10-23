@@ -6,6 +6,7 @@ import { Button } from "../ui/Button";
 import { FacebookIcon, InstagramIcon } from "../ui/SocialIcons";
 import { cn } from "../../lib/utils";
 import { siteConfig } from "../../lib/siteConfig";
+import { submitForm } from "../../lib/forms";
 import { Heading } from "../ui/Heading";
 
 interface ContactClientProps {
@@ -40,11 +41,14 @@ export const ContactClient: React.FC<ContactClientProps> = ({
     setIsSubmitting(true);
     setFormStatus("idle");
 
-    // TODO: Formularz nie wysyła jeszcze wiadomości – podłączyć prawdziwą wysyłkę (np. Resend / Formspree).
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      await submitForm("contact", new FormData(e.currentTarget));
       setFormStatus("success");
-    }, 1000);
+    } catch {
+      setFormStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

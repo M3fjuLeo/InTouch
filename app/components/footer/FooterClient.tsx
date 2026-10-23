@@ -26,6 +26,7 @@ interface FooterClientProps {
     navAbout: string;
     navOffer: string;
     navVouchers: string;
+    navCollaborations: string;
     contactTitle: string;
     legalTitle: string;
     privacy: string;
@@ -115,6 +116,14 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                   className="hover:opacity-70 transition-opacity"
                 >
                   {labels.navVouchers}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/collaborations"
+                  className="hover:opacity-70 transition-opacity"
+                >
+                  {labels.navCollaborations}
                 </Link>
               </li>
               <li>

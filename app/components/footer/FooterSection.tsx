@@ -12,6 +12,7 @@ export async function FooterSection() {
     navAbout: t("navAbout"),
     navOffer: t("navOffer"),
     navVouchers: t("navVouchers"),
+    navCollaborations: t("navCollaborations"),
     contactTitle: t("contactTitle"),
     legalTitle: t("legalTitle"),
     privacy: t("privacy"),
