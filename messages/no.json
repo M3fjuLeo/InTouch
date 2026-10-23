@@ -60,49 +60,7 @@
       "body": "Kropp",
       "special": "Spesial",
       "focused": "Fokusert"
-    },
-    "list": [
-      {
-        "id": "start-here",
-        "name": "Start Here",
-        "categoryId": "body",
-        "tag": "Første Steg",
-        "duration": "75",
-        "price": "1095",
-        "description": "Det perfekte første steget. En full kroppsmassasje lar oss vurdere kroppen din riktig, identifisere skjulte spenningsmønstre og finne den sanne kilden til problemet. Inkluderer 60 minutter massasje og 15 minutter konsultasjon.",
-        "image": "/images/services/start-here.jpg"
-      },
-      {
-        "id": "full-body-90",
-        "name": "Full Body",
-        "categoryId": "body",
-        "tag": "Bestselger",
-        "duration": "90",
-        "price": "1595",
-        "description": "En helhetlig terapi som kombinerer klassisk og dypvevsmassasje. Dekker hele kroppen, ansiktet og hodet. Fungerer som en balsam for nervesystemet, og gir dyp ro og indre balanse.",
-        "image": "/images/services/full-body.jpg"
-      },
-      {
-        "id": "targeted-relief",
-        "name": "Targeted Relief",
-        "categoryId": "focused",
-        "tag": "Lindring",
-        "duration": "60",
-        "price": "1095",
-        "description": "Fokusert terapi for rygg, nakke og skuldre. Det perfekte valget for personer med en intensiv livsstil, da den frigjør effektivt akkumulert stress og muskelspenninger.",
-        "image": "/images/services/targeted-relief.jpg"
-      },
-      {
-        "id": "pregnancy",
-        "name": "Pregnancy",
-        "categoryId": "special",
-        "tag": "Graviditet",
-        "duration": "60",
-        "price": "1095",
-        "description": "En skånsom og trygg massasje designet spesielt for gravide kvinner (mellom uke 13 og 35). Gir lindring til belastede ledd og rygg.",
-        "image": "/images/services/pregnancy.jpg"
-      }
-    ]
+    }
   },
   "SocialProof": {
     "badge": "TILBAKEMELDINGER",
@@ -224,94 +182,77 @@
     ]
   },
   "OfferPage": {
-    "title": "Våre Behandlinger",
-    "subtitle": "Finn et øyeblikk for deg selv. Velg en terapi tilpasset kroppens og sinnets behov.",
-    "filters": {
-      "all": "Alle",
+    "title": "Våre behandlinger",
+    "intro": "Kjenner du at kroppen bærer mer enn den burde? Hos meg kan du endelig senke skuldrene. Med over 14 års erfaring lytter hendene mine til kroppen din, og hver massasje tilpasses deg og dagsformen din. Her venter en rolig og varm spa-atmosfære der ingenting haster, med terapeutisk dybde som virkelig merkes. Første gang? Velg START HER. Du er i gode hender.",
+    "categories": {
       "firstTime": "Første besøk",
       "fullBody": "Hele kroppen",
       "focused": "Fokuserte områder",
-      "special": "Spesial"
+      "pregnancy": "Graviditet"
     },
-    "card": {
-      "bookNow": "Bestill",
+    "badges": {
+      "recommended": "Anbefalt",
+      "mostChosen": "Mest valgt"
+    },
+    "labels": {
+      "book": "Bestill",
       "readMore": "Les mer",
-      "readLess": "Les mindre"
+      "readLess": "Les mindre",
+      "duration": "{minutes} min",
+      "consultation": "+ {minutes} min samtale"
     },
-    "services": [
-      {
-        "id": "start-here",
-        "category": "firstTime",
-        "title": "START HER - Første Besøk",
-        "duration": "1 t 15 min",
-        "price": "1 095,00 kr",
-        "isBestseller": false,
-        "description": "Start her. Denne behandlingen er det perfekte første steget. Ofte er smerten du føler resultatet av spenninger du ikke engang er klar over. Derfor er den første økten så viktig. En full kroppsmassasje lar oss vurdere kroppen din, identifisere skjulte spenningsmønstre og finne den sanne kilden til problemet. Behandlingen inkluderer: \n• 60 minutter full kroppsmassasje tilpasset dine behov \n• 15 minutter konsultasjon, inkludert helseintervju og handlingsplan. Konsultasjonstiden er lagt til massasjen, slik at du ikke mister verdifull tid på benken."
+    "services": {
+      "start-deep-unwind": {
+        "name": "Start her – Dyp avkobling",
+        "area": "Hele kroppen, ansikt og hode",
+        "description": "Første gang hos meg, og lyst på den fulle opplevelsen? Vi starter med en rolig samtale om kroppen din, helsehistorikken og hva du ønsker hjelp med. Deretter får du 75 minutter med hele kroppen, ansikt og hodebunn, i en varm atmosfære med spa-følelse og uten noe hastverk. Samtalen kommer i tillegg, så du mister ikke tid på benken. Du går hjem dypt avslappet, med en tydelig plan videre."
       },
-      {
-        "id": "classic-90-full-face-head",
-        "category": "fullBody",
-        "title": "Klassisk Massasje - Hele kroppen, ansikt og hode",
-        "duration": "1 t 30 min",
-        "price": "1 595,00 kr",
-        "isBestseller": true,
-        "description": "En unik opplevelse som tar vare på kropp og sjel, og gir avslapning på mange nivåer. Denne helhetlige terapien kombinerer klassisk og dypvevsmassasjeteknikker, og når triggerpunkter for å frigjøre spenninger og blokkeringer. Ansiktsmassasje bidrar til å frigjøre følelsesmessige spenninger og forbedrer søvnen, mens hodemassasje gjør avslapningen utrolig dyp. Unn deg selv luksusen av regenerering og psykosomatisk fornyelse."
+      "start-here": {
+        "name": "Start her",
+        "area": "Hele kroppen",
+        "description": "Første gang hos meg? Start her. Vi begynner med en rolig samtale om kroppen din, helsehistorikken og hva du ønsker hjelp med. Deretter får du 50 minutter helkroppsmassasje, der jeg kjenner etter hvor spenningene faktisk sitter – ofte et annet sted enn der det gjør vondt. Samtalen kommer i tillegg, så du mister ikke tid på benken. Hos meg venter en rolig, varm atmosfære med spa-følelse, der du kan senke skuldrene fra første øyeblikk. Du går hjem med en lettere kropp og en tydelig plan videre."
       },
-      {
-        "id": "classic-60-full",
-        "category": "fullBody",
-        "title": "Klassisk Massasje - Hele kroppen",
-        "duration": "1 t 15 min",
-        "price": "1 095,00 kr",
-        "isBestseller": true,
-        "description": "Et utmerket utgangspunkt for alle som begynner sin reise mot helbredelse. En 60-minutters full kroppsmassasje åpner øynene dine for hvor mange områder av kroppen vår som trenger oppmerksomhet (ofte der vi ikke føler direkte smerte). Det lar deg lage en personlig handlingsplan på veien til helse - fysisk og emosjonell balanse. Det forbedrer sirkulasjonen, regulerer stress og slapper dypt av."
+      "deep-unwind": {
+        "name": "Dyp avkobling",
+        "area": "Hele kroppen, ansikt og hode",
+        "description": "Min anbefaling – og det mest valgte hos meg. En ekte spa-opplevelse, med den dybden en terapeutisk massasje gir. På 75 minutter rekker jeg å jobbe grundig med hele kroppen og samtidig gi ansiktet og hodebunnen den tiden de fortjener. Jeg følger kroppen din og bruker tid der den ber om det, i et rolig tempo der ingenting haster. Timen avsluttes med hodebunnsmassasje, og mange sier det er vanskelig å reise seg fra benken etterpå."
       },
-      {
-        "id": "classic-60-back",
-        "category": "focused",
-        "title": "Klassisk Massasje - Rygg, nakke og skuldre",
-        "duration": "1 t 15 min",
-        "price": "1 095,00 kr",
-        "isBestseller": false,
-        "description": "En massasje med elementer av triggerpunktterapi med fokus på rygg, nakke og skuldre. Det perfekte valget for personer med en intensiv livsstil og de som tilbringer mange timer bak et skrivebord. Frigjør effektivt muskelspenninger, med fokus på å slappe av stresspunkter rundt skulderbladene. Gir rask lindring, forbedrer fleksibiliteten og gjenoppretter en følelse av letthet."
+      "total-immersion": {
+        "name": "Total fordypning",
+        "area": "Hele kroppen, ansikt og hode · Kopping inkludert",
+        "description": "Min mest luksuriøse behandling – en hel spa-stund for deg som vil gi kroppen full oppmerksomhet. Du får hele kroppen, ansiktet og hodet, med tid til å jobbe grundig og intuitivt med alt som trenger det. Kopping er inkludert der kroppen har behov for det. Ideell etter en tung periode, eller som en gave til deg selv."
       },
-      {
-        "id": "classic-60-face",
-        "category": "focused",
-        "title": "Klassisk Massasje - Ansikt, hode, nakke og skuldre",
-        "duration": "1 t 15 min",
-        "price": "1 095,00 kr",
-        "isBestseller": false,
-        "description": "En teknikk som gir lindring for personer som lider av migrene, spenningshodepine og bruksisme (ubevisst tanngnissing). Fokuserer på slitne muskler. En serie behandlinger anbefales for å opprettholde effekten. I begynnelsen kan en såkalt 'helbredelseskrise' oppstå, men regelmessig terapi forbedrer sirkulasjonen, oksygenerer celler og forbedrer søvnkvaliteten betydelig."
+      "tailored": {
+        "name": "Skreddersydd",
+        "area": "Hele kroppen",
+        "description": "Ingen massasje hos meg er lik, men roen og spa-følelsen får du alltid. Jeg leser kroppen din underveis og kombinerer klassisk massasje, dypvev og triggerpunkt etter det du trenger akkurat den dagen. Vil du også ha ansikt og hodebunn, og mer tid der kroppen trenger det? Velg Dyp avkobling 75 min."
       },
-      {
-        "id": "classic-30-deep",
-        "category": "focused",
-        "title": "Dypvevselementer - Rygg, nakke og skuldre",
-        "duration": "45 min",
-        "price": "595,00 kr",
-        "isBestseller": false,
-        "description": "En kort, men intensiv økt med fokus på et spesifikt problem. En rask måte å frigjøre spenninger og redusere stress som bygger seg opp i nakke og skuldre. En kvalifisert terapeut vil også bruke tøyeteknikker for å øke bevegelsesområdet. Unn deg et øyeblikk med regenerering i en pause fra daglige plikter."
+      "drop-shoulders": {
+        "name": "Senk skuldrene",
+        "area": "Rygg, nakke og skuldre",
+        "description": "For deg som sitter mye, bærer stresset i skuldrene eller kjenner stivhet i nakken. Du får 50 minutter med fullt fokus der det sitter, med dypvev, triggerpunkt og tøyning, og trykket tilpasses det du liker. Sitter spenningene flere steder? Velg Dyp avkobling 75 min."
       },
-      {
-        "id": "classic-120-full",
-        "category": "fullBody",
-        "title": "Utvidet Klassisk Massasje - Hele kroppen, ansikt og hode",
-        "duration": "2 t",
-        "price": "1 895,00 kr",
-        "isBestseller": false,
-        "description": "Hele to timer med uavbrutt luksus for din kropp og sinn. En holistisk terapi med største oppmerksomhet på hver detalj. En sømløs kombinasjon av teknikker som når de dypeste lagene av vevet. Lar deg koble helt av fra omverdenen, gjenvinne mental klarhet og oppnå dyp psykosomatisk gjenoppretting."
+      "quiet-mind": {
+        "name": "Stille sinn",
+        "area": "Ansikt, hode, nakke og skuldre",
+        "description": "En dypt beroligende behandling for ansikt, kjeve, hode, nakke og skuldre. Passer godt for deg som kjenner spenningshodepine, stram kjeve eller tanngnissing, og for deg som trenger å roe ned et travelt hode. Vil du kombinere dette med hele kroppen? Velg Dyp avkobling 75 min."
       },
-      {
-        "id": "pregnancy",
-        "category": "special",
-        "title": "Gravidmassasje (uke 13-35)",
-        "duration": "1 t",
-        "price": "1 095,00 kr",
-        "isBestseller": false,
-        "description": "En trygg og dedikert massasje for gravide, som gir lindring til overbelastede muskler. Utføres i komfortable, spesialtilpassede stillinger."
+      "focus": {
+        "name": "Focus",
+        "area": "Rygg, nakke og skuldre",
+        "description": "For deg som har lite tid, men mye spenning. Jeg jobber målrettet med nakke, skuldre og øvre rygg, med dypvev, triggerpunkt og tøyning der kroppen trenger det. Perfekt som vedlikehold mellom lengre behandlinger."
+      },
+      "pregnancy-deep-unwind": {
+        "name": "Gravid dyp avkobling",
+        "area": "Hele kroppen, ansikt og hode · Uke 13–35",
+        "description": "Den fulle spa-opplevelsen for deg som venter barn. Du ligger trygt og godt på en spesialdesignet gravidpute, og jeg tilpasser trykk og stillinger til kroppen din og svangerskapet. På 75 minutter rekker vi hele kroppen i et rolig tempo, med en skånsom fotmassasje for tunge bein, og timen avsluttes med massasje av ansikt og hodebunn. En lang, rolig stund bare for deg, i en tid der kroppen jobber hardt hver dag."
+      },
+      "pregnancy": {
+        "name": "Gravid massasje",
+        "area": "Uke 13–35",
+        "description": "En trygg og rolig massasje for deg som venter barn. Du ligger godt på en spesialdesignet gravidpute, og jeg tilpasser trykk og stillinger til kroppen din og svangerskapet. Behandlingen er laget for spente rygger og tunge bein, og gir deg en rolig spa-stund bare for deg. Tips: legg til fotmassasje for ekstra lette bein."
       }
-    ]
+    }
   },
   "ContactPage": {
     "title": "Kontakt",

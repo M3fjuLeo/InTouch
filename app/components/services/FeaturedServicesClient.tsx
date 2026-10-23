@@ -9,10 +9,7 @@ import { Heading } from "../ui/Heading";
 interface Service {
   id: string;
   name: string;
-  categoryId: string;
   tag: string;
-  duration: string;
-  price: string;
   description: string;
   image: string;
 }
@@ -33,8 +30,7 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
   labels,
   bookingUrl,
 }) => {
-  const featuredServices = services.slice(0, 4);
-  const [activeId, setActiveId] = useState<string>(featuredServices[0]?.id);
+  const [activeId, setActiveId] = useState<string>(services[0]?.id);
 
   return (
     <section
@@ -51,7 +47,7 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
         </div>
 
         <div className="hidden md:flex h-[550px] gap-4 w-full">
-          {featuredServices.map((service) => {
+          {services.map((service) => {
             const isActive = activeId === service.id;
 
             return (
@@ -125,7 +121,7 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
         </div>
 
         <div className="flex md:hidden overflow-x-auto snap-x snap-mandatory gap-4 pb-8 -mx-6 px-6 custom-scrollbar">
-          {featuredServices.map((service) => (
+          {services.map((service) => (
             <div
               key={service.id}
               className="relative shrink-0 w-[85%] h-[450px] rounded-[2rem] overflow-hidden snap-center bg-brand-dark"

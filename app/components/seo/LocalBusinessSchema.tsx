@@ -1,4 +1,6 @@
+import { getTranslations } from "next-intl/server";
 import { siteConfig, type Weekday } from "../../lib/siteConfig";
+import { services } from "../../lib/services";
 
 const schemaDayNames: Record<Weekday, string> = {
   mon: "Monday",
@@ -10,7 +12,10 @@ const schemaDayNames: Record<Weekday, string> = {
   sun: "Sunday",
 };
 
-export function LocalBusinessSchema() {
+export async function LocalBusinessSchema() {
+  // Katalog usług zawsze po norwesku, tak jak nazwy w systemie rezerwacji.
+  const tOffer = await getTranslations({ locale: "no", namespace: "OfferPage" });
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
@@ -48,26 +53,15 @@ export function LocalBusinessSchema() {
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Massasjetjenester",
-      itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "START HER - Din første massasje",
-          },
-          price: "1095.00",
-          priceCurrency: "NOK",
+      itemListElement: services.map((service) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: `${tOffer(`services.${service.id}.name`)} ${service.duration} min`,
         },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Klassisk massasje 90 min",
-          },
-          price: "1595.00",
-          priceCurrency: "NOK",
-        },
-      ],
+        price: service.price.toFixed(2),
+        priceCurrency: "NOK",
+      })),
     },
   };
 
