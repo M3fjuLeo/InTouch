@@ -32,6 +32,7 @@ interface FooterClientProps {
     terms: string;
     rights: string;
     location: string;
+    madeBy: string;
     closeModal: string;
     privacyContent: { title: string; text: string }[];
     termsContent: { title: string; text: string }[];
@@ -90,6 +91,14 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
               <li>
                 <Link href="/" className="hover:opacity-70 transition-opacity">
                   {labels.navHome}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="hover:opacity-70 transition-opacity"
+                >
+                  {labels.navAbout}
                 </Link>
               </li>
               <li>
@@ -215,9 +224,22 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
             © {new Date().getFullYear()} {siteConfig.name}. {labels.rights}{" "}
             {labels.orgNr && `| Org.nr: ${labels.orgNr}`}
           </p>
-          <p className="tracking-wider uppercase text-[10px]">
-            {labels.location}
-          </p>
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
+            <p className="tracking-wider uppercase text-[10px]">
+              {labels.location}
+            </p>
+            <p>
+              {labels.madeBy}{" "}
+              <a
+                href={siteConfig.author.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-normal text-brand-darkest/80 underline-offset-4 hover:underline hover:text-brand-primary transition-colors"
+              >
+                {siteConfig.author.name}
+              </a>
+            </p>
+          </div>
         </div>
       </div>
 

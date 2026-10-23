@@ -14,7 +14,7 @@
   },
   "Navbar": {
     "home": "Hjem",
-    "about": "Om oss",
+    "about": "Om meg",
     "offer": "Tilbud",
     "vouchers": "Gavekort",
     "contact": "Kontakt"
@@ -82,7 +82,7 @@
     "bookBtn": "Bestill time",
     "navTitle": "Navigasjon",
     "navHome": "Hjem",
-    "navAbout": "Om oss",
+    "navAbout": "Om meg",
     "navOffer": "Behandlinger",
     "navVouchers": "Gavekort",
     "contactTitle": "Kontakt",
@@ -179,7 +179,8 @@
         "title": "17. Rett til å nekte betjening",
         "text": "Studioet forbeholder seg retten til å nekte å utføre en tjeneste ved aggressiv, respektløs oppførsel fra klienten eller ved brudd på disse vilkårene, uavhengig av årsaken beskrevet i punkt 8.[cite: 1]"
       }
-    ]
+    ],
+    "madeBy": "Nettside av"
   },
   "OfferPage": {
     "title": "Våre behandlinger",
@@ -399,5 +400,51 @@
         "answer": "Hver time er satt opp til et bestemt klokkeslett, og en annen klient kan vente etter deg.\nDerfor utvider jeg ikke massasjen med den tiden du er for sen — av respekt for de neste personene og deres reserverte tid.\nVennligst send en kort SMS hvis du vet at du blir for sen.\nPunktlighet lar meg tilby hver enkelt klient et rolig og profesjonelt besøk."
       }
     ]
+  },
+  "AboutPage": {
+    "eyebrow": "Karolina, massasjeterapeut",
+    "title": "Om meg",
+    "lead": "I over 15 år har jeg jobbet med menneskekroppen. I løpet av denne tiden har jeg lært at kroppen kan si mye mer enn vi klarer å uttrykke med ord.",
+    "highlights": {
+      "experience": {
+        "value": "15+",
+        "label": "års erfaring"
+      },
+      "hours": {
+        "value": "16 000",
+        "label": "timer med arbeid med egne hender"
+      },
+      "certificates": {
+        "value": "11",
+        "label": "sertifikater – og jeg utvikler meg stadig"
+      }
+    },
+    "clients": "Kundene mine kommer tilbake og anbefaler meg til sine nærmeste.",
+    "storyIntro": [
+      "Anspente skuldre, en sammenbitt kjeve, overfladisk pust, tretthet eller smerte er ofte spor av det som skjer i livene våre: stress, følelser, utmattelse og mangel på hvile. Jeg vet selv hvor lett det er å glemme sin egen kropp når hverdagen er full av ting å tenke på."
+    ],
+    "quote": {
+      "text": "Derfor ser jeg ikke bare anspente muskler når jeg masserer.",
+      "emphasis": "Jeg ser mennesket."
+    },
+    "story": [
+      "Jeg lytter, observerer og tilpasser arbeidet mitt etter det du virkelig trenger. Jeg vil ikke bare gi deg lindring, men også hjelpe deg å kjenne kroppen din igjen, legge merke til signalene den gir og få bedre kontakt med den.",
+      "Jeg tror at det vi noen ganger trenger aller mest, rett og slett er et sted der vi kan slutte å skynde oss, legge alt fra oss en stund, trekke pusten dypt og la noen ta vare på oss.",
+      "Akkurat et slikt sted ønsket jeg å skape i In Touch.",
+      "Et sted fylt av ro, oppmerksomhet og respekt. Uten vurderinger og uten hastverk – med profesjonalitet, men også med empati og vanlig, menneskelig forståelse."
+    ],
+    "closing": "Kroppen din er ikke noe du bør ignorere. Den er hjemmet du bor i hver eneste dag. Jeg vil hjelpe deg å føle deg vel i den.",
+    "signature": "Karolina",
+    "cta": {
+      "book": "Bestill time",
+      "offer": "Se behandlinger"
+    },
+    "images": {
+      "portrait": "Karolina gjør klar massasjebenken i In Touch-studioet",
+      "session": "Karolina under en nakkemassasje",
+      "studio": "Interiøret i In Touch-studioet",
+      "oils": "Eteriske oljer og lavendel på en hylle i studioet",
+      "ritual": "Karolina med palo santo før behandlingen"
+    }
   }
 }

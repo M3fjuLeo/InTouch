@@ -7,6 +7,7 @@ export async function Navbar() {
 
   const links = [
     { href: "/", label: t("home") },
+    { href: "/about", label: t("about") },
     { href: "/offer", label: t("offer") },
     { href: "/", hash: "vouchers", label: t("vouchers") },
     { href: "/contact", label: t("contact") },

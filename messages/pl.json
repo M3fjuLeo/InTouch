@@ -82,7 +82,7 @@
     "bookBtn": "Zarezerwuj wizytę",
     "navTitle": "Nawigacja",
     "navHome": "Strona główna",
-    "navAbout": "O nas",
+    "navAbout": "O mnie",
     "navOffer": "Oferta",
     "navVouchers": "Vouchery",
     "contactTitle": "Kontakt",
@@ -179,7 +179,8 @@
         "title": "17. Prawo do odmowy obsługi",
         "text": "Gabinet zastrzega sobie prawo do odmowy wykonania usługi w przypadku agresywnego, niekulturalnego zachowania klienta lub naruszenia niniejszego regulaminu, niezależnie od powodu opisanego w punkcie 8.[cite: 1]"
       }
-    ]
+    ],
+    "madeBy": "Stronę wykonał"
   },
   "OfferPage": {
     "title": "Nasza oferta",
@@ -399,5 +400,51 @@
         "answer": "Każda wizyta jest zaplanowana na konkretną godzinę, a po Tobie może czekać kolejny klient.\nDlatego nie przedłużam masażu o czas Twojego spóźnienia — z szacunku do kolejnych osób i ich zarezerwowanego czasu.\nJeśli wiesz, że się spóźnisz, proszę o krótką wiadomość SMS.\nPunktualność pozwala mi zapewnić każdemu klientowi spokojną i profesjonalną wizytę."
       }
     ]
+  },
+  "AboutPage": {
+    "eyebrow": "Karolina, terapeutka masażu",
+    "title": "O mnie",
+    "lead": "Od ponad 15 lat pracuję z ciałem człowieka. Przez ten czas nauczyłam się, że ciało potrafi powiedzieć znacznie więcej, niż jesteśmy w stanie wyrazić słowami.",
+    "highlights": {
+      "experience": {
+        "value": "15+",
+        "label": "lat doświadczenia"
+      },
+      "hours": {
+        "value": "16 000",
+        "label": "godzin pracy własnymi rękami"
+      },
+      "certificates": {
+        "value": "11",
+        "label": "certyfikatów – i stale się rozwijam"
+      }
+    },
+    "clients": "Moi klienci wracają i polecają mnie swoim bliskim.",
+    "storyIntro": [
+      "Napięte ramiona, zaciśnięta szczęka, płytki oddech, zmęczenie czy ból często są śladem tego, co dzieje się w naszym życiu: stresu, emocji, przemęczenia i braku odpoczynku. Sama dobrze wiem, jak łatwo zapomnieć o własnym ciele, gdy na co dzień mamy tak wiele spraw na głowie."
+    ],
+    "quote": {
+      "text": "Dlatego podczas masażu nie widzę wyłącznie napiętych mięśni.",
+      "emphasis": "Widzę człowieka."
+    },
+    "story": [
+      "Słucham, obserwuję i dopasowuję swoją pracę do tego, czego naprawdę potrzebujesz. Chcę nie tylko przynieść Ci ulgę, ale też pomóc Ci ponownie poczuć swoje ciało, zauważać jego sygnały i nawiązać z nim lepszy kontakt.",
+      "Wierzę, że czasem najbardziej potrzebujemy po prostu miejsca, w którym możemy przestać się spieszyć, odłożyć wszystko na chwilę, wziąć głęboki oddech i pozwolić komuś zadbać o nas.",
+      "Właśnie takie miejsce chciałam stworzyć w In Touch.",
+      "Miejsce pełne spokoju, uważności i szacunku. Bez oceniania i bez pośpiechu – z profesjonalizmem, ale też z empatią i zwykłym, ludzkim zrozumieniem."
+    ],
+    "closing": "Twoje ciało nie jest czymś, co warto ignorować. Jest domem, w którym mieszkasz każdego dnia. Chcę pomóc Ci poczuć się w nim dobrze.",
+    "signature": "Karolina",
+    "cta": {
+      "book": "Umów wizytę",
+      "offer": "Zobacz ofertę"
+    },
+    "images": {
+      "portrait": "Karolina przygotowuje stół do masażu w studiu In Touch",
+      "session": "Karolina podczas masażu karku",
+      "studio": "Wnętrze studia In Touch",
+      "oils": "Olejki eteryczne i lawenda na półce w studiu",
+      "ritual": "Karolina z palo santo przed zabiegiem"
+    }
   }
 }

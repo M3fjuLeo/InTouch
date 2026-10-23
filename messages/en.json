@@ -14,7 +14,7 @@
   },
   "Navbar": {
     "home": "Home",
-    "about": "About",
+    "about": "About me",
     "offer": "Services",
     "vouchers": "Vouchers",
     "contact": "Contact"
@@ -82,7 +82,7 @@
     "bookBtn": "Book an appointment",
     "navTitle": "Navigation",
     "navHome": "Home",
-    "navAbout": "About us",
+    "navAbout": "About me",
     "navOffer": "Services",
     "navVouchers": "Vouchers",
     "contactTitle": "Contact",
@@ -179,7 +179,8 @@
         "title": "17. Right to refuse service",
         "text": "The studio reserves the right to refuse service in the event of aggressive, disrespectful behavior by the client or a violation of these terms, regardless of the reason described in point 8.[cite: 1]"
       }
-    ]
+    ],
+    "madeBy": "Website by"
   },
   "OfferPage": {
     "title": "Our treatments",
@@ -399,5 +400,51 @@
         "answer": "Each appointment is scheduled for a specific time, and another client may be waiting after you.\nTherefore, I do not extend the massage by the time you are late — out of respect for subsequent clients and their reserved time.\nIf you know you will be late, please send a short text message.\nPunctuality allows me to provide every client with a calm and professional visit."
       }
     ]
+  },
+  "AboutPage": {
+    "eyebrow": "Karolina, massage therapist",
+    "title": "About me",
+    "lead": "For more than 15 years I have worked with the human body. In that time I have learned that the body can say far more than we are able to put into words.",
+    "highlights": {
+      "experience": {
+        "value": "15+",
+        "label": "years of experience"
+      },
+      "hours": {
+        "value": "16,000",
+        "label": "hours of hands-on work"
+      },
+      "certificates": {
+        "value": "11",
+        "label": "certificates – and I keep learning"
+      }
+    },
+    "clients": "My clients come back and recommend me to their loved ones.",
+    "storyIntro": [
+      "Tense shoulders, a clenched jaw, shallow breathing, fatigue or pain are often traces of what is happening in our lives: stress, emotions, exhaustion and a lack of rest. I know myself how easy it is to forget about your own body when you have so much on your mind every day."
+    ],
+    "quote": {
+      "text": "That is why, during a massage, I don't just see tense muscles.",
+      "emphasis": "I see a person."
+    },
+    "story": [
+      "I listen, observe and adapt my work to what you truly need. I want not only to bring you relief, but also to help you feel your body again, notice its signals and build a better connection with it.",
+      "I believe that sometimes what we need most is simply a place where we can stop rushing, put everything down for a while, take a deep breath and let someone take care of us.",
+      "That is exactly the kind of place I wanted to create at In Touch.",
+      "A place full of calm, mindfulness and respect. Without judgement and without rush – with professionalism, but also with empathy and simple, human understanding."
+    ],
+    "closing": "Your body is not something to ignore. It is the home you live in every single day. I want to help you feel good in it.",
+    "signature": "Karolina",
+    "cta": {
+      "book": "Book a time",
+      "offer": "See treatments"
+    },
+    "images": {
+      "portrait": "Karolina preparing the massage table in the In Touch studio",
+      "session": "Karolina during a neck massage",
+      "studio": "The interior of the In Touch studio",
+      "oils": "Essential oils and lavender on a shelf in the studio",
+      "ritual": "Karolina with palo santo before a treatment"
+    }
   }
 }

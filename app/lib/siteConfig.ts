@@ -10,6 +10,10 @@ export const siteConfig = {
   name: "In Touch Massasjeterapi",
   shortName: "In Touch",
   baseUrl: process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000",
+  author: {
+    name: "Mateusz Ropek",
+    url: "https://www.linkedin.com/in/mateusz-ropek-45b782258/",
+  },
   openingHours: [
     { day: "mon", opens: "09:00", closes: "20:00" },
     { day: "tue", opens: "09:00", closes: "20:00" },

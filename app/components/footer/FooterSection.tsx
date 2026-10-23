@@ -18,6 +18,7 @@ export async function FooterSection() {
     terms: t("terms"),
     rights: t("rights"),
     location: t("location"),
+    madeBy: t("madeBy"),
     closeModal: t("closeModal"),
     privacyContent: t.raw("privacyContent"),
     termsContent: t.raw("termsContent"),

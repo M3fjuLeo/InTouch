@@ -96,12 +96,12 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
                   variant="light"
                 />
               </div>
-              <span className="font-serif-custom text-2xl md:text-3xl font-medium tracking-tight text-white group-hover:text-brand-light transition-colors">
+              <span className="whitespace-nowrap font-serif-custom text-2xl md:text-3xl font-medium tracking-tight text-white group-hover:text-brand-light transition-colors">
                 {siteConfig.shortName}
               </span>
             </Link>
 
-            <nav className="hidden md:flex items-center gap-8 text-sm font-light text-white/90">
+            <nav className="hidden lg:flex items-center gap-8 text-sm font-light text-white/90">
               {links.map((link) => {
                 const linkTarget = link.hash
                   ? `${link.href}#${link.hash}`
@@ -112,7 +112,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
                     key={link.label}
                     href={linkTarget}
                     onClick={(e) => handleNavClick(e, link)}
-                    className={`transition-colors cursor-pointer hover:text-white ${
+                    className={`whitespace-nowrap transition-colors cursor-pointer hover:text-white ${
                       pathname === link.href && !link.hash
                         ? "text-white font-medium border-b-2 border-brand-primary pb-0.5"
                         : "text-white/80"
@@ -141,7 +141,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
               </div>
             </nav>
 
-            <div className="flex items-center md:hidden">
+            <div className="flex items-center lg:hidden">
               <button
                 onClick={() => setMobileMenuOpen(true)}
                 className="p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors focus:outline-none cursor-pointer"
@@ -154,7 +154,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
       </header>
 
       <div
-        className={`fixed inset-0 z-[60] bg-brand-darkest/98 backdrop-blur-3xl transition-transform duration-500 ease-in-out md:hidden flex flex-col ${
+        className={`fixed inset-0 z-[60] bg-brand-darkest/98 backdrop-blur-3xl transition-transform duration-500 ease-in-out lg:hidden flex flex-col ${
           mobileMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
