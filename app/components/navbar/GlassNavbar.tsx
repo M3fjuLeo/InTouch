@@ -81,7 +81,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
           <div
             className={`flex items-center justify-between px-3 md:px-5 py-2 md:py-2.5 rounded-full transition-all duration-500 ring-1 ring-white/10 ${
               scrolled
-                ? "bg-brand-darkest/40 backdrop-blur-xl border border-white/10 shadow-lg"
+                ? "bg-brand-darkest/80 backdrop-blur-xl border border-white/10 shadow-lg"
                 : "bg-white/10 backdrop-blur-md border border-white/20 shadow-sm"
             }`}
           >

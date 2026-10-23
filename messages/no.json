@@ -30,28 +30,28 @@
   },
   "About": {
     "pill": "Om In Touch",
-    "title": "Kunsten av dyp avslapning og regenerering i hjertet av byen",
-    "description": "Hos In Touch tror vi at massasje ikke bare er en behandling for kroppen, men fremfor alt en uvurderlig tid for å ta en pause. Vi skaper et intimt rom hvor du vil gjenvinne indre harmoni og letthet.",
+    "title": "Et sted hvor du kan gi slipp",
+    "description": "Du er alltid der for noen: for jobben, for familien, for alle. Selv etter en god natts søvn våkner du uten energi, med anspente skuldre, hodepine og tanker som ikke slutter å kverne. Her trenger du ikke noe. Du kan stoppe opp, kjenne varme og trygghet, og la noen endelig ta seg av deg.",
     "pillars": {
       "p1": {
-        "title": "Bevisst Berøring",
-        "description": "Hver økt hos In Touch er et unikt ritual skreddersydd til kroppens individuelle behov og spenningsnivå."
+        "title": "Oppmerksom berøring",
+        "description": "Ingen dager er like, og ingen kropp trenger det samme. Noen ganger må du slippe spenninger du har båret på i månedsvis. Andre ganger er det nok å bare føle seg trygg. Vi begynner med det du kjenner i dag."
       },
       "p2": {
-        "title": "En Atmosfære av Ro",
-        "description": "Et koselig rom, varmt lys og sertifiserte naturlige eteriske oljer som beroliger alle sanser."
+        "title": "Stillhet og pust",
+        "description": "Uten vurderinger og uten hastverk. Hvis du ikke har krefter til å snakke, trenger du ikke si noe. Du kan lukke øynene, puste og for første gang på lenge slutte å være på vakt."
       },
       "p3": {
-        "title": "Full Omsorg",
-        "description": "Vi garanterer diskresjon, de høyeste hygienestandardene og full oppmerksomhet fra våre erfarne terapeuter."
+        "title": "Omsorg for deg",
+        "description": "Til daglig er det du som tar vare på andre. Her byttes rollene: du omgis av varme, renslighet, ro og oppmerksomme hender. Du kommer med dagens tyngde og går lettere derfra, med en følelse av å ha blitt sett."
       }
     }
   },
   "Services": {
     "badge": "TILBUD & BEHANDLINGER",
     "title": "Velg din massasje",
-    "subtitle": "Oppdag signaturbehandlinger skreddersydd for din kropp og velvære.",
-    "bookBtn": "FINN LINDRING",
+    "subtitle": "Skreddersydd etter det du trenger i dag.",
+    "bookBtn": "Bestill time",
     "viewAllBtn": "Se hele tilbudet",
     "priceFrom": "Pris fra",
     "currency": "kr",
@@ -70,7 +70,7 @@
         "duration": "75",
         "price": "1095",
         "description": "Det perfekte første steget. En full kroppsmassasje lar oss vurdere kroppen din riktig, identifisere skjulte spenningsmønstre og finne den sanne kilden til problemet. Inkluderer 60 minutter massasje og 15 minutter konsultasjon.",
-        "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/start-here.jpg"
       },
       {
         "id": "full-body-90",
@@ -80,7 +80,7 @@
         "duration": "90",
         "price": "1595",
         "description": "En helhetlig terapi som kombinerer klassisk og dypvevsmassasje. Dekker hele kroppen, ansiktet og hodet. Fungerer som en balsam for nervesystemet, og gir dyp ro og indre balanse.",
-        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/full-body.jpg"
       },
       {
         "id": "targeted-relief",
@@ -90,7 +90,7 @@
         "duration": "60",
         "price": "1095",
         "description": "Fokusert terapi for rygg, nakke og skuldre. Det perfekte valget for personer med en intensiv livsstil, da den frigjør effektivt akkumulert stress og muskelspenninger.",
-        "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/targeted-relief.jpg"
       },
       {
         "id": "pregnancy",
@@ -100,27 +100,7 @@
         "duration": "60",
         "price": "1095",
         "description": "En skånsom og trygg massasje designet spesielt for gravide kvinner (mellom uke 13 og 35). Gir lindring til belastede ledd og rygg.",
-        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
-      }
-    ]
-  },
-  "Testimonials": {
-    "list": [
-      {
-        "text": "Massasjen ga meg umiddelbar lindring av ryggsmerter. Jeg følte endelig dyp ro og fullstendig avslapning etter en stressende uke.",
-        "author": "Anna"
-      },
-      {
-        "text": "Perfekt atmosfære og en svært profesjonell tilnærming til nakkespenninger. Jeg kommer tilbake hit fast annenhver uke.",
-        "author": "Katarzyna"
-      },
-      {
-        "text": "En fantastisk opplevelse av regenerering for kropp og sinn. Man kan kjenne stor innlevelse og lidenskap i hver bevegelse.",
-        "author": "Michał"
-      },
-      {
-        "text": "En trygg og svært avslappende massasje. Den hjalp meg med å effektivt lindre spenninger i korsryggen.",
-        "author": "Marta"
+        "image": "/images/services/pregnancy.jpg"
       }
     ]
   },

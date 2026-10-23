@@ -30,28 +30,28 @@
   },
   "About": {
     "pill": "About In Touch",
-    "title": "The art of deep relaxation and regeneration in the heart of the city",
-    "description": "At In Touch, we believe that massage is not just a treatment for the body, but above all an invaluable time to pause. We create an intimate space where you will regain inner harmony and lightness.",
+    "title": "A place where you can let go",
+    "description": "You are always there for someone: for work, for family, for everyone. Even after a good night's sleep you wake up drained, with tense shoulders, a headache and thoughts that won't stop circling. Here, you don't have to do anything. You can pause, feel warmth and safety, and finally let someone take care of you.",
     "pillars": {
       "p1": {
-        "title": "Conscious Touch",
-        "description": "Each session at In Touch is a unique ritual tailored to the individual needs of your body and level of tension."
+        "title": "Mindful touch",
+        "description": "No two days are the same, and no two bodies need the same thing. Sometimes it's about releasing tension you have carried for months. Sometimes it's simply about feeling safe. We start with how you feel today."
       },
       "p2": {
-        "title": "Atmosphere of Tranquility",
-        "description": "A cozy space, warm light, and certified natural essential oils soothing all the senses."
+        "title": "Silence and breath",
+        "description": "No judgement and no rush. If you don't have the energy to talk, you don't have to say a word. You can close your eyes, breathe and, for the first time in a long while, stop being on guard."
       },
       "p3": {
-        "title": "Complete Care",
-        "description": "We guarantee discretion, the highest hygiene standards, and the full mindfulness of our experienced therapists."
+        "title": "Care for you",
+        "description": "Every day, you are the one caring for others. Here the roles are reversed: you are surrounded by warmth, cleanliness, calm and attentive hands. You arrive carrying the weight of the day and leave lighter, feeling truly seen."
       }
     }
   },
   "Services": {
     "badge": "OFFER & TREATMENTS",
     "title": "Choose your massage",
-    "subtitle": "Discover signature treatments tailored to your body and well-being.",
-    "bookBtn": "FIND RELIEF",
+    "subtitle": "Tailored to what you need today.",
+    "bookBtn": "Book a time",
     "viewAllBtn": "View full offer",
     "priceFrom": "Price from",
     "currency": "kr",
@@ -70,7 +70,7 @@
         "duration": "75",
         "price": "1095",
         "description": "The perfect first step. A full body massage allows us to properly assess your body, identify hidden tension patterns, and locate the true source of the problem. Includes 60 minutes of massage and 15 minutes of consultation.",
-        "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/start-here.jpg"
       },
       {
         "id": "full-body-90",
@@ -80,7 +80,7 @@
         "duration": "90",
         "price": "1595",
         "description": "A holistic therapy combining classic and deep tissue massage. Covers the entire body, face, and head. Acts as a balm for the nervous system, bringing deep peace and inner balance.",
-        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/full-body.jpg"
       },
       {
         "id": "targeted-relief",
@@ -90,7 +90,7 @@
         "duration": "60",
         "price": "1095",
         "description": "A focused therapy for the back, neck, and shoulders. The perfect choice for people leading an intensive lifestyle, effectively releasing accumulated stress and muscle tension.",
-        "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/targeted-relief.jpg"
       },
       {
         "id": "pregnancy",
@@ -100,27 +100,7 @@
         "duration": "60",
         "price": "1095",
         "description": "A gentle and safe massage designed specifically for pregnant women (between the 13th and 35th week). Brings relief to strained joints and back.",
-        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
-      }
-    ]
-  },
-  "Testimonials": {
-    "list": [
-      {
-        "text": "The massage brought me immediate relief from back pain. I finally felt deep peace and full relaxation after a stressful week.",
-        "author": "Anna"
-      },
-      {
-        "text": "Perfect atmosphere and a highly professional approach to neck tension. I come back here regularly every two weeks.",
-        "author": "Katarzyna"
-      },
-      {
-        "text": "An extraordinary experience of body and mind regeneration. You can feel immense intuition and passion in every movement.",
-        "author": "Michał"
-      },
-      {
-        "text": "A safe and extremely relaxing massage. It helped me effectively relieve tension in my lower back.",
-        "author": "Marta"
+        "image": "/images/services/pregnancy.jpg"
       }
     ]
   },

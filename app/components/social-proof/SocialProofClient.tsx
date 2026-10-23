@@ -1,13 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Quote, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import { Heading } from "../ui/Heading";
-
-interface Testimonial {
-  text: string;
-  author: string;
-}
+import type { Testimonial } from "../../lib/testimonials";
 
 interface SocialProofClientProps {
   testimonials: Testimonial[];
@@ -44,10 +40,6 @@ export const SocialProofClient: React.FC<SocialProofClientProps> = ({
       className="py-20 sm:py-28 px-6 text-brand-darkest relative overflow-hidden bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: 'url("/feedback-bg.jpeg")' }}
     >
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none text-brand-primary/[0.04]">
-        <Quote className="w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] rotate-180" />
-      </div>
-
       <div className="max-w-4xl mx-auto relative z-10 flex flex-col items-center justify-center">
         <div className="text-center mb-12 sm:mb-16">
           <span className="text-brand-primary uppercase tracking-widest text-xs font-semibold">
@@ -66,11 +58,11 @@ export const SocialProofClient: React.FC<SocialProofClientProps> = ({
           </div>
         </div>
 
-        <div className="relative w-full h-[320px] sm:h-[240px] flex items-center justify-center">
+        <div className="grid w-full">
           {testimonials.map((testimonial, idx) => (
             <div
               key={idx}
-              className={`absolute inset-0 flex flex-col items-center justify-center transition-all duration-700 ease-in-out ${
+              className={`col-start-1 row-start-1 flex flex-col items-center justify-center transition-all duration-700 ease-in-out ${
                 idx === currentIndex
                   ? "opacity-100 translate-y-0 z-10 pointer-events-auto"
                   : "opacity-0 translate-y-4 z-0 pointer-events-none"
@@ -86,7 +78,7 @@ export const SocialProofClient: React.FC<SocialProofClientProps> = ({
                 ))}
               </div>
 
-              <blockquote className="font-serif-custom text-xl sm:text-2xl md:text-3xl font-normal leading-relaxed text-center mb-8 max-w-3xl mx-auto text-brand-darkest">
+              <blockquote className="font-serif-custom text-lg sm:text-xl md:text-2xl font-normal leading-relaxed text-center mb-8 max-w-3xl mx-auto text-brand-darkest">
                 “{testimonial.text}”
               </blockquote>
 

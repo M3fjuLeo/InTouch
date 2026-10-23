@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart, ShieldCheck, Feather } from "lucide-react";
+import { HandHeart, Wind, Heart } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Badge } from "../ui/Badge";
 import { Heading } from "../ui/Heading";
@@ -9,17 +9,17 @@ export async function AboutSection() {
 
   const pillars = [
     {
-      icon: Feather,
+      icon: HandHeart,
       title: t("pillars.p1.title"),
       description: t("pillars.p1.description"),
     },
     {
-      icon: Heart,
+      icon: Wind,
       title: t("pillars.p2.title"),
       description: t("pillars.p2.description"),
     },
     {
-      icon: ShieldCheck,
+      icon: Heart,
       title: t("pillars.p3.title"),
       description: t("pillars.p3.description"),
     },

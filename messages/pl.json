@@ -30,28 +30,28 @@
   },
   "About": {
     "pill": "O In Touch",
-    "title": "Sztuka głębokiego relaksu i regeneracji w sercu miasta",
-    "description": "W In Touch wierzymy, że masaż to nie tylko zabieg dla ciała, ale przede wszystkim bezcenny czas zatrzymania. Tworzymy kameralną przestrzeń, w której odzyskasz wewnętrzną harmonię i lekkość.",
+    "title": "Miejsce, w którym możesz odpuścić",
+    "description": "Ciągle jesteś dla kogoś: dla pracy, dla rodziny, dla wszystkich. Nawet po nocy dobrego snu budzisz się bez energii, z napiętymi ramionami, bólem głowy i myślami, które nie przestają krążyć. Tutaj nic nie musisz. Możesz się zatrzymać, poczuć ciepło i bezpieczeństwo oraz pozwolić, żeby ktoś w końcu zajął się Tobą.",
     "pillars": {
       "p1": {
-        "title": "Świadomy Dotyk",
-        "description": "Każda sesja w In Touch to unikalny rytuał dopasowany do indywidualnych potrzeb Twojego ciała i poziomu napięcia."
+        "title": "Uważny dotyk",
+        "description": "Nie każdy dzień jest taki sam i nie każde ciało potrzebuje tego samego. Czasem trzeba uwolnić napięcie, które nosisz od miesięcy. Czasem wystarczy po prostu poczuć się bezpiecznie. Zaczynamy od tego, co czujesz dziś."
       },
       "p2": {
-        "title": "Atmosfera Spokoju",
-        "description": "Przytulna przestrzeń, ciepłe światło oraz certyfikowane naturalne olejki eteryczne kojące wszystkie zmysły."
+        "title": "Cisza i oddech",
+        "description": "Bez ocen i bez pośpiechu. Jeśli nie masz siły na rozmowę, nie musisz mówić nic. Możesz zamknąć oczy, oddychać i po raz pierwszy od dawna przestać czuwać."
       },
       "p3": {
-        "title": "Pełne Zaopiekowanie",
-        "description": "Gwarantujemy dyskrecję, najwyższe standardy higieny i pełną uważność naszych doświadczonych terapeutów."
+        "title": "Troska o Ciebie",
+        "description": "Na co dzień to Ty troszczysz się o innych. Tutaj role się odwracają: otaczają Cię ciepło, czystość, spokój i uważne ręce. Przychodzisz z ciężarem dnia, a wychodzisz lżej i z poczuciem, że ktoś Cię zauważył."
       }
     }
   },
   "Services": {
     "badge": "OFERTA & ZABIEGI",
     "title": "Wybierz swój masaż",
-    "subtitle": "Odkryj autorskie zabiegi dopasowane do Twojego ciała i samopoczucia.",
-    "bookBtn": "ZNAJDŹ ULGĘ",
+    "subtitle": "Szyty na miarę Twoich dzisiejszych potrzeb.",
+    "bookBtn": "Umów się",
     "viewAllBtn": "Zobacz pełną ofertę",
     "priceFrom": "Cena od",
     "currency": "kr",
@@ -70,7 +70,7 @@
         "duration": "75",
         "price": "1095",
         "description": "Idealny pierwszy krok. Pełny masaż ciała pozwala nam właściwie ocenić Twoje ciało, zidentyfikować ukryte wzorce napięć i zlokalizować prawdziwe źródło problemu. Obejmuje 60 minut masażu i 15 minut konsultacji.",
-        "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/start-here.jpg"
       },
       {
         "id": "full-body-90",
@@ -80,7 +80,7 @@
         "duration": "90",
         "price": "1595",
         "description": "Holistyczna terapia łącząca klasyczny i głęboki masaż. Obejmuje całe ciało, twarz i głowę. Działa jako balsam dla układu nerwowego, przynosząc głęboki spokój i wewnętrzną równowagę.",
-        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/full-body.jpg"
       },
       {
         "id": "targeted-relief",
@@ -90,7 +90,7 @@
         "duration": "60",
         "price": "1095",
         "description": "Skupiona terapia na plecy, kark i ramiona. Idealny wybór dla osób prowadzących intensywny tryb życia, skutecznie uwalniający nagromadzony stres i napięcia mięśniowe.",
-        "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+        "image": "/images/services/targeted-relief.jpg"
       },
       {
         "id": "pregnancy",
@@ -100,27 +100,7 @@
         "duration": "60",
         "price": "1095",
         "description": "Delikatny i bezpieczny masaż przeznaczony specjalnie dla kobiet w ciąży (między 13. a 35. tygodniem). Przynosi ulgę obciążonym stawom i plecom.",
-        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
-      }
-    ]
-  },
-  "Testimonials": {
-    "list": [
-      {
-        "text": "Masaż przyniósł mi natychmiastową ulgę w bólu pleców. Nareszcie poczułam głęboki spokój i pełen relaks po stresującym tygodniu.",
-        "author": "Anna"
-      },
-      {
-        "text": "Idealna atmosfera i niezwykle profesjonalne podejście do napięć karku. Wracam tu regularnie co dwa tygodnie.",
-        "author": "Katarzyna"
-      },
-      {
-        "text": "Niezwykłe doświadczenie regeneracji ciała i umysłu. Czuć ogromne wyczucie oraz pasję w każdym ruchu.",
-        "author": "Michał"
-      },
-      {
-        "text": "Bezpieczny i niezwykle odprężający masaż. Pomógł mi skutecznie złagodzić napięcia w dolnym odcinku kręgosłupa.",
-        "author": "Marta"
+        "image": "/images/services/pregnancy.jpg"
       }
     ]
   },

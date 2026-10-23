@@ -1,9 +1,9 @@
 import React from 'react';
 import { getTranslations } from 'next-intl/server';
 import { SocialProofClient } from './SocialProofClient';
+import { testimonials } from '../../lib/testimonials';
 
 export async function SocialProofSection() {
-  const tTestimonials = await getTranslations('Testimonials');
   const tSocialProof = await getTranslations('SocialProof');
 
   const labels = {
@@ -13,10 +13,5 @@ export async function SocialProofSection() {
     sourceText: tSocialProof('sourceText'),
   };
 
-  return (
-    <SocialProofClient 
-      testimonials={tTestimonials.raw('list')} 
-      labels={labels} 
-    />
-  );
+  return <SocialProofClient testimonials={testimonials} labels={labels} />;
 }
