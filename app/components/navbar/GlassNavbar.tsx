@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, usePathname } from "@/i18n/routing";
 import { LogoIcon } from "../ui/LogoIcon";
+import { siteConfig } from "../../lib/siteConfig";
 
 interface NavLink {
   href: string;
@@ -96,7 +97,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
                 />
               </div>
               <span className="font-serif-custom text-2xl md:text-3xl font-medium tracking-tight text-white group-hover:text-brand-light transition-colors">
-                InTouch
+                {siteConfig.shortName}
               </span>
             </Link>
 
@@ -168,7 +169,7 @@ export const GlassNavbar: React.FC<GlassNavbarProps> = ({
               variant="light"
             />
             <span className="font-serif-custom text-2xl font-medium tracking-tight text-white">
-              InTouch
+              {siteConfig.shortName}
             </span>
           </Link>
           <button

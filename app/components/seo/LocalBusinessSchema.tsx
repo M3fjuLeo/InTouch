@@ -1,11 +1,31 @@
+import { siteConfig, type Weekday } from "../../lib/siteConfig";
+
+const schemaDayNames: Record<Weekday, string> = {
+  mon: "Monday",
+  tue: "Tuesday",
+  wed: "Wednesday",
+  thu: "Thursday",
+  fri: "Friday",
+  sat: "Saturday",
+  sun: "Sunday",
+};
+
 export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
-    name: "In Touch Massasjeterapi",
-    url: process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000",
-    logo: `${process.env.NEXT_PUBLIC_BASE_URL}/icon.png`,
-    image: `${process.env.NEXT_PUBLIC_BASE_URL}/icon.png`,
+    name: siteConfig.name,
+    url: siteConfig.baseUrl,
+    logo: `${siteConfig.baseUrl}/icon.png`,
+    image: `${siteConfig.baseUrl}/icon.png`,
+    openingHoursSpecification: siteConfig.openingHours.map(
+      ({ day, opens, closes }) => ({
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: schemaDayNames[day],
+        opens,
+        closes,
+      })
+    ),
     telephone: process.env.NEXT_PUBLIC_CONTACT_PHONE,
     email: process.env.NEXT_PUBLIC_CONTACT_EMAIL,
     address: {

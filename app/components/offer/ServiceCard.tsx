@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Clock, Sparkles, ChevronDown } from "lucide-react";
 import { Button } from "../ui/Button";
 import { Badge } from "../ui/Badge";
+import { Heading } from "../ui/Heading";
 
 interface ServiceCardProps {
   service: {
@@ -37,18 +38,14 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
             {service.duration}
           </Badge>
           {service.isBestseller && (
-            <Badge
-              variant="solid"
-              className="bg-brand-primary text-white border-none"
-              icon={<Sparkles className="w-3.5 h-3.5" />}
-            >
+            <Badge variant="solid" icon={<Sparkles className="w-3.5 h-3.5" />}>
               Bestseller
             </Badge>
           )}
         </div>
-        <h3 className="font-serif-custom text-2xl sm:text-3xl font-medium text-white leading-tight">
+        <Heading variant="card" className="text-white">
           {service.title}
-        </h3>
+        </Heading>
       </div>
 
       {/* Price */}

@@ -29,13 +29,13 @@
     "giftBtn": "Kup Kartę Podarunkową"
   },
   "About": {
-    "pill": "O Studiu InTouch",
+    "pill": "O In Touch",
     "title": "Sztuka głębokiego relaksu i regeneracji w sercu miasta",
-    "description": "W InTouch wierzymy, że masaż to nie tylko zabieg dla ciała, ale przede wszystkim bezcenny czas zatrzymania. Tworzymy kameralną przestrzeń, w której odzyskasz wewnętrzną harmonię i lekkość.",
+    "description": "W In Touch wierzymy, że masaż to nie tylko zabieg dla ciała, ale przede wszystkim bezcenny czas zatrzymania. Tworzymy kameralną przestrzeń, w której odzyskasz wewnętrzną harmonię i lekkość.",
     "pillars": {
       "p1": {
         "title": "Świadomy Dotyk",
-        "description": "Każda sesja w InTouch to unikalny rytuał dopasowany do indywidualnych potrzeb Twojego ciała i poziomu napięcia."
+        "description": "Każda sesja w In Touch to unikalny rytuał dopasowany do indywidualnych potrzeb Twojego ciała i poziomu napięcia."
       },
       "p2": {
         "title": "Atmosfera Spokoju",
@@ -137,7 +137,7 @@
     "button": "Kup Voucher",
     "mockupBadge": "Voucher Prezentowy",
     "mockupTitle": "Chwila Czystego Spokoju",
-    "mockupDesc": "Ważny na wszystkie zabiegi w InTouch Studio"
+    "mockupDesc": "Ważny na wszystkie zabiegi w In Touch"
   },
   "Footer": {
     "description": "Profesjonalne studio masażu w Drammen.",
@@ -157,7 +157,7 @@
     "privacyContent": [
       {
         "title": "1. Administrator danych",
-        "text": "Administratorem danych osobowych jest InTouch Massage Studio z siedzibą w Drammen (Org.nr: 929 173 848). Przetwarzamy dane zgodnie z norweską ustawą o ochronie danych osobowych (Personopplysningsloven) oraz RODO."
+        "text": "Administratorem danych osobowych jest In Touch Massasjeterapi z siedzibą w Drammen (Org.nr: 929 173 848). Przetwarzamy dane zgodnie z norweską ustawą o ochronie danych osobowych (Personopplysningsloven) oraz RODO."
       },
       {
         "title": "2. Cel i podstawa przetwarzania",

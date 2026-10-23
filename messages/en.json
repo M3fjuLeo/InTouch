@@ -29,13 +29,13 @@
     "giftBtn": "Buy a Gift Card"
   },
   "About": {
-    "pill": "About InTouch Studio",
+    "pill": "About In Touch",
     "title": "The art of deep relaxation and regeneration in the heart of the city",
-    "description": "At InTouch, we believe that massage is not just a treatment for the body, but above all an invaluable time to pause. We create an intimate space where you will regain inner harmony and lightness.",
+    "description": "At In Touch, we believe that massage is not just a treatment for the body, but above all an invaluable time to pause. We create an intimate space where you will regain inner harmony and lightness.",
     "pillars": {
       "p1": {
         "title": "Conscious Touch",
-        "description": "Each session at InTouch is a unique ritual tailored to the individual needs of your body and level of tension."
+        "description": "Each session at In Touch is a unique ritual tailored to the individual needs of your body and level of tension."
       },
       "p2": {
         "title": "Atmosphere of Tranquility",
@@ -137,7 +137,7 @@
     "button": "Buy Voucher",
     "mockupBadge": "Gift Voucher",
     "mockupTitle": "A Moment of Pure Peace",
-    "mockupDesc": "Valid for all treatments at InTouch Studio"
+    "mockupDesc": "Valid for all treatments at In Touch"
   },
   "Footer": {
     "description": "Professional massage studio in Drammen.",
@@ -157,7 +157,7 @@
     "privacyContent": [
       {
         "title": "1. Data Controller",
-        "text": "The data controller is InTouch Massage Studio based in Drammen (Org. no.: 929 173 848). We process data in accordance with the Norwegian Personal Data Act (Personopplysningsloven) and GDPR."
+        "text": "The data controller is In Touch Massasjeterapi based in Drammen (Org. no.: 929 173 848). We process data in accordance with the Norwegian Personal Data Act (Personopplysningsloven) and GDPR."
       },
       {
         "title": "2. Purpose and legal basis for processing",

@@ -13,6 +13,7 @@ import { LocalBusinessSchema } from "../components/seo/LocalBusinessSchema";
 import "../globals.css";
 import { CookieBanner } from "../components/ui/CookieBanner";
 import { FooterSection } from "../components/footer/FooterSection";
+import { siteConfig } from "../lib/siteConfig";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ lang: locale }));
@@ -20,13 +21,13 @@ export function generateStaticParams() {
 
 const playfair = Playfair_Display({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-serif-custom",
+  variable: "--font-playfair",
   display: "swap",
 });
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-sans",
+  variable: "--font-inter",
   display: "swap",
 });
 
@@ -45,12 +46,10 @@ export async function generateMetadata({
     namespace: "metadata",
   });
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
-
   return {
     title: t("title"),
     description: t("description"),
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL(siteConfig.baseUrl),
     alternates: {
       canonical: `/${segment}`,
       languages: { en: "/en", no: "/no", pl: "/pl" },
@@ -63,8 +62,8 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: `${baseUrl}/${segment}`,
-      siteName: "In Touch Massasjeterapi",
+      url: `${siteConfig.baseUrl}/${segment}`,
+      siteName: siteConfig.name,
       locale: actualLocale,
       type: "website",
       // Dodana miniaturka generowana z pierwszej klatki wideo
@@ -73,7 +72,7 @@ export async function generateMetadata({
           url: "/video-poster.jpg",
           width: 1200,
           height: 630,
-          alt: "In Touch Massasjeterapi",
+          alt: siteConfig.name,
         },
       ],
     },

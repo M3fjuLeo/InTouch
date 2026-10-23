@@ -9,7 +9,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         // Zamiast hover:bg-brand-primary/90 używamy hover:opacity-90 lub hover:brightness-95.
-        // Dzięki temu efekt hover zadziała na każdym zadeklarowanym kolorze tła (np. bg-primary-light).
+        // Dzięki temu efekt hover zadziała na każdym zadeklarowanym kolorze tła (np. bg-brand-primary-light).
         default:
           "bg-brand-primary text-white shadow-md hover:opacity-90 hover:scale-105 active:scale-95",
         outline:

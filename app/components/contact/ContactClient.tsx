@@ -4,6 +4,9 @@ import React, { useState } from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { Button } from "../ui/Button";
 import { FacebookIcon, InstagramIcon } from "../ui/SocialIcons";
+import { cn } from "../../lib/utils";
+import { siteConfig } from "../../lib/siteConfig";
+import { Heading } from "../ui/Heading";
 
 interface ContactClientProps {
   content: {
@@ -37,6 +40,7 @@ export const ContactClient: React.FC<ContactClientProps> = ({
     setIsSubmitting(true);
     setFormStatus("idle");
 
+    // TODO: Formularz nie wysyła jeszcze wiadomości – podłączyć prawdziwą wysyłkę (np. Resend / Formspree).
     setTimeout(() => {
       setIsSubmitting(false);
       setFormStatus("success");
@@ -47,9 +51,9 @@ export const ContactClient: React.FC<ContactClientProps> = ({
     <div className="min-h-screen bg-brand-darkest pt-32 pb-24 px-6 text-brand-light">
       <div className="max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h1 className="font-serif-custom text-4xl sm:text-5xl md:text-6xl font-normal text-white mb-6">
+          <Heading variant="page" className="text-white mb-6">
             {content.title}
-          </h1>
+          </Heading>
           <p className="text-white/70 text-base sm:text-lg font-light">
             {content.subtitle}
           </p>
@@ -124,27 +128,20 @@ export const ContactClient: React.FC<ContactClientProps> = ({
                   {content.details.hours}
                 </h3>
                 <ul className="space-y-2 text-sm text-white/80 font-light">
-                  <li className="flex justify-between">
-                    <span>{content.schedule.mon}</span> <span>09:00–20:00</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>{content.schedule.tue}</span> <span>09:00–20:00</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>{content.schedule.wed}</span> <span>09:00–20:00</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>{content.schedule.thu}</span> <span>09:00–20:00</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>{content.schedule.fri}</span> <span>09:00–20:00</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>{content.schedule.sat}</span> <span>09:00–20:00</span>
-                  </li>
-                  <li className="flex justify-between text-brand-primary">
-                    <span>{content.schedule.sun}</span> <span>10:00–20:00</span>
-                  </li>
+                  {siteConfig.openingHours.map(({ day, opens, closes }) => (
+                    <li
+                      key={day}
+                      className={cn(
+                        "flex justify-between",
+                        day === "sun" && "text-brand-primary"
+                      )}
+                    >
+                      <span>{content.schedule[day]}</span>
+                      <span>
+                        {opens}–{closes}
+                      </span>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>

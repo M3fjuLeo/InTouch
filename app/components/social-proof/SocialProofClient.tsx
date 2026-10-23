@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Quote, Star } from "lucide-react";
+import { Heading } from "../ui/Heading";
 
 interface Testimonial {
   text: string;
@@ -52,11 +53,11 @@ export const SocialProofClient: React.FC<SocialProofClientProps> = ({
           <span className="text-brand-primary uppercase tracking-widest text-xs font-semibold">
             {labels.badge}
           </span>
-          <h2 className="text-brand-darkest font-serif-custom text-3xl sm:text-4xl mt-3 mb-4">
+          <Heading className="text-brand-darkest mt-3 mb-4">
             {labels.title}
-          </h2>
+          </Heading>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-brand-darkest/70 text-sm">
-            {/* <div className="flex text-[#C69C6D]">
+            {/* <div className="flex text-brand-gold">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} fill="currentColor" className="w-4 h-4" />
               ))}
@@ -75,7 +76,7 @@ export const SocialProofClient: React.FC<SocialProofClientProps> = ({
                   : "opacity-0 translate-y-4 z-0 pointer-events-none"
               }`}
             >
-              <div className="flex text-[#C69C6D] mb-6">
+              <div className="flex text-brand-gold mb-6">
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}

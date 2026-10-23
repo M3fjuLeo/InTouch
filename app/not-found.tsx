@@ -5,13 +5,13 @@ import { Playfair_Display, Inter } from "next/font/google";
 
 const playfair = Playfair_Display({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-serif-custom",
+  variable: "--font-playfair",
   display: "swap",
 });
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-sans",
+  variable: "--font-inter",
   display: "swap",
 });
 

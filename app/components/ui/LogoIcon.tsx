@@ -1,5 +1,6 @@
 import React from "react";
 import { cn } from "../../lib/utils";
+import { siteConfig } from "../../lib/siteConfig";
 
 interface LogoIconProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   variant?: "default" | "light";
@@ -15,7 +16,7 @@ export const LogoIcon: React.FC<LogoIconProps> = ({
   return (
     <img
       src={src}
-      alt="InTouch Logo"
+      alt={`${siteConfig.name} logo`}
       className={cn("object-contain", className)}
       {...props}
     />

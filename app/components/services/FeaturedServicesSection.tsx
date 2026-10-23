@@ -11,7 +11,6 @@ export async function FeaturedServicesSection() {
     title: t('title'), // Zmień w JSON na np. "Wybierz swój masaż"
     subtitle: t('subtitle'), // Zmień w JSON na "Odkryj autorskie zabiegi dopasowane do Twojego ciała i samopoczucia."
     bookBtn: t('bookBtn'),
-    viewAllBtn: "Zobacz pełną ofertę" // Wymaga dodania "viewAllBtn" do słownika JSON
   };
 
   return (

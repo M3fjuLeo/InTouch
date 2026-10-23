@@ -3,6 +3,7 @@
 import React from "react";
 import { FaqAccordionItem } from "./FaqAccordionItem";
 import { Button } from "../ui/Button";
+import { Heading } from "../ui/Heading";
 
 interface FaqItem {
   id: string;
@@ -25,9 +26,9 @@ export const FaqClient: React.FC<FaqClientProps> = ({ content }) => {
     <div className="min-h-screen bg-brand-darkest pt-32 pb-24 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16 flex flex-col items-center">
-          <h1 className="font-serif-custom text-4xl sm:text-5xl md:text-6xl font-normal text-white mb-6">
+          <Heading variant="page" className="text-white mb-6">
             {content.title}
-          </h1>
+          </Heading>
           <p className="text-white/70 text-base sm:text-lg font-light">
             {content.subtitle}
           </p>

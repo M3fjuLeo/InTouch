@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Calendar, ArrowRight } from "lucide-react";
 import { Button } from "../ui/Button";
 import { Badge } from "../ui/Badge";
+import { Heading } from "../ui/Heading";
 
 interface Service {
   id: string;
@@ -23,7 +24,6 @@ interface FeaturedServicesClientProps {
     title: string;
     subtitle: string;
     bookBtn: string;
-    viewAllBtn: string;
   };
   bookingUrl: string;
 }
@@ -43,12 +43,10 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
     >
       <div className="max-w-6xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <Badge variant="light" className="mb-3 bg-primary-light">
+          <Badge variant="light" className="mb-3 bg-brand-primary-light">
             {labels.badge}
           </Badge>
-          <h2 className="font-serif-custom text-4xl sm:text-5xl font-medium text-white mb-6">
-            {labels.title}
-          </h2>
+          <Heading className="text-white mb-6">{labels.title}</Heading>
           <p className="text-sm text-white/70 font-light">{labels.subtitle}</p>
         </div>
 
@@ -164,16 +162,6 @@ export const FeaturedServicesClient: React.FC<FeaturedServicesClientProps> = ({
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-12 text-center">
-          <Button
-            href="/offer"
-            variant="ghost"
-            iconRight={<ArrowRight className="w-4 h-4" />}
-          >
-            {labels.viewAllBtn}
-          </Button>
         </div>
       </div>
     </section>

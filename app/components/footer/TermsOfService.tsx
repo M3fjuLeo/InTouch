@@ -9,7 +9,7 @@ export const TermsOfService: React.FC<TermsOfServiceProps> = ({ content }) => {
     <div className="space-y-4">
       {content.map((section, index) => (
         <div key={index}>
-          <strong className="block mb-1 text-[#3D2C2C] font-semibold">
+          <strong className="block mb-1 text-brand-darkest font-semibold">
             {section.title}
           </strong>
           <p>{section.text}</p>

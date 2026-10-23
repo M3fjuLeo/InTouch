@@ -34,7 +34,7 @@ export default async function HomeView({
         <HeroSection />
       </div>
 
-      <div className="relative z-10 bg-neutral-50 rounded-t-[2.5rem] md:rounded-t-[4rem] shadow-[0_-20px_50px_rgba(0,0,0,0.5)]">
+      <div className="relative z-10 bg-brand-bg rounded-t-[2.5rem] md:rounded-t-[4rem] shadow-[0_-20px_50px_rgba(0,0,0,0.5)]">
         <AboutSection />
         <FeaturedServicesSection />
         <SocialProofSection />

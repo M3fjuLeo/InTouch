@@ -15,6 +15,7 @@ import { LogoIcon } from "../ui/LogoIcon";
 import { InstagramIcon, FacebookIcon } from "../ui/SocialIcons";
 import { PrivacyPolicy } from "./PrivacyPolicy";
 import { TermsOfService } from "./TermsOfService";
+import { siteConfig } from "../../lib/siteConfig";
 
 interface FooterClientProps {
   labels: {
@@ -50,7 +51,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
   >(null);
 
   return (
-    <footer className="bg-[#FDFBFB] text-[#3D2C2C] border-t border-[#3D2C2C]/10 pt-16 pb-12 px-6 sm:px-12 relative z-20">
+    <footer className="bg-brand-bg text-brand-darkest border-t border-brand-darkest/10 pt-16 pb-12 px-6 sm:px-12 relative z-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 lg:gap-12 text-left items-start mb-16">
           <div className="space-y-4">
@@ -59,12 +60,12 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
               className="flex items-center gap-3 group inline-flex"
             >
               <LogoIcon className="w-8 h-8" />
-              <span className="font-serif-custom text-2xl font-normal tracking-wide text-[#3D2C2C] group-hover:text-brand-dark transition-colors">
-                InTouch
+              <span className="font-serif-custom text-2xl font-normal tracking-wide text-brand-darkest group-hover:text-brand-dark transition-colors">
+                {siteConfig.shortName}
               </span>
             </Link>
 
-            <p className="text-xs sm:text-sm text-[#3D2C2C]/80 font-light leading-relaxed">
+            <p className="text-xs sm:text-sm text-brand-darkest/80 font-light leading-relaxed">
               {labels.description}
             </p>
 
@@ -82,10 +83,10 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold uppercase tracking-widest text-[#3D2C2C]/60 mb-4">
+            <h4 className="text-xs font-semibold uppercase tracking-widest text-brand-darkest/60 mb-4">
               {labels.navTitle}
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm text-[#3D2C2C]/90 font-light">
+            <ul className="space-y-2.5 text-xs sm:text-sm text-brand-darkest/90 font-light">
               <li>
                 <Link href="/" className="hover:opacity-70 transition-opacity">
                   {labels.navHome}
@@ -119,10 +120,10 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold uppercase tracking-widest text-[#3D2C2C]/60 mb-4">
+            <h4 className="text-xs font-semibold uppercase tracking-widest text-brand-darkest/60 mb-4">
               {labels.contactTitle}
             </h4>
-            <ul className="space-y-3 text-xs sm:text-sm text-[#3D2C2C]/90 font-light">
+            <ul className="space-y-3 text-xs sm:text-sm text-brand-darkest/90 font-light">
               {labels.instagramUrl && (
                 <li>
                   <a
@@ -131,7 +132,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
                   >
-                    <InstagramIcon className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <InstagramIcon className="w-4 h-4 text-brand-darkest/60 flex-shrink-0" />
                     <span>Instagram</span>
                   </a>
                 </li>
@@ -144,7 +145,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
                   >
-                    <FacebookIcon className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <FacebookIcon className="w-4 h-4 text-brand-darkest/60 flex-shrink-0" />
                     <span>Facebook</span>
                   </a>
                 </li>
@@ -155,7 +156,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                     href={`tel:${labels.phone.replace(/\s/g, "")}`}
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
                   >
-                    <Phone className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <Phone className="w-4 h-4 text-brand-darkest/60 flex-shrink-0" />
                     <span>{labels.phone}</span>
                   </a>
                 </li>
@@ -166,7 +167,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                     href={`mailto:${labels.email}`}
                     className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity"
                   >
-                    <Mail className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <Mail className="w-4 h-4 text-brand-darkest/60 flex-shrink-0" />
                     <span>{labels.email}</span>
                   </a>
                 </li>
@@ -174,7 +175,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
               {labels.address && (
                 <li>
                   <span className="inline-flex items-center gap-2">
-                    <MapPin className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                    <MapPin className="w-4 h-4 text-brand-darkest/60 flex-shrink-0" />
                     <span>{labels.address}</span>
                   </span>
                 </li>
@@ -183,16 +184,16 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold uppercase tracking-widest text-[#3D2C2C]/60 mb-4">
+            <h4 className="text-xs font-semibold uppercase tracking-widest text-brand-darkest/60 mb-4">
               {labels.legalTitle}
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm text-[#3D2C2C]/90 font-light">
+            <ul className="space-y-2.5 text-xs sm:text-sm text-brand-darkest/90 font-light">
               <li>
                 <button
                   onClick={() => setActiveLegalModal("privacy")}
                   className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity cursor-pointer text-left"
                 >
-                  <ShieldCheck className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                  <ShieldCheck className="w-4 h-4 text-brand-darkest/60 flex-shrink-0" />
                   <span>{labels.privacy}</span>
                 </button>
               </li>
@@ -201,7 +202,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
                   onClick={() => setActiveLegalModal("terms")}
                   className="inline-flex items-center gap-2 hover:opacity-70 transition-opacity cursor-pointer text-left"
                 >
-                  <FileText className="w-4 h-4 text-[#3D2C2C]/60 flex-shrink-0" />
+                  <FileText className="w-4 h-4 text-brand-darkest/60 flex-shrink-0" />
                   <span>{labels.terms}</span>
                 </button>
               </li>
@@ -209,9 +210,9 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-[#3D2C2C]/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#3D2C2C]/60 font-light">
+        <div className="pt-8 border-t border-brand-darkest/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-brand-darkest/60 font-light">
           <p>
-            © {new Date().getFullYear()} InTouch Massage Studio. {labels.rights}{" "}
+            © {new Date().getFullYear()} {siteConfig.name}. {labels.rights}{" "}
             {labels.orgNr && `| Org.nr: ${labels.orgNr}`}
           </p>
           <p className="tracking-wider uppercase text-[10px]">
@@ -227,21 +228,21 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="bg-[#FDFBFB] border border-[#3D2C2C]/15 rounded-3xl p-6 sm:p-10 max-w-2xl w-full text-[#3D2C2C] shadow-2xl relative max-h-[85vh] flex flex-col"
+            className="bg-brand-bg border border-brand-darkest/15 rounded-3xl p-6 sm:p-10 max-w-2xl w-full text-brand-darkest shadow-2xl relative max-h-[85vh] flex flex-col"
           >
-            <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#3D2C2C]/10 shrink-0">
-              <h3 className="font-serif-custom text-2xl font-normal text-[#3D2C2C]">
+            <div className="flex items-center justify-between mb-6 pb-4 border-b border-brand-darkest/10 shrink-0">
+              <h3 className="font-serif-custom text-2xl font-normal text-brand-darkest">
                 {activeLegalModal === "privacy" ? labels.privacy : labels.terms}
               </h3>
               <button
                 onClick={() => setActiveLegalModal(null)}
-                className="w-8 h-8 rounded-full bg-[#3D2C2C]/10 hover:bg-[#3D2C2C]/20 flex items-center justify-center text-[#3D2C2C] transition-colors cursor-pointer"
+                className="w-8 h-8 rounded-full bg-brand-darkest/10 hover:bg-brand-darkest/20 flex items-center justify-center text-brand-darkest transition-colors cursor-pointer"
               >
                 ✕
               </button>
             </div>
 
-            <div className="text-xs sm:text-sm text-[#3D2C2C]/80 font-light leading-relaxed space-y-4 overflow-y-auto custom-scrollbar pr-2">
+            <div className="text-xs sm:text-sm text-brand-darkest/80 font-light leading-relaxed space-y-4 overflow-y-auto custom-scrollbar pr-2">
               {activeLegalModal === "privacy" ? (
                 <PrivacyPolicy content={labels.privacyContent} />
               ) : (
@@ -249,7 +250,7 @@ export const FooterClient: React.FC<FooterClientProps> = ({ labels }) => {
               )}
             </div>
 
-            <div className="mt-8 pt-4 border-t border-[#3D2C2C]/10 text-right shrink-0">
+            <div className="mt-8 pt-4 border-t border-brand-darkest/10 text-right shrink-0">
               <Button onClick={() => setActiveLegalModal(null)} size="sm">
                 {labels.closeModal}
               </Button>

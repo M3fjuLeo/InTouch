@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
+import { siteConfig } from "../../lib/siteConfig";
 
 const HERO_VIDEO_URL = "/hero-video.mp4";
 const FALLBACK_IMAGE = "/video-poster.jpg";
@@ -21,7 +22,7 @@ export const HeroVideo = () => {
       {!videoLoaded && (
         <img
           src={FALLBACK_IMAGE}
-          alt="InTouch Studio Background"
+          alt={siteConfig.name}
           className="absolute inset-0 w-full h-full object-cover opacity-60"
         />
       )}
