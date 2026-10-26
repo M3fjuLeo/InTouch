@@ -70,12 +70,21 @@
     "sourceText": "Opinia z Google"
   },
   "Vouchers": {
-    "badge": "Karty Podarunkowe",
-    "title": "Podaruj Ulgę",
-    "description": "Dostępne cyfrowe i fizyczne karty podarunkowe na dowolny zabieg lub wybraną kwotę.",
-    "button": "Kup Voucher",
-    "mockupBadge": "Voucher Prezentowy",
-    "mockupTitle": "Chwila Czystego Spokoju",
+    "badge": "Karty podarunkowe",
+    "title": "Podaruj spokój",
+    "paragraphs": [
+      "Co podarować osobie, która ma już wszystko? Albo komuś, kto zawsze oddaje siebie innym? Podaruj mu to, czego naprawdę potrzebuje: czas, by się zatrzymać.",
+      "Voucher na masaż w In Touch to czas, w którym ramiona w końcu opadają, myśli cichną, a ciało może odpocząć. To prezent, który mówi: „Zasługujesz na to”, i który zostaje w pamięci na długo po tym, jak inne upominki idą w zapomnienie.",
+      "Wybierz konkretny masaż lub kwotę, a obdarowana osoba sama zdecyduje, z czego skorzysta."
+    ],
+    "details": {
+      "choice": "Wybrany masaż lub kwota",
+      "validity": "Ważny 6 miesięcy od zakupu",
+      "format": "Fizycznie lub jako PDF"
+    },
+    "button": "Kup voucher",
+    "mockupBadge": "Voucher prezentowy",
+    "mockupTitle": "Chwila czystego spokoju",
     "mockupDesc": "Ważny na wszystkie zabiegi w In Touch"
   },
   "Footer": {
@@ -282,12 +291,16 @@
       "message": "Twoja wiadomość",
       "submit": "Wyślij wiadomość",
       "success": "Wiadomość została wysłana.",
-      "error": "Wystąpił błąd podczas wysyłania."
-    }
+      "error": "Wystąpił błąd podczas wysyłania.",
+      "title": "Napisz do mnie"
+    },
+    "parking": "Darmowy parking na ulicy – do 3 godzin.",
+    "directions": "Dojazd",
+    "openInMaps": "Otwórz w Google Maps"
   },
   "FaqPage": {
-    "title": "FAQ",
-    "subtitle": "Najczęściej zadawane pytania",
+    "title": "Najczęstsze pytania",
+    "subtitle": "Wszystko, co warto wiedzieć przed wizytą, w jej trakcie i po niej.",
     "contactPrompt": "Masz inne pytania lub wątpliwości przed wizytą? Śmiało, skontaktuj się ze mną.",
     "contactButton": "Przejdź do kontaktu",
     "faqs": [
@@ -389,7 +402,7 @@
       {
         "id": "20",
         "question": "Czy mogę kupić voucher na masaż?",
-        "answer": "Oczywiście!\nVoucher możesz zakupić poprzez formularz na stronie.\nMożesz odebrać go elegancko zapakowanego w gabinecie albo — jeśli nie możesz odebrać go osobiście — mogę wysłać Ci specjalnie wygenerowany link dla osoby obdarowanej.\nTo zawsze wyjątkowy prezent — podarowanie komuś troski, uwagi i czasu tylko dla siebie."
+        "answer": "Oczywiście!\nVoucher możesz kupić na konkretny masaż lub na wybraną kwotę – osoba obdarowana sama zdecyduje, z czego skorzysta.\nOtrzymasz go w formie fizycznej, elegancko zapakowany do odbioru w gabinecie, albo jako PDF. Voucher jest ważny 6 miesięcy od daty zakupu.\nTo zawsze wyjątkowy prezent — podarowanie komuś troski, uwagi i czasu tylko dla siebie."
       },
       {
         "id": "21",
@@ -401,7 +414,15 @@
         "question": "Co jeśli spóźnię się na wizytę?",
         "answer": "Każda wizyta jest zaplanowana na konkretną godzinę, a po Tobie może czekać kolejny klient.\nDlatego nie przedłużam masażu o czas Twojego spóźnienia — z szacunku do kolejnych osób i ich zarezerwowanego czasu.\nJeśli wiesz, że się spóźnisz, proszę o krótką wiadomość SMS.\nPunktualność pozwala mi zapewnić każdemu klientowi spokojną i profesjonalną wizytę."
       }
-    ]
+    ],
+    "eyebrow": "FAQ",
+    "categories": {
+      "booking": "Wybór i rezerwacja",
+      "before": "Przed masażem",
+      "during": "W trakcie masażu",
+      "health": "Zdrowie i ciąża",
+      "after": "Po masażu"
+    }
   },
   "AboutPage": {
     "eyebrow": "Karolina, terapeutka masażu",

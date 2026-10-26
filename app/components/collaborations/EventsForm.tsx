@@ -2,9 +2,9 @@
 
 import React from "react";
 import { useTranslations } from "next-intl";
-import { FormCard } from "./FormCard";
-import { TextAreaField, TextField } from "./FormFields";
-import { useFormSubmission } from "./useFormSubmission";
+import { FormCard } from "../forms/FormCard";
+import { TextAreaField, TextField } from "../forms/FormFields";
+import { useFormSubmission } from "../forms/useFormSubmission";
 
 export const EventsForm: React.FC = () => {
   const t = useTranslations("CollaborationsPage.events.form");

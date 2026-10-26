@@ -71,11 +71,20 @@
   },
   "Vouchers": {
     "badge": "Gavekort",
-    "title": "Gi Gaveen av Lindring",
-    "description": "Digitalde og fysiske gavekort tilgjengelig for valgfri behandling eller beløp.",
-    "button": "Kjøp Gavekort",
+    "title": "Gi bort ro",
+    "paragraphs": [
+      "Hva gir du til en som allerede har alt? Eller til en som alltid gir av seg selv til andre? Gi det de virkelig trenger: tid til å stoppe opp.",
+      "Et gavekort på massasje hos In Touch er tid der skuldrene endelig senker seg, tankene stilner og kroppen får hvile. Det er en gave som sier «Du fortjener dette», og som blir husket lenge etter at andre gaver er glemt.",
+      "Velg en bestemt massasje eller et beløp, så bestemmer mottakeren selv hva gavekortet skal brukes på."
+    ],
+    "details": {
+      "choice": "Valgfri massasje eller beløp",
+      "validity": "Gyldig i 6 måneder fra kjøp",
+      "format": "Fysisk eller som PDF"
+    },
+    "button": "Kjøp gavekort",
     "mockupBadge": "Gavekort",
-    "mockupTitle": "Et Øyeblikk av Ren Ro",
+    "mockupTitle": "Et øyeblikk av ren ro",
     "mockupDesc": "Gyldig for alle behandlinger hos In Touch"
   },
   "Footer": {
@@ -282,12 +291,16 @@
       "message": "Din melding",
       "submit": "Send melding",
       "success": "Meldingen ble sendt.",
-      "error": "Det oppstod en feil under sending."
-    }
+      "error": "Det oppstod en feil under sending.",
+      "title": "Skriv til meg"
+    },
+    "parking": "Gratis gateparkering i opptil 3 timer.",
+    "directions": "Finn frem",
+    "openInMaps": "Åpne i Google Maps"
   },
   "FaqPage": {
-    "title": "FAQ",
-    "subtitle": "Ofte stilte spørsmål",
+    "title": "Ofte stilte spørsmål",
+    "subtitle": "Alt du bør vite før, under og etter besøket ditt.",
     "contactPrompt": "Har du andre spørsmål eller bekymringer før timen? Ta gjerne kontakt med meg.",
     "contactButton": "Gå til kontakt",
     "faqs": [
@@ -389,7 +402,7 @@
       {
         "id": "20",
         "question": "Kan jeg kjøpe et gavekort på massasje?",
-        "answer": "Selvfølgelig!\nDu kan kjøpe gavekort via skjemaet på nettsiden.\nDu kan hente det elegant innpakket på studioet, eller — hvis du ikke kan hente det personlig — kan jeg sende deg en spesialgenerert lenke til mottakeren.\nDette er alltid en unik gave — å gi noen omsorg, oppmerksomhet og tid bare for seg selv."
+        "answer": "Selvfølgelig!\nDu kan kjøpe gavekort på en bestemt massasje eller et valgfritt beløp – mottakeren bestemmer selv hva det skal brukes på.\nDu får det fysisk, elegant innpakket til henting på studioet, eller som PDF. Gavekortet er gyldig i 6 måneder fra kjøpsdato.\nDette er alltid en unik gave — å gi noen omsorg, oppmerksomhet og tid bare for seg selv."
       },
       {
         "id": "21",
@@ -401,7 +414,15 @@
         "question": "Hva om jeg kommer for sent til timen?",
         "answer": "Hver time er satt opp til et bestemt klokkeslett, og en annen klient kan vente etter deg.\nDerfor utvider jeg ikke massasjen med den tiden du er for sen — av respekt for de neste personene og deres reserverte tid.\nVennligst send en kort SMS hvis du vet at du blir for sen.\nPunktlighet lar meg tilby hver enkelt klient et rolig og profesjonelt besøk."
       }
-    ]
+    ],
+    "eyebrow": "FAQ",
+    "categories": {
+      "booking": "Valg og bestilling",
+      "before": "Før massasjen",
+      "during": "Under massasjen",
+      "health": "Helse og graviditet",
+      "after": "Etter massasjen"
+    }
   },
   "AboutPage": {
     "eyebrow": "Karolina, massasjeterapeut",

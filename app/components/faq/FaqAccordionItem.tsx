@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import React, { useId, useState } from "react";
+import { Plus } from "lucide-react";
+import { cn } from "../../lib/utils";
 
 interface FaqItemProps {
   item: {
@@ -13,34 +14,46 @@ interface FaqItemProps {
 
 export const FaqAccordionItem: React.FC<FaqItemProps> = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const answerId = useId();
 
   return (
-    <div className="bg-white/5 border border-white/10 rounded-2xl mb-4 overflow-hidden transition-colors duration-300 hover:bg-white/10">
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="w-full text-left p-6 flex justify-between items-center cursor-pointer"
-      >
-        <h3 className="font-serif-custom text-lg sm:text-xl font-medium text-white pr-4">
-          {item.question}
-        </h3>
-        <ChevronDown
-          className={`w-5 h-5 text-brand-primary shrink-0 transition-transform duration-300 ${
-            isOpen ? "rotate-180" : ""
-          }`}
-        />
-      </button>
+    <li>
+      <h3>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          aria-expanded={isOpen}
+          aria-controls={answerId}
+          className="group w-full flex items-start justify-between gap-6 py-6 text-left cursor-pointer"
+        >
+          <span className="font-serif-custom text-lg sm:text-xl leading-snug text-brand-darkest group-hover:text-brand-primary transition-colors">
+            {item.question}
+          </span>
+          <span
+            className={cn(
+              "mt-0.5 w-8 h-8 shrink-0 rounded-full flex items-center justify-center border transition-all duration-300",
+              isOpen
+                ? "rotate-45 bg-brand-primary border-brand-primary text-white"
+                : "border-brand-darkest/20 text-brand-primary group-hover:border-brand-primary"
+            )}
+          >
+            <Plus className="w-4 h-4" />
+          </span>
+        </button>
+      </h3>
 
       <div
-        className={`grid transition-all duration-300 ease-in-out ${
+        id={answerId}
+        className={cn(
+          "grid transition-all duration-300 ease-in-out",
           isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
-        }`}
+        )}
       >
         <div className="overflow-hidden">
-          <div className="px-6 pb-6 text-sm sm:text-base text-white/70 font-light leading-relaxed whitespace-pre-line">
+          <p className="pb-7 pr-14 text-sm sm:text-base text-brand-darkest/75 font-light leading-relaxed whitespace-pre-line">
             {item.answer}
-          </div>
+          </p>
         </div>
       </div>
-    </div>
+    </li>
   );
 };

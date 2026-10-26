@@ -70,12 +70,21 @@
     "sourceText": "Google Review"
   },
   "Vouchers": {
-    "badge": "Gift Cards",
-    "title": "Gift Relief",
-    "description": "Digital and physical gift cards available for any treatment or a chosen amount.",
-    "button": "Buy Voucher",
-    "mockupBadge": "Gift Voucher",
-    "mockupTitle": "A Moment of Pure Peace",
+    "badge": "Gift cards",
+    "title": "Give the gift of calm",
+    "paragraphs": [
+      "What do you give someone who already has everything? Or someone who always gives themselves to others? Give them what they truly need: time to pause.",
+      "A massage voucher from In Touch is time when the shoulders finally drop, the mind goes quiet and the body can rest. It is a gift that says “You deserve this”, and one that is remembered long after other presents are forgotten.",
+      "Choose a specific massage or an amount, and the recipient decides what to use it for."
+    ],
+    "details": {
+      "choice": "A chosen massage or amount",
+      "validity": "Valid for 6 months from purchase",
+      "format": "Physical card or PDF"
+    },
+    "button": "Buy a voucher",
+    "mockupBadge": "Gift voucher",
+    "mockupTitle": "A moment of pure calm",
     "mockupDesc": "Valid for all treatments at In Touch"
   },
   "Footer": {
@@ -282,12 +291,16 @@
       "message": "Your message",
       "submit": "Send message",
       "success": "Message sent successfully.",
-      "error": "An error occurred while sending."
-    }
+      "error": "An error occurred while sending.",
+      "title": "Write to me"
+    },
+    "parking": "Free street parking for up to 3 hours.",
+    "directions": "Getting here",
+    "openInMaps": "Open in Google Maps"
   },
   "FaqPage": {
-    "title": "FAQ",
-    "subtitle": "Frequently Asked Questions",
+    "title": "Frequently asked questions",
+    "subtitle": "Everything worth knowing before, during and after your visit.",
     "contactPrompt": "Have other questions or concerns before your appointment? Feel free to contact me.",
     "contactButton": "Go to contact",
     "faqs": [
@@ -389,7 +402,7 @@
       {
         "id": "20",
         "question": "Can I buy a massage voucher?",
-        "answer": "Of course!\nYou can purchase a voucher through the form on the website.\nYou can pick it up elegantly packaged at the studio or — if you cannot pick it up in person — I can send you a specially generated link for the recipient.\nIt is always a unique gift — giving someone care, attention, and time just for themselves."
+        "answer": "Of course!\nYou can buy a voucher for a specific massage or a chosen amount – the recipient decides what to use it for.\nYou receive it as a physical card, elegantly packaged for pick-up at the studio, or as a PDF. The voucher is valid for 6 months from the date of purchase.\nIt is always a unique gift — giving someone care, attention, and time just for themselves."
       },
       {
         "id": "21",
@@ -401,7 +414,15 @@
         "question": "What if I am late for my appointment?",
         "answer": "Each appointment is scheduled for a specific time, and another client may be waiting after you.\nTherefore, I do not extend the massage by the time you are late — out of respect for subsequent clients and their reserved time.\nIf you know you will be late, please send a short text message.\nPunctuality allows me to provide every client with a calm and professional visit."
       }
-    ]
+    ],
+    "eyebrow": "FAQ",
+    "categories": {
+      "booking": "Choosing and booking",
+      "before": "Before the massage",
+      "during": "During the massage",
+      "health": "Health and pregnancy",
+      "after": "After the massage"
+    }
   },
   "AboutPage": {
     "eyebrow": "Karolina, massage therapist",

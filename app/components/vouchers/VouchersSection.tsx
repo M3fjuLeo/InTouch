@@ -9,7 +9,8 @@ export async function VouchersSection() {
   const labels = {
     badge: t('badge'),
     title: t('title'),
-    description: t('description'),
+    paragraphs: t.raw('paragraphs'),
+    details: t.raw('details'),
     button: t('button'),
     mockupBadge: t('mockupBadge'),
     mockupTitle: t('mockupTitle'),

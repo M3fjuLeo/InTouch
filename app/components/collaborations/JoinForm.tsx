@@ -3,9 +3,9 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { MAX_FILE_SIZE_MB, validateFile } from "../../lib/forms";
-import { FormCard } from "./FormCard";
-import { FileField, SelectField, TextField } from "./FormFields";
-import { useFormSubmission } from "./useFormSubmission";
+import { FormCard } from "../forms/FormCard";
+import { FileField, SelectField, TextField } from "../forms/FormFields";
+import { useFormSubmission } from "../forms/useFormSubmission";
 
 const specializations = ["massage", "physio", "other"] as const;
 

@@ -1,4 +1,4 @@
-import { ContactClient } from "@/app/components/contact/ContactClient";
+import { Contact } from "@/app/components/contact/Contact";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export default async function ContactView({
@@ -15,7 +15,9 @@ export default async function ContactView({
     subtitle: t("subtitle"),
     details: t.raw("details"),
     schedule: t.raw("schedule"),
-    form: t.raw("form"),
+    parking: t("parking"),
+    directions: t("directions"),
+    openInMaps: t("openInMaps"),
   };
 
   const envData = {
@@ -29,7 +31,7 @@ export default async function ContactView({
 
   return (
     <main>
-      <ContactClient content={content} envData={envData} />
+      <Contact content={content} envData={envData} />
     </main>
   );
 }

@@ -1,17 +1,17 @@
 "use client";
 
 import React from "react";
-import { Gift, ArrowRight } from "lucide-react";
+import { Gift, ArrowRight, Sparkles, CalendarCheck, FileText } from "lucide-react";
 import { Badge } from "../ui/Badge";
 import { Button } from "../ui/Button";
-import { LogoIcon } from "../ui/LogoIcon";
 import { Heading } from "../ui/Heading";
 
 interface VouchersClientProps {
   labels: {
     badge: string;
     title: string;
-    description: string;
+    paragraphs: string[];
+    details: { choice: string; validity: string; format: string };
     button: string;
     mockupBadge: string;
     mockupTitle: string;
@@ -24,6 +24,12 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
   labels,
   bookingUrl,
 }) => {
+  const details = [
+    { icon: Sparkles, label: labels.details.choice },
+    { icon: CalendarCheck, label: labels.details.validity },
+    { icon: FileText, label: labels.details.format },
+  ];
+
   return (
     <section
       id="vouchers"
@@ -42,9 +48,32 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
 
             <Heading className="text-white">{labels.title}</Heading>
 
-            <p className="text-base sm:text-lg text-white/70 font-light leading-relaxed max-w-xl">
-              {labels.description}
-            </p>
+            <div className="space-y-4 max-w-xl">
+              {labels.paragraphs.map((paragraph, index) => (
+                <p
+                  key={paragraph}
+                  className={
+                    index === 0
+                      ? "font-serif-custom italic text-xl sm:text-2xl text-white leading-snug"
+                      : "text-base sm:text-lg text-white/75 font-light leading-relaxed"
+                  }
+                >
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+
+            <ul className="flex flex-wrap gap-x-6 gap-y-3">
+              {details.map(({ icon: Icon, label }) => (
+                <li
+                  key={label}
+                  className="flex items-center gap-2 text-sm text-white"
+                >
+                  <Icon className="w-4 h-4 shrink-0 text-brand-primary-light" />
+                  {label}
+                </li>
+              ))}
+            </ul>
 
             <div className="pt-2">
               <Button
@@ -66,12 +95,6 @@ export const VouchersClient: React.FC<VouchersClientProps> = ({
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-darkest via-brand-darkest/40 to-transparent p-6 sm:p-10 pointer-events-none flex flex-col justify-end">
-              {/* <div className="flex items-center justify-between text-white/90">
-                <span className="font-serif-custom tracking-widest text-lg sm:text-xl font-normal">
-                  InTouch
-                </span>
-                <LogoIcon className="w-10 h-10 brightness-200 drop-shadow-md" />
-              </div> */}
 
               <div className="bg-brand-darkest/90 backdrop-blur-md p-5 sm:p-6 rounded-2xl border border-white/10 text-white shadow-xl max-w-sm">
                 <div className="text-[10px] uppercase tracking-widest font-semibold text-brand-primary mb-1">
